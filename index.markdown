@@ -4,6 +4,5 @@
 
 layout: home
 ---
-# Hi There
 
 I'm wondering what happens.....
