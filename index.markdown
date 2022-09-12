@@ -6,6 +6,6 @@ layout: home
 title: "Home"
 ---
 Hier kan ik nu van alles schrijven
-### Nieuwe kop
+### Welcome
 
-I'm wondering what happens.....
+In progress, more to come...
