@@ -1,5 +1,4 @@
-
-title: Albert Sikkema
+title: Software, Health and Future
 email: github@albertsikkema.com
 description: >- # this means to ignore newlines until "baseurl:"
   Software Developer & Technical Consultant Interested in AI, Healthcare, Development and IoT
@@ -9,7 +8,6 @@ url: "https://albertsikkema.github.io/" # the base hostname & protocol for your 
 github_username: albertsikkema
 linkedin_username: albert-sikkema
 email_contact: github@albertsikkema.com
-
 
 # Build settings
 theme: minima
