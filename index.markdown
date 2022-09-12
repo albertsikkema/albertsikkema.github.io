@@ -5,7 +5,7 @@
 layout: home
 title: "Home"
 ---
-Hier kan ik nu van alles schrijven
+
 ### Welcome
 
 In progress, more to come...
