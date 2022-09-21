@@ -12,7 +12,6 @@ Which led me to what I do now: write great software, improve workflows, learn ne
 
 I like to work on projects that help improve society, promote a healthy lifestyle and help prevent sickness and disease. I'm interested in open-source projects, mainly aimed at healthcare and artificial intelligence.
 
-Check out some of my work [GitHub](https://github.com/albertsikkema)
+Check out some of my work at [GitHub](https://github.com/albertsikkema)
 
 And look me up on [Linkedin](https://www.linkedin.com/in/albert-sikkema/)
-
