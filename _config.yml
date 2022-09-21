@@ -1,13 +1,10 @@
-title: Software, Health and Future
-email: github@albertsikkema.com
+title: Albert Sikkema - Software, Health, Future
 description: >- # this means to ignore newlines until "baseurl:"
   Software Developer & Technical Consultant Interested in AI, Healthcare, Development and IoT
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://albertsikkema.github.io/" # the base hostname & protocol for your site, e.g. http://example.com
-# twitter_username: alsbert
 github_username: albertsikkema
 linkedin_username: albert-sikkema
-email_contact: github@albertsikkema.com
 
 # Build settings
 theme: minima
