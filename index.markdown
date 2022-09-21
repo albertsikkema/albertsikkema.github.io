@@ -6,5 +6,8 @@ layout: home
 title: "Home"
 ---
 
-Check out some of my work @ [GitHub](https://github.com/albertsikkema)
-And look me up on [Linkedin](https://www.linkedin.com/in/albert-sikkema/)
+More to come...
+
+In the meantime, you can also check out some of my work on [GitHub](https://github.com/albertsikkema)
+
+And look me up and contact me on [Linkedin](https://www.linkedin.com/in/albert-sikkema/)

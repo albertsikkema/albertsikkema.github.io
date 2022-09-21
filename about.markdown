@@ -11,3 +11,8 @@ But software kept my interest. All this time I did computer- and software-relate
 Which led me to what I do now: write great software, improve workflows, learn new techniques and leave every piece of software in a better state after I'm done. My main drive is to find ways to help the user interact with data and make complicated systems interact with each other. Combining my knowledge of healtcare, (social) science and software development into great products is what I love to do!
 
 I like to work on projects that help improve society, promote a healthy lifestyle and help prevent sickness and disease. I'm interested in open-source projects, mainly aimed at healthcare and artificial intelligence.
+
+Check out some of my work [GitHub](https://github.com/albertsikkema)
+
+And look me up on [Linkedin](https://www.linkedin.com/in/albert-sikkema/)
+
