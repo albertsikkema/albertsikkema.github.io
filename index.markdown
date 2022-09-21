@@ -8,6 +8,6 @@ title: "Home"
 
 More to come...
 
-In the meantime, you can also check out some of my work on [GitHub](https://github.com/albertsikkema)
+In the meantime, you can check out some of my work on [GitHub](https://github.com/albertsikkema)
 
-And look me up and contact me on [Linkedin](https://www.linkedin.com/in/albert-sikkema/)
+Or look me up and contact me on [Linkedin](https://www.linkedin.com/in/albert-sikkema/)
