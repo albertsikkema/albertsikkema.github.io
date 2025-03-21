@@ -19,14 +19,12 @@
 # in the templates via {{ site.myvariable }}.
 
 title: Albert Sikkema - Software Solutions
-email: spam01@albertsikkema.com
 description: >- # this means to ignore newlines until "baseurl:"
   Welcome to albertsikkema.com, where I tell you about my software solutions.
-  I create software that helps you to get things done. I am a software engineer
-  with a passion for AI, programming, and software architecture.
 baseurl: "/" # the subpath of your site, e.g. /blog
 url: "https://www.albertsikkema.com" # the base hostname & protocol for your site, e.g. http://example.com
 github_username:  albertsikkema
+linkedin_username: albert-sikkema
 
 # Build settings
 theme: minima
