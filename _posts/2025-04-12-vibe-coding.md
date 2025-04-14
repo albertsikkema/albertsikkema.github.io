@@ -16,12 +16,12 @@ And to be fair: it really can be an amazing productivity boost… if you know wh
 
 But too often, I see vibe-coding projects that fall short when it comes to the basics: 
 
-❌ Poor or missing security
-❌ No version control or backups
-❌ No testing
-❌ No clear structure or best practices
-❌ Hard-to-read, messy code
-❌ And the time you saved? Usually lost fixing all the bugs later... 
+- ❌ Poor or missing security
+- ❌ No version control or backups
+- ❌ No testing
+- ❌ No clear structure or best practices
+- ❌ Hard-to-read, messy code
+- ❌ And the time you saved? Usually lost fixing all the bugs later... 
 
 Sometimes the code is even published online without a second thought — introducing a whole load of security and financial risks 😬 
 
