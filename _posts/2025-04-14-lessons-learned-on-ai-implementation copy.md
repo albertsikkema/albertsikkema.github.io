@@ -2,7 +2,7 @@
 layout: post
 title: "Lessons Learned from Implementing AI (Part 1)"
 date: 2025-04-14 15:53:00 +0200
-categories: personal introduction
+categories: blog
 ---
 
 # Lessons Learned from Implementing AI
