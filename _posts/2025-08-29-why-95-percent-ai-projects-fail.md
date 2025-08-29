@@ -5,7 +5,7 @@ date: 2025-08-29
 categories: ai technology business
 ---
 
-A recent MIT study revealed a startling truth: 95% of enterprise AI projects fail to deliver measurable impact, resulting in what the paper calls a 'GenAI Divide'. If you're social's timelines are like mine, you've seen plenty of posts written about this research and the reasons for failure. I want to focus on something different—what it takes to succeed. 
+A recent [MIT study](https://www.artificialintelligence-news.com/wp-content/uploads/2025/08/ai_report_2025.pdf) revealed a startling truth: 95% of enterprise AI projects fail to deliver measurable impact, resulting in what the study calls a 'GenAI Divide'. If you're social's timelines are like mine, you've seen plenty of posts written about this research and the reasons for failure. I want to focus on something different—what it takes to succeed. 
 
 Let's dive into what is causing failures and then look into what is driving success in AI, and how organizations can position themselves on the winning side of the divide.
 
