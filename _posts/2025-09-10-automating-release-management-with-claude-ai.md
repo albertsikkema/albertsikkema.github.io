@@ -11,7 +11,7 @@ Release management is a critical part of the software development lifecycle, whe
 
 By leveraging AI subagents, I can analyze repository changes, manage versioning, prepare Progressive Web App (PWA) for updates (yes, Meldapp can also be installed on your phone or desktop), and validate releases—ensuring a smooth deployment every time.
 
-In this post, I'll walk through how my Deployment Assistant automates release management to save time and reduce errors, including a step-by-step breakdown of its workflow. You can find the complete prompt I use for this automation [HERE](/resources/deploy).
+In this post, I'll walk through how my Deployment Assistant automates release management to save time and reduce errors, including a step-by-step breakdown of its workflow. You can find the complete prompt I use for this automation [HERE](/resources/deploy.txt).
 
 ## Why Automate Release Management?
 
@@ -106,4 +106,4 @@ By leveraging Claude AI and its subagent functionality, the Deployment Assistant
 
 Want to learn more about MeldApp? Visit [https://meldapp.nl](https://meldapp.nl) (landing page with more information coming soon). 
 
-Want to implement similar automation in your workflow? Use the exact prompt I created as a starting point - find it [HERE](/resources/deploy). Start by identifying your most repetitive release tasks, then consider how AI agents can systematically handle each step. The time investment in setting up automation pays dividends in reduced errors and faster deployments.
+Want to implement similar automation in your workflow? Use the exact prompt I created as a starting point - find it [HERE](/resources/deploy.txt). Start by identifying your most repetitive release tasks, then consider how AI agents can systematically handle each step. The time investment in setting up automation pays dividends in reduced errors and faster deployments.
