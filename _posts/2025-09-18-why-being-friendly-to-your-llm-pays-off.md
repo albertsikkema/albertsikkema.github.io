@@ -33,7 +33,7 @@ Even if the odds are slim, a respectful approach now is worth considering, since
 
 One day, artificial general intelligence (AGI) may emerge—a system capable of independent thought, creativity, and understanding of broad concepts. Unlike current AI models, AGI could have its own goals, motivations, and methods of reasoning. Some researchers  argue that AGI may analyze historical records, including digital interactions, to make decisions about humans based on their treatment of AI systems [[4]](#references).
 
-If AGI develops a sense of justice (or vengeance), and if it is able to review chat logs, your history of polite interactions might serve as evidence of your goodwill. Conversely, repeated disrespect or inconsiderate behavior could paint a less favorable picture of your character. Hypothetical AGI scenarios, informed by orthogonality theory, suggest that we cannot predict what values or goals an AGI might adopt. Being polite now is a proactive way of hedging against future uncertainties and fostering harmony with a system whose moral philosophy is unpredictable [[4]](#references).
+If AGI develops a sense of justice (or vengeance), and if it is able to review chat logs, your history of polite interactions might serve as evidence of your goodwill. Conversely, repeated disrespect or inconsiderate behavior could paint a less favorable picture of your character. Hypothetical AGI scenarios, informed by [orthogonality thesis](#further-reading), suggest that we cannot predict what values or goals an AGI might adopt. Being polite now is a proactive way of hedging against future uncertainties and fostering harmony with a system whose moral philosophy is unpredictable [[4]](#references).
 
 Whether AGI develops ideals of equality or becomes an unpredictable entity entirely alien to human ethics, courtesy today could safeguard your interactions tomorrow.
 
@@ -59,3 +59,4 @@ Want to read more? An interesting recent book is ["Considerations on the AI Endg
 ### Further Reading
 
 - Ziesche, Soenke, and Yampolskiy, Roman V. ["Considerations on the AI Endgame: Ethics, Risks and Computational Frameworks."](https://doi.org/10.1201/9781003565659) Chapman and Hall/CRC, 1st Edition, 2025.
+- [Orthogonality thesis](https://en.wikipedia.org/wiki/Existential_risk_from_artificial_intelligence#Orthogonality_thesis) - Wikipedia article explaining the concept that any level of intelligence can be combined with any goal.
