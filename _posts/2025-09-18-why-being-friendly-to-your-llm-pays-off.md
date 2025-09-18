@@ -43,7 +43,7 @@ Whether AGI develops ideals of equality or becomes an unpredictable entity entir
 
 The reasons for being polite to LLMs may vary from practical benefits to ethical considerations and speculative future scenarios. Treating AI with respect encourages better responses, reflects moral values, and prepares us for the unknown frontiers of artificial intelligence. Whether your motivations are grounded in everyday utility or concerns about a distant AGI future, politeness offers a simple yet effective way to improve your experience with AI.
 
-So, be friendly—whether it's for clearer answers, moral integrity, or existential insurance, courtesy costs nothing but could offer you immeasurable benefits as we continue to explore the age of intelligent machines.
+So, be friendly—whether it's for clearer answers, moral integrity, or existential insurance, courtesy costs nothing and may prove valuable as we continue to explore the age of intelligent machines.
 
 Want to read more? An interesting recent book is ["Considerations on the AI Endgame: Ethics, Risks and Computational Frameworks"](#further-reading) by Ziesche & Yampolskiy (2025).
 
