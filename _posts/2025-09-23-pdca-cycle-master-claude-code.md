@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Using the PDCA Cycle to Master Claude Code for Software Development"
+title: "Using the PDCA Cycle to guide Claude Code for Software Development"
 date: 2025-09-23
 categories: ai development productivity
 ---
