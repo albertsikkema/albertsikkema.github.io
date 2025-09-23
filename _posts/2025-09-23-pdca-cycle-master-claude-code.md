@@ -5,8 +5,6 @@ date: 2025-09-23
 categories: ai development productivity
 ---
 
-# Using the PDCA Cycle to Master Claude Code for Software Development
-
 You're probably familiar with the PDCA cycle: Plan, Do, Check, Act ([Wikipedia](https://en.wikipedia.org/wiki/PDCA)). It's a continuous improvement methodology that's been around since the 1950s, helping organizations optimize their processes. But here's something interesting: when working with Claude Code to write software, you can implement a remarkably similar strategy that transforms AI-assisted coding from a chaotic experiment into a structured, reliable process.
 
 ## Plan - Setting the Foundation
