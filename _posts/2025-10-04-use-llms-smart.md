@@ -5,7 +5,7 @@ date: 2025-10-04
 categories: ai best-practices development
 ---
 
-### Use n8n Smart
+## Use n8n Smart
 
 Like many of you, I've been following various sources to stay up to date with current developments in the AI sphere. I can tell you: not an easy task! A lot is happening, both in LLM development itself and in applying those models. This blog is about that second part.
 
@@ -15,9 +15,8 @@ A lot of the people working with n8n are young, enthusiastic, and smart, doing g
 
 Back to n8n's strengths: In the past I did some projects with Azure Logic Apps, and I prefer n8n by far (the recent update for the Logic Apps editor, though an improvement, still doesn't come close).
 
----
 
-### The Version Control Challenge
+## The Version Control Challenge
 
 The lack of built-in version control in n8n's free and self-hosted tiers presents real risks:
 
@@ -31,17 +30,15 @@ The lack of built-in version control in n8n's free and self-hosted tiers present
 
 These aren't theoretical problems—they're daily frustrations for n8n users building anything beyond simple experiments. And while the Enterprise tier solves this with built-in version control, not everyone can justify that cost, especially when starting out or working on smaller projects.
 
----
 
-### Why This Matters
+## Why This Matters
 
 If you're using n8n for paid projects or anything important, operating without version control is risky. I version control all my projects—it has saved me countless times. From recovering accidentally deleted workflows to understanding why something that worked yesterday is broken today, version control is essential infrastructure, not a nice-to-have feature.
 
 The good news? There's a solution that doesn't require upgrading to Enterprise.
 
----
 
-### What's Next?
+## What's Next?
 
 I've built a tool that brings Git-based version control to n8n's free and self-hosted tiers. It automatically tracks your workflow changes, creates meaningful commits, and gives you full rollback capability—without requiring Enterprise.
 

@@ -5,7 +5,7 @@ date: 2025-10-05
 categories: n8n automation devops best-practices
 ---
 
-### Use n8n Smart
+## Use n8n Smart
 
 n8n is fantastic for building automation workflows quickly. The visual programming interface is intuitive, the community is active, and you can go from idea to working automation in minutes. I see impressive examples daily—people building everything from simple integrations to complex AI agent systems.
 
@@ -13,7 +13,7 @@ But there's a critical gap that often gets overlooked: **version control**.
 
 If you're using n8n's free or self-hosted tiers, there's no built-in version control. For quick experiments and personal projects, that's fine. But I regularly see production systems, client projects, and business-critical automations running without any safety net. One misclick, one bad update, and your workflow is gone—with no way to recover it.
 
-### Why n8n Needs Version Control
+## Why n8n Needs Version Control
 
 n8n is powerful, but it's not immune to the same challenges that affect all software development:
 
@@ -27,9 +27,8 @@ n8n is powerful, but it's not immune to the same challenges that affect all soft
 
 I've worked with both Azure Logic Apps and n8n extensively. n8n wins on user experience and capability—no question. But whether you're using n8n, Python, or any other platform, operating without version control on important projects is a risk I'm not willing to take. I version control everything, and it has saved me countless times.
 
----
 
-### The Version Control Challenge
+## The Version Control Challenge
 
 Here are the real-world problems that n8n users face without version control:
 
@@ -45,9 +44,8 @@ These aren't hypothetical scenarios—they're common experiences for anyone runn
 
 The Business and  Enterprise tier solves this with built-in version control, but starting at 667 Euro per month it's out of reach for many users, especially those starting out, running side projects, or working for small organizations.
 
----
 
-### Why This Matters
+## Why This Matters
 
 Version control isn't just about preventing disasters—it's about working with confidence.
 
@@ -62,9 +60,8 @@ Every professional developer uses version control. It's not because we're parano
 
 The good news? You don't need to upgrade to Enterprise to get this protection.
 
----
 
-### What's Next?
+## What's Next?
 
 I've built a tool that brings Git-based version control to n8n's free and self-hosted tiers. It runs alongside your n8n instance and:
 
