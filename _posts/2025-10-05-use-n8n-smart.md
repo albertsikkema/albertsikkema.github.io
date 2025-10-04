@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Use n8n Smart"
+title: "Use n8n Smart: Version Control"
 date: 2025-10-05
 categories: n8n automation devops best-practices
 ---
