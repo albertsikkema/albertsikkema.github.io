@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Smart LLM Usage: Avoiding Common Pitfalls"
-date: 2025-10-05
+date: 2025-10-04
 categories: ai llm best-practices development
 ---
 

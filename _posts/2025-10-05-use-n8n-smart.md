@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Use n8n Smart"
-date: 2025-10-04
+date: 2025-10-05
 categories: n8n automation devops best-practices
 ---
 
