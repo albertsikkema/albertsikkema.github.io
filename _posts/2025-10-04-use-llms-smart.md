@@ -2,7 +2,7 @@
 layout: post
 title: "Use n8n Smart"
 date: 2025-10-04
-categories: ai best-practices development
+categories: ai llm best-practices development
 ---
 
 ## Use n8n Smart
