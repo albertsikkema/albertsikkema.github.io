@@ -58,7 +58,7 @@ When you have version control:
 
 Every professional developer uses version control. It's not because we're paranoid—it's because we've learned the hard way that software changes, breaks, and needs to be recoverable. n8n workflows are software. They deserve the same protection.
 
-The good news? You don't need to upgrade to Enterprise to get this protection.
+The good news? You don't need to upgrade to Business or Enterprise to get this protection.
 
 
 ## What's Next?
