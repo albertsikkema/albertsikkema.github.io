@@ -4,28 +4,58 @@ title: About
 permalink: /about/
 ---
 
-## Hello!   
+## Building Better Software in the AI Era
 
-I'm Albert Sikkema, a software engineer, managing consultant, and passionate problem solver with a diverse background spanning healthcare, social sciences, and technology. My journey has taken me from intensive care nursing to political science to software engineering, giving me a unique perspective on creating practical, user-friendly, and impactful digital solutions.   
+Software development is changing faster than most people realize. AI tools promise unprecedented productivity, but they also introduce new risks: projects that look impressive in demos but crumble in production, systems built without fundamentals, and codebases that become unmaintainable within months.
 
-## My Career Path 
+I believe there's a better way—one that harnesses AI's power while maintaining engineering discipline.
 
-I began my professional journey in healthcare, earning a degree in nursing, then specialized in intensive care. Over time, I developed a strong interest in data, technology and software development, recognizing how digital solutions could enhance processes and improve outcomes across industries.   
+## My Philosophy
 
-As my passion for coding and system architecture grew, I transitioned fully into the world of software engineering. Along the way, I completed a Master’s degree in Political Science, which sharpened my understanding of organizational structures, communication, and policy-making—skills that now help me bridge the gap between technology and business strategy.   
+**AI is a tool, not a replacement for thinking.** The most effective AI-assisted development happens when you combine the speed and capability of large language models with structured processes, clear documentation, and human oversight. My work focuses on building systems that are not just functional, but reliable, secure, and maintainable over time.
 
-I currently serve as Lead Developer and Managing Consultant at ePublic Solutions, where I focus on building software for the public sector and healthcare. In my role, I not only develop cloud-driven applications, AI agents and data solutions but also contribute to the strategic growth of the company as we scale up.   
+**Context matters more than code.** Whether you're working with Claude Code, GitHub Copilot, or any other AI assistant, the quality of your output depends entirely on the quality of your guidance. I advocate for treating documentation as a living control mechanism—not an afterthought, but the foundation that ensures coherent design across all AI interactions.
 
-Additionally, I work as a freelance software developer through my independent venture, Sikkema Technical Solutions, delivering mobile and desktop applications for a variety of industries.
+**Engineering fundamentals never go out of style.** Version control, testing, security, proper architecture—these aren't optional luxuries. They're the difference between a proof-of-concept and a production system. Between a demo that impresses and software that delivers value year after year.
 
-## My Interests 
+## What I Write About
 
-I have a deep passion for AI, IoT, and emerging technologies, always seeking ways to push the boundaries of innovation. Outside of technology, I enjoy music, science fiction, and running, which keep me inspired and ready for new challenges.   
+My posts explore the intersection of AI capabilities and software engineering discipline:
 
-## Let's Connect 
+- **Practical AI implementation patterns** that work in production, not just demos
+- **Structured workflows** for AI-assisted development (like applying PDCA cycles to Claude Code)
+- **Documentation strategies** that guide AI tools toward better outcomes
+- **Engineering fundamentals** in an age where it's tempting to skip them
+- **When NOT to use AI**—because the right tool matters
 
-I believe in the power of collaboration and knowledge sharing. Whether you're interested in discussing technology, innovation, or potential collaborations, feel free to connect with me on LinkedIn.
+I draw on real experience implementing AI solutions for the Dutch public sector, including projects with Ministerie van Financiën, Tweede Kamer, Ministerie van Justitie en Veiligheid, and Ministerie van Volksgezondheid, Welzijn en Sport.
 
-Looking forward to connecting!   
+## Why My Perspective Is Different
 
-Albert Sikkema   
+My path to software engineering wasn't typical. I started as an intensive care nurse, then studied political science, before transitioning fully into software development. This background gives me an unusual lens:
+
+- **Healthcare experience** taught me that systems must be reliable under pressure—failure isn't just inconvenient, it's dangerous
+- **Political science training** sharpened my understanding of organizational dynamics, communication, and how technology intersects with policy
+- **Cross-domain thinking** helps me bridge gaps between technical implementation and real-world impact
+
+I currently serve as Lead Developer and Managing Consultant at ePublic Solutions, building cloud-driven applications and AI solutions for the public sector and healthcare. I also run Sikkema Technical Solutions, delivering custom software across industries.
+
+## What I'm Working On Now
+
+Right now, I'm particularly interested in:
+
+- **Rationalized documentation practices** for AI-assisted development (inspired by Parnas and Clements' "Fake It" paper)
+- **Production-ready AI agent systems** with proper guardrails, observability, and cost management
+- **Scaling AI adoption** in organizations without falling into the 95% failure rate trap
+
+## Beyond Code
+
+When I'm not building software, I think about the ethical implications of AI systems, particularly around potential sentience and how we should interact with increasingly capable models. I also enjoy music, science fiction, and running—activities that keep me grounded and inspired.
+
+## Let's Connect
+
+I write for people who want to build better software—developers adopting AI tools, engineering leaders scaling AI initiatives, and anyone who believes we can harness these powerful technologies without sacrificing quality.
+
+If you're interested in practical AI implementation, engineering discipline, or bridging the gap between impressive demos and production-ready systems, I'd love to connect on [LinkedIn](https://www.linkedin.com/in/albert-sikkema/).
+
+Albert Sikkema
