@@ -32,13 +32,13 @@ I draw on real experience implementing AI solutions for the Dutch public sector,
 
 ## Why My Perspective Is Different
 
-My path to software engineering wasn't typical. I started as an intensive care nurse, then studied political science, before transitioning fully into software development. This background gives me an unusual lens:
+My path to software engineering wasn't typical. I started as an intensive care nurse, studied political science, before transitioning fully into software development. This background gives me an unusual lens:
 
 - **Healthcare experience** taught me that systems must be reliable under pressure—failure isn't just inconvenient, it's dangerous
 - **Political science training** sharpened my understanding of organizational dynamics, communication, and how technology intersects with policy
 - **Cross-domain thinking** helps me bridge gaps between technical implementation and real-world impact
 
-I currently serve as Lead Developer and Managing Consultant at ePublic Solutions, building cloud-driven applications and AI solutions for the public sector and healthcare. I also run Sikkema Technical Solutions, delivering custom software across industries.
+I currently work as Lead Developer at ePublic Solutions, building cloud-driven applications and AI solutions for the public sector and healthcare. I am also available for consultancy and advice work.
 
 ## What I'm Working On Now
 
