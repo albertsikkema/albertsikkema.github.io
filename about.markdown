@@ -23,7 +23,7 @@ I believe there's a better way—one that harnesses AI's power while maintaining
 My posts explore the intersection of AI capabilities and software engineering discipline:
 
 - **Practical AI implementation patterns** that work in production, not just demos
-- **Structured workflows** for AI-assisted development (like applying PDCA cycles to Claude Code)
+- **Structured workflows** for AI-assisted development
 - **Documentation strategies** that guide AI tools toward better outcomes
 - **Engineering fundamentals** in an age where it's tempting to skip them
 - **When NOT to use AI**—because the right tool matters
