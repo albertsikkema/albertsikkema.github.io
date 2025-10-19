@@ -1138,7 +1138,7 @@ Python's logging module offers flexible solutions from simple print replacements
 
 For modern async applications like FastAPI, the QueueHandler pattern is essential to avoid blocking the event loop. For production deployments with log aggregation tools, structured logging provides the machine-parseable format you need for effective monitoring and debugging.
 
-The patterns and practices covered here represent battle-tested approaches used in production systems. Whether you're building a simple script or a high-performance microservice, Python's logging module has the capabilities you need—when configured correctly.
+The patterns and practices covered here are used in production systems. Whether you're building a simple script or a high-performance microservice, Python's logging module has the capabilities you need—when configured correctly.
 
 Remember: good logging is an investment. It pays dividends every time you need to debug an issue, analyze performance, or understand system behavior in production.
 
