@@ -5,7 +5,7 @@ date: 2025-10-25
 categories: azure automation devops tools
 ---
 
-Last week I introduced [Logic App Manager](https://github.com/albertsikkema/logic-app-manager), a Chrome extension for backing up and restoring Azure Logic Apps. Today I'm releasing v1.1.0 with the promised GitHub integration.
+Yesterday I introduced [Logic App Manager](https://github.com/albertsikkema/logic-app-manager), a Chrome extension for backing up and restoring Azure Logic Apps. Today I'm releasing v1.1.0 with the promised GitHub integration.
 
 ## What's New
 
