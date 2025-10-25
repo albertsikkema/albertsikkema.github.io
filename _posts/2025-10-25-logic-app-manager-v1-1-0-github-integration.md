@@ -52,6 +52,10 @@ The free version will remain open source with all current features. PRO will add
 
 Interested in **PRO**? The more interest there is, the sooner I can build it. Please [reach out](https://albertsikkema.com) for details, pricing, and licensing information, and to share your needs and help shape the roadmap!
 
+## Support This Project
+
+Using Logic App Manager personally? **Have fun!** If you're using it professionally or getting paid for your work, please consider supporting the project through [Buy Me a Coffee](https://buymeacoffee.com/albertsikkema). Your support helps keep this tool free and open source.
+
 Repository: [github.com/albertsikkema/logic-app-manager](https://github.com/albertsikkema/logic-app-manager)
 
 ---
