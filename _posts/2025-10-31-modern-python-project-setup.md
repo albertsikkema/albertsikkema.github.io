@@ -9,7 +9,7 @@ I've set up dozens of Python projects over the years, and I've watched the tooli
 
 ## The Stack
 
-- **Python 3.14** - Latest stable release with improved performance
+- **Python 3.14** - Latest stable release
 - **uv** - Fast package management
 - **ruff** - Linter and formatter
 - **pytest** - Given the name: it tests
