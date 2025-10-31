@@ -5,7 +5,7 @@ date: 2025-10-31
 categories: python development best-practices
 ---
 
-I've set up dozens of Python projects over the years, and I've watched the tooling evolve from pip and virtualenv to poetry, pipenv, and back to pip. So let me share what my current goto setup is!
+I've set up dozens of Python projects over the years, and I've watched the tooling evolve from pip and virtualenv to poetry, pipenv, and back to pip. So let me share what my current go-to setup is!
 
 ## The Stack
 
@@ -27,7 +27,7 @@ The latest Python release is 3.14. If you want to know what exactly changed: loo
 
 ## uv: Package Management That's Actually Fast
 
-A lot faster than the old 'pip': [uv](https://github.com/astral-sh/uv). It's written in Rust and it's **fast**. I haven't measured exactly, but i think it is at least 10x faster.
+A lot faster than the old 'pip': [uv](https://github.com/astral-sh/uv). It's written in Rust and it's **fast**. I haven't measured exactly, but I think it is at least 10x faster.
 
 Besides the speed benefit, the dependencies are handled better, for instance you can now specify whether a dependency is used in dev only or in dev and production etc. So more consistency and control.
 
@@ -35,7 +35,7 @@ Oh, and it handles your virtual environment for you. No more manual venv handlin
 
 ## ruff: One Tool to Rule Them All
 
-Up until not too long ago i was used to needing black for formatting and flake8 for linting. [ruff](https://github.com/astral-sh/ruff) replaces both.
+Up until not too long ago I was used to needing black for formatting and flake8 for linting. [ruff](https://github.com/astral-sh/ruff) replaces both.
 
 Written in Rust, it's 10-100x faster than the tools it replaces. (not checked myself, but that is what I read and matches my experience so far)
 
@@ -45,7 +45,7 @@ The same command for checking and formatting in almost no time. Easy!
 
 [pytest](https://docs.pytest.org/) has been the standard for years, and for good reason. Simple assertions, powerful fixtures, excellent plugin ecosystem.
 
-As you know from previous posts: I hate writing tests. Combine pytest with a AI assistant and away we go!
+As you know from previous posts: I hate writing tests. Combine pytest with an AI assistant and away we go!
 
 ## pydantic: Type Safety That Works at Runtime
 
@@ -54,6 +54,8 @@ Python's type hints are great for static analysis, but they don't validate at ru
 ## pydanticai: LLM Integration with Types
 
 If you're building LLM-powered features (and in 2025, who isn't?), [pydanticai](https://ai.pydantic.dev/) makes it simpler. Built on top of pydantic, it gives you type-safe LLM interactions. Why bother? well, for once it makes it easier to have the LLM return structured responses.
+
+And the 'new' graph library for pydanticai is really helpful for more complex agent setups.
 
 ## pylance: Type Checking in Your Editor
 
@@ -65,7 +67,7 @@ The standard for deploying containerized applications, consistency between envir
 
 ## pre-commit: Catch Issues Early
 
-[pre-commit](https://pre-commit.com/) runs checks before you commit. Formatting, linting, type checking—all happen locally before code review. The hook won't let you commit code that does not pass the steps you defined. And because it is part of the application setup itselves, it works for your entire team. (in contrast to the precommit hook in .github, which every developer would have to install and maintain themselves. Quite annoying. So precommit solves that)
+[pre-commit](https://pre-commit.com/) runs checks before you commit. Formatting, linting, type checking—all happen locally before code review. The hook won't let you commit code that does not pass the steps you defined. And because it is part of the application setup itself, it works for your entire team. (in contrast to the precommit hook in .github, which every developer would have to install and maintain themselves. Quite annoying. So precommit solves that)
 
 
 ## Why This Stack
