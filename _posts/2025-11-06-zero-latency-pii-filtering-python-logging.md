@@ -15,7 +15,10 @@ logger.info(sanitize_pii(f"User {email} logged in"))  # Blocks main thread!
 
 This blocks the main thread for every single log entry. With Python running on a single thread by default and regex-based PII filtering taking 1-2ms per log, this creates a real performance problem. And more filtering will follow, so this is potentially huge.
 
-![GDPR-Compliant Python Logging Architecture](/assets/images/gdpr-logging-diagram.png)
+<figure>
+  <img src="/assets/images/gdpr-logging-diagram.png" alt="GDPR-Compliant Python Logging Architecture">
+  <figcaption>This is what AI thinks an image for this blog should look like...</figcaption>
+</figure>
 
 ## The Solution: Background Thread Filtering
 
