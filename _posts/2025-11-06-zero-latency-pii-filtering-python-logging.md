@@ -5,7 +5,7 @@ date: 2025-11-06
 categories: python security best-practices gdpr
 ---
 
-While implementing centralized logging for a FastAPI service, I ran into a challenge: how do you filter PII (Personal Identifiable Information, like email, phone number etc.) from logs without slowing down your application?
+While implementing centralized logging for a FastAPI service using Axiom for logging, I ran into a challenge: how do you filter PII (Personal Identifiable Information, like email, phone number etc.) from logs without slowing down your application?
 
 The obvious solution—sanitizing logs during the log call itself—added 1-2ms to every request:
 
