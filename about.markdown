@@ -14,7 +14,7 @@ I believe there's a better way—one that harnesses AI's power while maintaining
 
 **AI is a tool, not a replacement for thinking.** The most effective AI-assisted development happens when you combine the speed and capability of large language models with structured processes, clear documentation, and human oversight. My work focuses on building systems that are not just functional, but reliable, secure, and maintainable over time.
 
-**Context matters more than code.** Whether you're working with Claude Code, GitHub Copilot, or any other AI assistant, the quality of your output depends entirely on the quality of your guidance. I advocate for treating documentation as a living control mechanism—not an afterthought, but the foundation that ensures coherent design across all AI interactions.
+**Context matters.** Whether you're working with Claude Code, GitHub Copilot, or any other AI assistant, the quality of your output depends entirely on the quality of your guidance. I advocate for treating documentation as a living control mechanism—not an afterthought, but the foundation that ensures coherent design across all AI interactions.
 
 **Engineering fundamentals never go out of style.** Version control, testing, security, proper architecture—these aren't optional luxuries. They're the difference between a proof-of-concept and a production system. Between a demo that impresses and software that delivers value year after year.
 
