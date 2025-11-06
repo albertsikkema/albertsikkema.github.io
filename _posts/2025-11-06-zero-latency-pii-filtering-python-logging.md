@@ -159,7 +159,9 @@ def sanitize_string(text: str) -> str:
     return text
 ```
 
-**Why phonenumbers over regex?** GDPR compliance requires accurate detection. Phone number formats vary wildly across countries—Google's library handles all international formats correctly.
+**Why a phonenumbers library over regex?** GDPR compliance requires accurate detection. Phone number formats vary wildly across countries—Google's library handles all international formats correctly.
+
+**Alternative**: For more comprehensive PII detection (names, addresses, credit cards, etc.), consider [Microsoft's Presidio](https://github.com/microsoft/presidio). It's a full-featured PII detection and anonymization framework with support for multiple languages and custom entity types. Maybe I will switch to this in one of the next iterations.
 
 ## Edge Cases to Consider
 
