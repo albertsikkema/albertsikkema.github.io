@@ -15,6 +15,8 @@ logger.info(sanitize_pii(f"User {email} logged in"))  # Blocks main thread!
 
 This blocks the main thread for every single log entry. With Python running on a single thread by default and regex-based PII filtering taking 1-2ms per log, this creates a real performance problem. And more filtering will follow, so this is potentially huge.
 
+![GDPR-Compliant Python Logging Architecture](/assets/images/gdpr-logging-diagram.png)
+
 ## The Solution: Background Thread Filtering
 
 Most modern log aggregation libraries (axiom-py, datadog, logstash) buffer logs and send them in batches every 5-10 seconds using a background thread. So what if we could use that? And **sanitize during the flush, not during the log call itself**. So I basically extended the Axiomhandler:
