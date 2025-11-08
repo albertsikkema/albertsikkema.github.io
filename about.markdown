@@ -56,6 +56,9 @@ When I'm not building software, I think about the ethical implications of AI sys
 
 I write for people who want to build better software—developers adopting AI tools, engineering leaders scaling AI initiatives, and anyone who believes we can harness these powerful technologies without sacrificing quality.
 
-If you're interested in practical AI implementation, engineering discipline, or bridging the gap between impressive demos and production-ready systems, I'd love to connect on [LinkedIn](https://www.linkedin.com/in/albert-sikkema/).
+If you're interested in practical AI implementation, engineering discipline, or bridging the gap between impressive demos and production-ready systems, I'd love to connect:
+
+- **Professional connections**: Find me on [LinkedIn](https://www.linkedin.com/in/albert-sikkema/)
+- **Fun alternative**: [Send me a message](https://sendmeamessage.test001.nl) that prints on my desk ([yes, really!]({% post_url 2025-11-08-building-publicly-accessible-thermal-printer %}))
 
 Albert Sikkema

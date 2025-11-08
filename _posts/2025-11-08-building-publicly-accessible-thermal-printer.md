@@ -543,4 +543,4 @@ If you want to build your own:
 
 ---
 
-*Built something similar? I'd love to hear about it—connect with me on [LinkedIn](https://www.linkedin.com/in/albert-sikkema/).*
+*Built something similar? I'd love to hear about it—connect with me on [LinkedIn](https://www.linkedin.com/in/albert-sikkema/) or [send me a message](https://sendmeamessage.test001.nl) via the printer!*
