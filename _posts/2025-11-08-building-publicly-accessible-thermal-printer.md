@@ -1,11 +1,11 @@
 ---
 layout: post
-title: "Building a Publicly Accessible Thermal Printer: From USB Driver to Global Access"
+title: "Building a Publicly Accessible Printer: Just a Fun Saturday Project"
 date: 2025-11-08
 categories: python development hardware raspberry-pi
 ---
 
-A while ago I tumbled across a blog post about someone who built a publicly accessible printer—anyone could send messages that would physically print on their desk. The concept stuck with me. It was absurd, delightful, and completely pointless. So that was on the todo-list. So yesterday and today I had time to realize it.
+A while ago I tumbled across a blog post from someone who built a publicly accessible printer—anyone could send messages that would physically print on their desk. The concept stuck with me. It was absurd, delightful, and completely pointless. So that was on the todo-list. So yesterday and today I had time to realize it.
 
 The result: a thermal printer sitting on my desk that anyone, anywhere in the world, can send messages to through a web form. Messages magically appear on physical paper, bridging the digital and physical worlds.
 
@@ -500,6 +500,11 @@ Works great.
 Want to send me a message? Visit **[https://sendmeamessage.test001.nl](https://sendmeamessage.test001.nl)**.
 
 Be nice. Or funny. Preferably both.
+
+<figure>
+  <img src="/assets/images/printer-message.JPG" alt="Example of a printed message from the thermal printer">
+  <figcaption>An actual message from the printer—proof it works!</figcaption>
+</figure>
 
 ## What's Next
 
