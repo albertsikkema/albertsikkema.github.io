@@ -506,6 +506,10 @@ Be nice. Or funny. Preferably both.
   <figcaption>An actual message from the printer—proof it works!</figcaption>
 </figure>
 
+## Update - November 9, 2024
+
+Thanks for all the messages so far! Really kind!
+
 ## What's Next
 
 Some ideas:
