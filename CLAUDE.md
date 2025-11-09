@@ -102,11 +102,11 @@ Common categories used:
 
 ### Analytics
 - **Analytics Platform**: Umami (self-hosted at umami.test001.nl)
-- **Script Location**: `/assets/js/umami.js` (served locally to bypass ad blockers)
+- **Script Location**: `/assets/js/client.js` (served locally to bypass ad blockers)
 - **Website ID**: b5fc2406-b860-447d-a93d-e0c02bc71263
 - **Implementation**: Script tag in `_includes/head.html`
 
-**Note**: The Umami script is downloaded and served locally from `/assets/js/umami.js` instead of remotely to prevent ad blockers (like uBlock Origin) from blocking it.
+**Note**: The Umami script is downloaded and served locally from `/assets/js/client.js` (renamed from umami.js) instead of remotely to prevent ad blockers (like uBlock Origin) from blocking it. The generic filename helps avoid detection by ad blocker filter lists.
 
 ### Updating Blog Posts
 When adding updates to existing blog posts:
