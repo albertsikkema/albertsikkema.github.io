@@ -84,6 +84,7 @@ My series of posts about Python you may find interesting (or not).
 - `_posts/`: Published blog posts (markdown files with YAML front matter)
 - `_includes/`: Reusable HTML components (header, footer, etc.)
 - `assets/images/`: Image files for blog posts
+- `assets/js/`: JavaScript files (e.g., analytics scripts)
 - `thoughts/`: Internal notes and best practices documents (not published)
 - `about.markdown`: About page content
 
@@ -97,6 +98,34 @@ Common categories used:
 - `python development best-practices`
 - `python security best-practices gdpr`
 - `AI LLM development`
+- `python development hardware raspberry-pi`
+
+### Analytics
+- **Analytics Platform**: Umami (self-hosted at umami.test001.nl)
+- **Script Location**: `/assets/js/umami.js` (served locally to bypass ad blockers)
+- **Website ID**: b5fc2406-b860-447d-a93d-e0c02bc71263
+- **Implementation**: Script tag in `_includes/head.html`
+
+**Note**: The Umami script is downloaded and served locally from `/assets/js/umami.js` instead of remotely to prevent ad blockers (like uBlock Origin) from blocking it.
+
+### Updating Blog Posts
+When adding updates to existing blog posts:
+
+1. Add update section with date as a heading: `## Update - November 9, 2024`
+2. Place updates at the top of the post (after the introduction, before the first technical section)
+3. Keep updates concise and conversational, matching the blog's tone
+4. Add transition text like "Now let's get into it" to bridge back to the original content
+
+**Example**:
+```markdown
+## Update - November 9, 2024
+
+Thanks for all the messages so far! Really kind!
+
+## Now let's get into it
+
+[Original content continues...]
+```
 
 ## Notes for Best Practices Documentation
 
