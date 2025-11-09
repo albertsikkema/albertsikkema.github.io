@@ -11,6 +11,12 @@ The result: a thermal printer sitting on my desk that anyone, anywhere in the wo
 
 Here's how to build your own.
 
+## Update - November 9, 2024
+
+Thanks for all the messages so far! Really kind!
+
+## Now let's get into it
+
 <figure>
   <img src="/assets/images/thermal-printer-setup.png" alt="Thermal printer on desk with Raspberry Pi">
   <figcaption>This is what AI thinks an image for this blog should look like...</figcaption>
@@ -505,10 +511,6 @@ Be nice. Or funny. Preferably both.
   <img src="/assets/images/printer-message.JPG" alt="Example of a printed message from the thermal printer">
   <figcaption>An actual message from the printer—proof it works!</figcaption>
 </figure>
-
-## Update - November 9, 2024
-
-Thanks for all the messages so far! Really kind!
 
 ## What's Next
 
