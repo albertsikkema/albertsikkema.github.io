@@ -66,7 +66,7 @@ The problem with human in the loop is that it will become one of the more expens
 The economics are interesting:
 - **LLM code generation**: Costs cents per thousand tokens, generates code in seconds
 - **Automated review tools**: Run in CI/CD pipeline, costs minimal
-- **Human code review**: 30-60 minutes per PR, at senior developer rates ($100-150/hour)
+- **Human code review**: 30-60 minutes per PR, at senior developer rates (€ or $100-150/hour)
 
 This creates pressure to reduce human review time. But as my experience shows, there are certain classes of errors - especially logical contradictions and meta-level mistakes - that both LLMs and automated tools miss. So the question isn't whether to use human review, but **where** to apply it most effectively. And how to change the process of writing software to optimise for that.
 
