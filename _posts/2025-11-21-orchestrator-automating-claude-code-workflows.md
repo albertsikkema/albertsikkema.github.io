@@ -126,13 +126,11 @@ The pattern of research→plan→implement→review has served me well. Now it r
 
 ## Resources
 
-### Claude Code & Subagents
 - [Claude Code Subagents Documentation](https://docs.anthropic.com/en/docs/claude-code/sub-agents) - Official docs on subagent capabilities and limitations
 - [Claude Code Best Practices](https://www.anthropic.com/engineering/claude-code-best-practices) - Anthropic's engineering guide
-
-### Tools
-- [uv - Python Package Manager](https://github.com/astral-sh/uv) - Fast Python package installer
 - [claude-config-template](https://github.com/albertsikkema/claude-config-template) - The full configuration system
+- [OpenAI Cookbook](https://cookbook.openai.com/) - Examples and guides for building with OpenAI
+- [PydanticAI](https://ai.pydantic.dev/) - Agent framework for building production-ready AI applications
 
 ---
 
