@@ -97,15 +97,9 @@ Also, be aware of cost. Running five Claude Code commands per task adds up. For 
 
 The main question now is reliability. How often does the orchestrator produce usable results without intervention? I need to track this systematically - not just "it works" but failure modes, edge cases, and where human review catches issues the automation missed.
 
-The code review step is particularly interesting. As I wrote in my [previous post about human-in-the-loop review](/ai/llm/development/best-practices/2025/11/14/human-in-the-loop-ai-code-review.html), LLM-generated reviews miss certain classes of problems - especially meta-level issues like tests that test whether tests exist. A colleague spotted that instantly; multiple LLM passes missed it entirely. So how do I make the automated review more effective? Different prompting? Multiple review passes with different perspectives? I'm not sure yet.
+The code review step is particularly interesting. As I wrote in my [previous post about human-in-the-loop review](/ai/llm/development/best-practices/2025/11/14/human-in-the-loop-ai-code-review.html), LLM-generated reviews miss certain classes of problems - especially meta-level issues like tests that test whether tests exist. A colleague spotted that instantly; multiple LLM passes missed it entirely. So how do I make the automated review more effective? Different prompting? Multiple review passes with different perspectives?
 
-I'm also considering:
-
-- **Conditional workflows** - Skip research if recent results exist
-- **Parallel research** - Run codebase and documentation research simultaneously
-- **Custom workflows** - Let users define their own command sequences
-
-But I'm hesitant to add complexity before understanding the baseline. The value is in automation, not optimization. A simple tool that runs reliably beats a complex one that sometimes does the wrong thing.
+I'm hesitant to add complexity before understanding the baseline. The value is in automation, not optimization. A simple tool that runs reliably beats a complex one that sometimes does the wrong thing.
 
 ## Try It Out
 
