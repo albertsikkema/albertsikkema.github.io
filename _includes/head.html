@@ -7,8 +7,19 @@
   <link rel="alternate icon" href="{{ "/favicon.ico" | relative_url }}">
   <link rel="stylesheet" href="{{ "/assets/main.css" | relative_url }}">
   {%- feed_meta -%}
+
+  {%- comment -%} Schema Markup {%- endcomment -%}
+  {%- include website-schema.html -%}
+
   {%- if page.layout == "home" -%}
     {%- include schema.html -%}
   {%- endif -%}
+
+  {%- if page.layout == "post" -%}
+    {%- include article-schema.html -%}
+  {%- endif -%}
+
+  {%- include breadcrumb-schema.html -%}
+
   <script defer src="{{ "/assets/js/client.js" | relative_url }}" data-website-id="b5fc2406-b860-447d-a93d-e0c02bc71263" data-host-url="https://umami.test001.nl"></script>
 </head>

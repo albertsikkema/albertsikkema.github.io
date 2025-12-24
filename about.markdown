@@ -2,6 +2,8 @@
 layout: page
 title: About
 permalink: /about/
+description: "Expert in AI-assisted development, production-ready AI systems, and strategic AI implementation. Specializing in Claude AI, OpenAI integration, and enterprise AI adoption for government and healthcare."
+keywords: "AI-assisted development, AI implementation, Claude AI, OpenAI, LLM integration, enterprise AI, production-ready AI, AI consulting, software engineering, Netherlands"
 ---
 
 ## Building Better Software in the AI Era

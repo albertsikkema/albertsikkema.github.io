@@ -18,7 +18,7 @@ Thanks for all the messages so far! Really kind!
 ## Now let's get into it
 
 <figure>
-  <img src="/assets/images/thermal-printer-setup.png" alt="Thermal printer on desk with Raspberry Pi">
+  <img src="/assets/images/printer-message.JPG" alt="Thermal printer setup on desk showing printed message from web interface with Raspberry Pi">
   <figcaption>This is what AI thinks an image for this blog should look like...</figcaption>
 </figure>
 

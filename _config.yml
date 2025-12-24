@@ -18,13 +18,34 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: Albert Sikkema - Building Better Software
+title: Albert Sikkema - AI-Assisted Development & Software Engineering
 description: >- # this means to ignore newlines until "baseurl:"
-  Insights on software engineering, innovation, and crafting reliable solutions.
+  Production-ready AI-assisted development strategies, software engineering best practices, and AI implementation guides.
+  Building scalable AI solutions with Claude, OpenAI, and engineering discipline for enterprise and government.
 baseurl: "/" # the subpath of your site, e.g. /blog
 url: "https://www.albertsikkema.com" # the base hostname & protocol for your site, e.g. http://example.com
 github_username:  albertsikkema
 linkedin_username: albert-sikkema
+
+# SEO settings
+author:
+  name: Albert Sikkema
+  twitter: # Add if you have Twitter
+  picture: /assets/images/profile.jpg
+
+# Social media
+twitter:
+  username: # Add if you have Twitter
+  card: summary
+
+social:
+  name: Albert Sikkema
+  links:
+    - https://www.linkedin.com/in/albert-sikkema/
+    - https://github.com/albertsikkema
+
+# Language
+lang: en_US
 
 # Build settings
 theme: minima
@@ -42,6 +63,7 @@ plugins:
 #
 exclude:
   - CLAUDE.md
+  - Profile.csv
   - thoughts/
   - .sass-cache/
   - .jekyll-cache/

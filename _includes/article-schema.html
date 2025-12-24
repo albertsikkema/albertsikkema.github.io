@@ -1,0 +1,45 @@
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "headline": "{{ page.title }}",
+  "description": "{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}",
+  "image": "{{ site.url }}/assets/images/{% if page.image %}{{ page.image }}{% else %}default-blog-image.png{% endif %}",
+  "datePublished": "{{ page.date | date_to_xmlschema }}",
+  "dateModified": "{% if page.last_modified_at %}{{ page.last_modified_at | date_to_xmlschema }}{% else %}{{ page.date | date_to_xmlschema }}{% endif %}",
+  "author": {
+    "@type": "Person",
+    "name": "Albert Sikkema",
+    "url": "{{ site.url }}/about/",
+    "jobTitle": "Lead Developer & Technical Strategist",
+    "sameAs": [
+      "https://www.linkedin.com/in/{{ site.linkedin_username }}/",
+      "https://github.com/{{ site.github_username }}"
+    ]
+  },
+  "publisher": {
+    "@type": "Person",
+    "name": "Albert Sikkema",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "{{ site.url }}/assets/images/profile.jpg"
+    }
+  },
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "{{ page.url | absolute_url }}"
+  },
+  "articleSection": "{{ page.categories | join: ', ' }}",
+  "keywords": "{{ page.categories | join: ', ' }}",
+  "inLanguage": "en-US",
+  "isPartOf": {
+    "@type": "Blog",
+    "@id": "{{ site.url }}/#blog",
+    "name": "{{ site.title }}",
+    "publisher": {
+      "@type": "Person",
+      "name": "Albert Sikkema"
+    }
+  }
+}
+</script>
