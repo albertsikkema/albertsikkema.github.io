@@ -11,9 +11,13 @@ The result: a thermal printer sitting on my desk that anyone, anywhere in the wo
 
 Here's how to build your own.
 
-## Update - November 9, 2024
+## Update - November 9, 2025
 
 Thanks for all the messages so far! Really kind!
+
+## Update - December 14, 2025
+
+Thanks for even more messages so far! It's fun and uplifting to receive messages at random times. Unfortunately I have taken the printer offline, need to update the server. We will be back! (with a new and better version)
 
 ## Now let's get into it
 
@@ -472,7 +476,7 @@ sudo systemctl start cloudflared
 sudo systemctl enable cloudflared
 ```
 
-That's it. Visit `https://sendmeamessage.test001.nl` and it works.
+That's it. Visit `https://sendmeamessage.test001.nl` and it works. UPDATE 24-12 Temporarily offline due to server replacement.
 
 ## Security
 
