@@ -38,6 +38,7 @@ date: YYYY-MM-DD
 categories: python security best-practices gdpr
 description: "SEO-optimized meta description with target keywords (150-160 characters)"
 keywords: "keyword1, keyword2, keyword3"
+canonical_url: "https://www.albertsikkema.com/custom/path/" # Optional: override default
 ---
 ```
 
@@ -50,6 +51,7 @@ keywords: "keyword1, keyword2, keyword3"
 - `description`: Meta description for search engines (150-160 chars, include primary keywords)
 - `keywords`: Comma-separated list of relevant keywords
 - `categories`: Used for site organization and schema markup
+- `canonical_url`: Override default canonical URL (rarely needed, only for syndicated/duplicate content)
 
 ### SEO & Keyword Strategy
 
@@ -214,8 +216,39 @@ My series of posts about Python you may find interesting (or not).
 
 ### Jekyll Configuration
 - Theme: Minima 2.5
-- Plugins: jekyll-feed (RSS feed generation)
+- Plugins:
+  - `jekyll-feed`: RSS feed generation
+  - `jekyll-sitemap`: Automatic sitemap.xml generation
+  - `jekyll-seo-tag`: SEO optimization (meta tags, Open Graph, canonical URLs)
 - GitHub Pages version: 232 (locked for compatibility)
+
+### Canonical URLs
+Canonical URLs are automatically added to all pages via `jekyll-seo-tag`. This prevents duplicate content issues in search engines.
+
+**How it works:**
+- Plugin automatically adds: `<link rel="canonical" href="https://www.albertsikkema.com/page-url/" />`
+- Constructed from: `{{ site.url }}{{ page.url }}`
+- Included via `{%- seo -%}` tag in `_includes/head.html`
+
+**Configuration:**
+- `url: "https://www.albertsikkema.com"` in `_config.yml` (must include https://)
+- `baseurl: ""` (empty for root domain sites)
+
+**Override canonical URL (rare cases):**
+Add to post front matter:
+```yaml
+canonical_url: "https://www.albertsikkema.com/custom/path/"
+```
+
+**When to override:**
+- Republishing content from another source (point to original)
+- Cross-posting to Medium/Dev.to (point to your blog as canonical)
+- Consolidating duplicate pages (point to preferred version)
+
+**When NOT to override:**
+- Normal blog posts (automatic is correct)
+- Pagination (handled automatically)
+- Categories/tags pages (handled automatically)
 
 ### Post Categories
 Common categories used:

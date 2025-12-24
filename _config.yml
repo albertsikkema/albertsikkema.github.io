@@ -22,7 +22,7 @@ title: Albert Sikkema - AI-Assisted Development & Software Engineering
 description: >- # this means to ignore newlines until "baseurl:"
   Production-ready AI-assisted development strategies, software engineering best practices, and AI implementation guides.
   Building scalable AI solutions with Claude, OpenAI, and engineering discipline for enterprise and government.
-baseurl: "/" # the subpath of your site, e.g. /blog
+baseurl: "" # the subpath of your site, e.g. /blog (empty for root domain)
 url: "https://www.albertsikkema.com" # the base hostname & protocol for your site, e.g. http://example.com
 github_username:  albertsikkema
 linkedin_username: albert-sikkema
@@ -52,6 +52,7 @@ theme: minima
 plugins:
   - jekyll-feed
   - jekyll-sitemap
+  - jekyll-seo-tag
 
 # Exclude from processing.
 # The following items will not be processed, by default.
