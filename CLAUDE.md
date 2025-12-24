@@ -159,6 +159,34 @@ Always use this HTML structure for images:
 
 **Standard figcaption**: Use the humorous "This is what AI thinks an image for this blog should look like..." format unless the image is a screenshot, diagram, or technical illustration that needs specific attribution.
 
+### Image Optimization (Automated)
+
+Images are automatically optimized via a **pre-commit hook** that runs when you commit changes.
+
+**One-time setup:**
+
+```bash
+# Install the pre-commit hook
+ln -s ../../scripts/optimize-images.py .git/hooks/pre-commit
+```
+
+**That's it!** The script uses `uv` to auto-install dependencies (Pillow). When you `git commit`, any staged images are automatically:
+- Resized if > 1920px (maintaining aspect ratio)
+- Compressed to ~500KB max (JPG: 85%, WebP: 85%, PNG: lossless)
+- Re-added to your commit
+
+**Manual optimization:**
+```bash
+# Check which images need optimization
+./scripts/optimize-images.py --check
+
+# Optimize all images
+./scripts/optimize-images.py
+
+# Optimize specific image
+./scripts/optimize-images.py assets/images/photo.jpg
+```
+
 ### LinkedIn Post Format
 When creating promotional posts for LinkedIn, follow this pattern:
 
