@@ -47,30 +47,29 @@ The macOS AirPlay thing on port 5000 was new to me (never use airplay or Flask) 
 
 ## So What Should You Use?
 
-After going through [IANA registrations](https://www.iana.org/assignments/service-names-port-numbers) and [Wikipedia's comprehensive list](https://en.wikipedia.org/wiki/List_of_TCP_and_UDP_port_numbers) (especially the Wikipedia page is a treasure trove, I ran into protocols and games I only heard once of a long time ago), these seem to be good candidates:
+After going through [IANA registrations](https://www.iana.org/assignments/service-names-port-numbers) and [Wikipedia's comprehensive list](https://en.wikipedia.org/wiki/List_of_TCP_and_UDP_port_numbers) (especially the Wikipedia page is a treasure trove, I ran into protocols and games I only heard once of a long time ago), I learned something important: there's no such thing as a truly "free" port. Every port in the registered range has *something* using it somewhere.
 
-**For backend APIs:**
-- **8765** - Countdown pattern (8-7-6-5), easy to remember
-- **9876** - Descending, also memorable
-- **8123** - Sequential pattern
+Take the memorable patterns I initially gravitated toward:
+- **5678** is the default for [n8n](https://n8n.io/), the workflow automation tool
+- **8765** is used by [GUN](https://gun.eco/) relay peers—decentralized storage that the Internet Archive uses for censorship-resistant mirroring
 
-**For frontend dev servers:**
-- **5678** - Sequential (5-6-7-8)
-- **4321** - Countdown
-- **6789** - Ascending
+But here's the thing: how many developers run n8n or GUN relay peers locally during active development? Probably fewer than those running React, Vite, or a database. The goal isn't finding a port that's never been used by anything—it's finding one that's *unlikely* to conflict with tools in your daily workflow.
 
-**My choice:**
+**An even safer option** (slightly lower chance of conflict):
 ```
-Backend:  8765
-Frontend: 5678
+Backend:  9118
+Frontend: 8119
 ```
+Technically these aren't completely free either: 9118 is the [Prometheus Jenkins exporter](https://github.com/prometheus/prometheus/wiki/Default-port-allocations), and 8119 is used by [macos-fortress-proxy](https://ports.macports.org/port/macos-fortress-proxy/details/) for CSS blocking. But these are monitoring tools, not something you'd typically run on a development machine. Less memorable than the sequential patterns, but about as safe as you'll find.
 
-Both are memorable patterns, clearly in different ranges, and unlikely to conflict with anything you're running. But now please do not pick these ports for *your* projects, otherwise we'll have conflicts again!
+**Truly unused** (if you want zero documented uses):
+```
+Backend:  9143
+Frontend: 6234
+```
+To find these, I searched [IANA's registry](https://www.iana.org/assignments/service-names-port-numbers) for unassigned port ranges, then verified each candidate against [SpeedGuide's port database](https://www.speedguide.net/) and Google to check for unofficial uses. Port 9143 is in the unassigned 9132-9159 range, and 6234 is in the unassigned 6223-6240 range. Neither has any registered service—official or unofficial—that I could find. Not memorable at all, but if you want guaranteed zero conflicts, here you go.
 
-<figure>
-  <img src="/assets/images/port-ranges-diagram.png" alt="TCP/UDP port ranges diagram showing well-known ports 0-1023, registered ports 1024-49151, and ephemeral ports 49152-65535, with common conflicts to avoid and safe choices 8765 and 5678">
-  <figcaption>Port Ranges...</figcaption>
-</figure>
+I'm sticking with 9118/8119—the memorable patterns are worth the tiny risk (and I do run [n8n](https://n8n.io/) locally sometimes). But now please do not pick these ports for *your* projects, otherwise we'll have conflicts again!
 
 ## What I'm Building
 
