@@ -27,6 +27,43 @@ bundle exec jekyll serve
 ### Content Management
 Blog posts are in `_posts/` with naming convention: `YYYY-MM-DD-title-slug.md`
 
+## Claude Code Commands & Skills
+
+This repo includes custom commands and skills for Claude Code to streamline blog post creation.
+
+### Commands
+
+**`/draft-to-post <path>`** - Transform a draft into a polished blog post
+```
+/draft-to-post choosing-development-ports.md
+```
+- Reads the draft and matches my writing style from recent posts
+- Searches the web for proper links to tools/projects mentioned
+- Applies front matter, SEO optimization, and structural review
+- Saves to `_posts/YYYY-MM-DD-slug.md`
+
+### Skills (Auto-triggered)
+
+**`excalidraw-diagram`** - Create diagrams from text descriptions
+- Triggered when asking for diagrams, flowcharts, or architecture visuals
+- Generates `.excalidraw` files in `assets/excalidraw/`
+- Provides instructions for exporting to PNG
+
+**`find-image`** - Find stock images for blog posts
+- Triggered when asking for images, photos, or visuals
+- Searches Unsplash, Pexels, Pixabay
+- Generates proper HTML markup with alt text
+
+### File Locations
+```
+.claude/
+├── commands/
+│   └── draft-to-post.md      # /draft-to-post command
+└── skills/
+    ├── excalidraw-diagram/   # Diagram generation
+    └── find-image/           # Stock image search
+```
+
 ## Blog Post Creation
 
 ### Post Front Matter Structure
@@ -210,7 +247,9 @@ My series of posts about Python you may find interesting (or not).
 - `_posts/`: Published blog posts (markdown files with YAML front matter)
 - `_includes/`: Reusable HTML components (header, footer, etc.)
 - `assets/images/`: Image files for blog posts
+- `assets/excalidraw/`: Excalidraw diagram source files
 - `assets/js/`: JavaScript files (e.g., analytics scripts)
+- `.claude/`: Claude Code commands and skills
 - `thoughts/`: Internal notes and best practices documents (not published)
 - `about.markdown`: About page content
 

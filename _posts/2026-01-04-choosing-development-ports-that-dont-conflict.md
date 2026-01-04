@@ -16,7 +16,7 @@ I've been working on extending my [claude-config-template](https://github.com/al
 
 Auto-Claude focuses on autonomous multi-agent orchestration - running a lot of agents in parallel with isolated workspaces. Interesting, but in my experience handling more than 1 complicated and 1 simple process at the same time is taxing my capabilities. Also it is quite new, so there was some trouble getting it to work (I failed). I looked at the code and the errors and there is a lot of AI generated stuff in there, including the common slop that seems to hinder a lot of current projects. So then Vibe Kanban came on my radar: it is a kanban board for managing AI coding agents. Also great, but I wanted something that integrated tightly with my existing slash commands and documentation structure without adopting a new paradigm.
 
-So I started building my own. A few hours later, I had a FastAPI backend and a simple frontend working. Then I got on sidequest: choosing ports for the backend and frontend servers that wouldn't conflict with anything else on my machine. This is surprisingly tricky, so I decided to document my findings.
+So I started building my own. A few hours later, I had a FastAPI backend and a simple frontend working. Then I got on a sidequest: choosing ports for the backend and frontend servers that wouldn't conflict with anything else on my machine. This is surprisingly tricky, so I decided to document my findings.
 
 ## The Port Problem
 

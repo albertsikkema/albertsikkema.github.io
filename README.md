@@ -1,0 +1,55 @@
+# albertsikkema.com
+
+Personal blog about software engineering, Python development, AI/LLM integration, and technical best practices.
+
+**Live site**: https://www.albertsikkema.com
+
+## Quick Start
+
+```bash
+# Install dependencies
+bundle install
+
+# Run local dev server
+bundle exec jekyll serve
+
+# Site available at http://localhost:4000
+```
+
+## Creating Posts
+
+Posts go in `_posts/` with naming: `YYYY-MM-DD-title-slug.md`
+
+```yaml
+---
+layout: post
+title: "Your Post Title"
+date: 2026-01-04
+categories: python development
+description: "SEO meta description (150-160 chars)"
+keywords: "keyword1, keyword2"
+---
+```
+
+## Claude Code Integration
+
+This repo includes custom commands and skills for [Claude Code](https://claude.ai/code):
+
+| Command/Skill | Description |
+|---------------|-------------|
+| `/draft-to-post <path>` | Transform a draft into a polished blog post |
+| `excalidraw-diagram` | Create diagrams from text descriptions |
+| `find-image` | Find stock images for blog posts |
+
+See [CLAUDE.md](CLAUDE.md) for full documentation on writing style, SEO guidelines, and repo architecture.
+
+## Tech Stack
+
+- **Framework**: Jekyll
+- **Theme**: Minima
+- **Hosting**: GitHub Pages
+- **Analytics**: Umami (self-hosted)
+
+## License
+
+Content is copyrighted. Code examples in blog posts are MIT licensed unless otherwise noted.
