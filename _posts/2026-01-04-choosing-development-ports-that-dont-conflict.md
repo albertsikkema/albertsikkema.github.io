@@ -65,7 +65,7 @@ Backend:  8765
 Frontend: 5678
 ```
 
-Both are memorable patterns, clearly in different ranges, and unlikely to conflict with anything you're running.
+Both are memorable patterns, clearly in different ranges, and unlikely to conflict with anything you're running. But now please do not pick these ports for *your* projects, otherwise we'll have conflicts again!
 
 <figure>
   <img src="/assets/images/port-ranges-diagram.png" alt="TCP/UDP port ranges diagram showing well-known ports 0-1023, registered ports 1024-49151, and ephemeral ports 49152-65535, with common conflicts to avoid and safe choices 8765 and 5678">
