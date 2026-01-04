@@ -1,7 +1,4 @@
----
----
-
-// Override Minima's default content width (default is 800px)
+--- --- // Override Minima's default content width (default is 800px)
 $content-width: 1100px;
 
 // Import Minima theme
@@ -9,13 +6,14 @@ $content-width: 1100px;
 
 // Make footer columns fill the full width (50% each)
 .footer-col-wrapper {
+  width: 90%; // For debugging layout
   display: flex;
   flex-wrap: wrap;
 }
 
 .footer-col {
-  width: 50%;
-  flex: 0 0 50%;
+  width: 100%;
+  flex: 0 0 100%;
 }
 
 @media screen and (max-width: 600px) {
