@@ -38,37 +38,6 @@ Conclusion 1: stick to the 1024-49151 range for development servers. Seems plent
 
 Then the ports that are commonly used by a lot of stuff: these were out of the question, since they *will* conflict with something on your machine:
 
-**Development Frameworks (the big offenders):**
-
-| Port | Service |
-|------|---------|
-| 3000 | Node.js, React, Next.js - everyone uses this |
-| 4200 | Angular CLI |
-| 5000 | Flask, Docker Registry, and **AirPlay on macOS** |
-| 5173 | Vite |
-| 8000 | Django, Uvicorn, Python's http.server |
-| 8080 | Everything. Tomcat, proxies, fallback for anything |
-
-**Databases:**
-
-| Port | Service |
-|------|---------|
-| 3306 | MySQL/MariaDB |
-| 5432 | PostgreSQL |
-| 6379 | Redis |
-| 27017 | MongoDB |
-| 9200 | Elasticsearch |
-
-**Other common services:**
-
-| Port | Service |
-|------|---------|
-| 9000 | PHP-FPM, SonarQube, Portainer |
-| 9090 | Prometheus, various dashboards |
-| 8888 | Jupyter Notebook |
-| 5672 | RabbitMQ |
-| 9092 | Kafka |
-
 <figure>
   <img src="/assets/images/common-dev-ports.png" alt="Diagram showing common development ports organized by category: Development Frameworks (3000-8080), Databases (3306-27017), and Other Services (5672-9092)">
   <figcaption>Common development ports you'll want to avoid when picking your own</figcaption>
