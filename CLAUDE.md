@@ -297,12 +297,15 @@ Common categories used:
 - `python development hardware raspberry-pi`
 
 ### Analytics
-- **Analytics Platform**: Umami (self-hosted at umami.test001.nl)
+- **Analytics Platform**: Umami (self-hosted at analytics.test001.nl)
 - **Script Location**: `/assets/js/client.js` (served locally to bypass ad blockers)
-- **Website ID**: b5fc2406-b860-447d-a93d-e0c02bc71263
+- **Website ID**: baec2dbc-6fc5-4963-a339-4f291353a79d
 - **Implementation**: Script tag in `_includes/head.html`
 
-**Note**: The Umami script is downloaded and served locally from `/assets/js/client.js` (renamed from umami.js) instead of remotely to prevent ad blockers (like uBlock Origin) from blocking it. The generic filename helps avoid detection by ad blocker filter lists.
+**Note**: The Umami script is downloaded from `https://analytics.test001.nl/script.js` and served locally from `/assets/js/client.js` to prevent ad blockers from blocking it. To update the script, run:
+```bash
+curl -s https://analytics.test001.nl/script.js -o assets/js/client.js
+```
 
 ### Schema Markup (SEO)
 The site uses JSON-LD structured data for enhanced search engine understanding:
