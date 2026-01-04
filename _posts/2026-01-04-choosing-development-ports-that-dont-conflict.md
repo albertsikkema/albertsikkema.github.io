@@ -34,11 +34,6 @@ Ports aren't just random numbers. They're [organized by IANA](https://www.iana.o
 
 Conclusion 1: stick to the 1024-49151 range for development servers. Seems plenty of room there.
 
-<figure>
-  <img src="/assets/images/port-ranges-diagram.png" alt="TCP/UDP port ranges diagram showing well-known ports 0-1023, registered ports 1024-49151, and ephemeral ports 49152-65535, with common conflicts to avoid and safe choices 8765 and 5678">
-  <figcaption>Port Ranges...</figcaption>
-</figure>
-
 ## Ports You Should Avoid
 
 Then the ports that are commonly used by a lot of stuff: these were out of the question, since they *will* conflict with something on your machine:
@@ -102,6 +97,11 @@ Frontend: 5678
 ```
 
 Both are memorable patterns, clearly in different ranges, and unlikely to conflict with anything you're running.
+
+<figure>
+  <img src="/assets/images/port-ranges-diagram.png" alt="TCP/UDP port ranges diagram showing well-known ports 0-1023, registered ports 1024-49151, and ephemeral ports 49152-65535, with common conflicts to avoid and safe choices 8765 and 5678">
+  <figcaption>Port Ranges...</figcaption>
+</figure>
 
 ## What I'm Building
 
