@@ -16,7 +16,7 @@ While setting up self-hosted analytics and error tracking (Umami and GlitchTip) 
 
 ## The Simple Solution: Rate Limit Everything
 
-Most nginx rate limiting tutorials show something like this—a general zone that limits all requests:
+So to protect your site's login, a first step is something like this—a general zone that limits all requests:
 
 ```nginx
 limit_req_zone $binary_remote_addr zone=general:10m rate=30r/s;
@@ -27,9 +27,9 @@ location / {
 }
 ```
 
-This works fine for general API protection. But login endpoints need stricter limits. A brute-force attacker making 30 requests per second can try 1,800 passwords per minute. That's way too permissive.
+This works fine for general protection, however there is a balance. This setting is too strict for normal use ('/' means all pages are subjected to this rate limit regime). So we need more (a lot) room for regular traffic but that means login pages are allowed to be called way more as well, we need stricter limits specifically for login endpoints. A brute-force attacker making for instance 30 requests per second can try 1,800 passwords per minute. That's way too permissive.
 
-So my first idea was to create a stricter zone for `/login`:
+So the next step was to create a stricter zone for `/login`:
 
 ```nginx
 limit_req_zone $binary_remote_addr zone=login:10m rate=5r/m;
