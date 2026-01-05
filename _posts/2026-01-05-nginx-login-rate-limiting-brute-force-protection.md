@@ -9,7 +9,7 @@ keywords: "nginx rate limiting, brute force protection, login security, fail2ban
 
 <figure>
   <img src="/assets/images/padlock_gate.jpg" alt="Padlock on a metal gate representing controlled access and rate limiting for login protection">
-  <figcaption>This is what AI thinks an image for this blog should look like... Photo by <a href="https://www.pexels.com/photo/closeup-photography-of-white-gate-with-brass-colored-padlock-846288/">Bich Tran</a></figcaption>
+  <figcaption>This is what AI thinks an image for this blog should look like... Photo by <a href="https://www.pexels.com/photo/closeup-photography-of-white-gate-with-brass-colored-padlock-846288/">B. Tran</a></figcaption>
 </figure>
 
 While setting up self-hosted analytics and error tracking ([Umami](https://umami.is/) and [GlitchTip](https://glitchtip.com/)) on my NixOS server, I needed to protect login endpoints from brute-force attacks. The standard approach is straightforward: add nginx rate limiting.
