@@ -27,7 +27,7 @@ location / {
 }
 ```
 
-This works fine for general protection, however there is a balance. This setting is too strict for normal use ('/' means all pages are subjected to this rate limit regime). So we need more (a lot) room for regular traffic but that means login pages are allowed to be called way more as well, we need stricter limits specifically for login endpoints. A brute-force attacker making for instance 30 requests per second can try 1,800 passwords per minute. That's way too permissive.
+This works fine for general protection, however there is a balance. This setting is too strict for normal use ('/' means all pages and endpoints are subjected to this rate limit regime). So we need more (a lot) room for regular traffic but that means login pages are allowed to be called way more as well, we need stricter limits specifically for login endpoints. A brute-force attacker making for instance 30 requests per second can try 1,800 passwords per minute. That's way too permissive.
 
 So the next step was to create a stricter zone for `/login`:
 
@@ -40,7 +40,7 @@ location /login {
 }
 ```
 
-Five requests per minute. That should stop brute-force attacks cold.
+Five requests per minute. That should stop brute-force attacks cold. Combined with fail2ban to block persistent offenders, this is a solid defense.
 
 ## The Problem: You Just Broke the Login Page
 
