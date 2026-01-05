@@ -12,7 +12,7 @@ keywords: "nginx rate limiting, brute force protection, login security, fail2ban
   <figcaption>This is what AI thinks an image for this blog should look like... Photo by <a href="https://www.pexels.com/photo/closeup-photography-of-white-gate-with-brass-colored-padlock-846288/">Bich Tran</a></figcaption>
 </figure>
 
-While setting up self-hosted analytics and error tracking (Umami and GlitchTip) on my NixOS server, I needed to protect login endpoints from brute-force attacks. The standard approach is straightforward: add nginx rate limiting.
+While setting up self-hosted analytics and error tracking ([Umami](https://umami.is/) and [GlitchTip](https://glitchtip.com/)) on my NixOS server, I needed to protect login endpoints from brute-force attacks. The standard approach is straightforward: add nginx rate limiting.
 
 ## The Simple Solution: Rate Limit Everything
 
@@ -262,6 +262,8 @@ Total configuration: about 20 lines of NixOS config. Time to implement: 30 minut
 - [ngx_http_limit_req_module](https://nginx.org/en/docs/http/ngx_http_limit_req_module.html) - Official module documentation
 - [fail2ban nginx-limit-req filter](https://github.com/fail2ban/fail2ban/blob/master/config/filter.d/nginx-limit-req.conf) - Built-in filter for nginx rate limit violations
 - [nginx map directive](https://nginx.org/en/docs/http/ngx_http_map_module.html) - For conditional rate limiting
+- [Umami](https://umami.is/) - Privacy-focused, self-hosted web analytics
+- [GlitchTip](https://glitchtip.com/) - Open-source error tracking and uptime monitoring
 
 ---
 
