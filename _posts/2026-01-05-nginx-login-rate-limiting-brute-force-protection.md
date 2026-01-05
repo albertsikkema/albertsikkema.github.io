@@ -62,7 +62,7 @@ Login pages handle two distinct operations:
 1. **GET** - Display the login form (no credentials transmitted)
 2. **POST** - Submit credentials (the actual attack vector)
 
-Attackers don't care about loading the form—they're hammering POST requests with credential combinations. GET requests are harmless. So why rate limit them at all?
+Attackers don't care about loading the form—they're hammering POST requests with credential combinations. GET requests are harmless. So why rate limit them at all? (Users should be able to refresh the login page as much as they want, within reason.)
 
 The solution uses nginx's [map directive](https://nginx.org/en/docs/http/ngx_http_map_module.html) to create a conditional rate limit key:
 
@@ -85,13 +85,14 @@ Here's the complete flow with HTTP method detection:
 
 ## Why Not Just POST?
 
-You could limit only POST requests specifically. But I prefer limiting all methods except GET:
+You could limit only POST requests specifically. But I prefer limiting all methods except GET—a "deny by default" approach that aligns with zero-trust security principles:
 
+- **Security-first**: Block everything, then explicitly allow what's safe (GET). If you forget to block a method, it's already blocked
 - **Future-proofing**: If your app adds alternative auth methods (PUT for API tokens, PATCH for password updates), they're automatically protected
 - **Non-standard clients**: Some HTTP clients behave unexpectedly
 - **Zero overhead**: The performance difference is negligible
 
-The worst case is an attacker using PUT instead of POST—and you've already blocked it.
+The worst case with POST-only limiting is an attacker using PUT instead—and slipping through. With "deny by default," you've already blocked it.
 
 ## The Full NixOS Configuration
 
