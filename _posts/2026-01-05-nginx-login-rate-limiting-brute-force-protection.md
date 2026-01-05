@@ -11,7 +11,7 @@ While setting up self-hosted analytics and error tracking (Umami and GlitchTip) 
 
 <figure>
   <img src="/assets/images/padlock_gate.jpg" alt="Padlock on a metal gate representing controlled access and rate limiting for login protection">
-  <figcaption>This is what AI thinks an image for this blog should look like...</figcaption>
+  <figcaption>This is what AI thinks an image for this blog should look like... Photo by <a href="https://www.pexels.com/photo/closeup-photography-of-white-gate-with-brass-colored-padlock-846288/">Bich Tran</a></figcaption>
 </figure>
 
 ## The Simple Solution: Rate Limit Everything
