@@ -1,21 +1,66 @@
+<div id="task1-modal" class="modal">
+  <div class="modal-content">
+    <span class="modal-close" onclick="closeTask1()">&times;</span>
+    <h3>Get in touch</h3>
+    <p>Send me a message at:</p>
+    <p class="modal-value" id="task1-value"></p>
+    <button class="modal-copy-btn" onclick="copyTask1()">Copy to clipboard</button>
+  </div>
+</div>
+
+<script>
+var _d = function(arr) { return arr.reverse().map(function(c){return String.fromCharCode(c)}).join(''); };
+var _x1 = [116,99,97,116,110,111,99];
+var _x2 = [97,109,101,107,107,105,115,116,114,101,98,108,97];
+var _x3 = [109,111,99];
+var _y1 = [115,117,112,112,111,114,116];
+var _y2 = [103,109,97,105,108];
+
+function _v() {
+  return _d(_x1.slice()) + String.fromCharCode(64) + _d(_x2.slice()) + String.fromCharCode(46) + _d(_x3.slice());
+}
+
+function task1() {
+  document.getElementById('task1-value').textContent = _v();
+  document.getElementById('task1-modal').classList.add('active');
+}
+
+function closeTask1() {
+  document.getElementById('task1-modal').classList.remove('active');
+}
+
+function copyTask1() {
+  navigator.clipboard.writeText(_v());
+  document.querySelector('.modal-copy-btn').textContent = 'Copied!';
+  setTimeout(function() {
+    document.querySelector('.modal-copy-btn').textContent = 'Copy to clipboard';
+  }, 2000);
+}
+
+document.getElementById('task1-modal').addEventListener('click', function(e) {
+  if (e.target === this) closeTask1();
+});
+</script>
+
 <footer class="site-footer h-card">
-  <data class="u-url" href="{{ " /" | relative_url }}"></data>
+  <data class="u-url" href="{{ "/" | relative_url }}"></data>
 
   <div class="wrapper">
+    <p class="footer-tagline">Thanks for visiting. This is my little corner of the web&mdash;built with help from AI, no trackers, no ads. Just words and code.</p>
 
-    <h2 class="footer-heading">{{ site.title | escape }}</h2>
-
-    <div class="footer-col-wrapper">
-
-      <div class="footer-col footer-col-1">
-        {%- include social.html -%}
-      </div>
-
-      <div class="footer-col footer-col-2">
-        <p>{{- site.description | escape -}}</p>
-      </div>
+    <div class="footer-social">
+      {%- if site.github_username -%}
+      <a href="https://github.com/{{ site.github_username }}">
+        <svg class="svg-icon"><use xlink:href="{{ '/assets/minima-social-icons.svg#github' | relative_url }}"></use></svg>
+        <span>GitHub</span>
+      </a>
+      {%- endif -%}
+      {%- if site.linkedin_username -%}
+      <a href="https://www.linkedin.com/in/{{ site.linkedin_username }}">
+        <svg class="svg-icon"><use xlink:href="{{ '/assets/minima-social-icons.svg#linkedin' | relative_url }}"></use></svg>
+        <span>LinkedIn</span>
+      </a>
+      {%- endif -%}
     </div>
-
   </div>
-
 </footer>

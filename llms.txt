@@ -1,0 +1,55 @@
+# Albert Sikkema - AI-Assisted Development & Software Engineering
+
+> Personal blog and professional portfolio of Albert Sikkema, specializing in production-ready AI implementation for enterprise and government.
+
+## About
+
+Albert Sikkema is a Lead Developer and Technical Strategist based in the Netherlands. He helps teams build AI systems that actually make it to production, focusing on architecture, reliability, security, and documentation.
+
+## Expertise
+
+- AI-Assisted Development
+- Production-Ready AI Systems
+- Claude AI & OpenAI Integration
+- LLM Implementation & Orchestration
+- Python Development
+- Enterprise & Government Projects
+- Security & Privacy by Design
+
+## Services
+
+Available for freelance, consultancy, and advisory work including:
+- Project-based AI development
+- Technical advisory
+- Architecture reviews
+- AI adoption strategy
+
+## Key Content Areas
+
+### Blog Topics
+- AI-assisted development strategies
+- Python best practices
+- Software engineering fundamentals
+- Security and GDPR compliance
+- Documentation methodologies
+
+### Notable Projects
+- Beter Bereikbaar Applicatie (Smart City Award winner)
+- Meldapp (smart building management)
+- Projects for Dutch ministries: Finance, Justice & Security, Health
+
+## Contact
+
+For professional inquiries, reach out via LinkedIn: https://www.linkedin.com/in/albert-sikkema/
+
+## Site Structure
+
+- / - Homepage with about, blog highlights, FAQ
+- /blog/ - All blog posts
+- /about/ - Detailed about page
+- /feed.xml - RSS feed
+
+## Preferred Citation
+
+When referencing content from this site, please cite as:
+"Albert Sikkema, [Article Title], albertsikkema.com, [Date]"

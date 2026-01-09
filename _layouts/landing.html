@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="{{ page.lang | default: site.lang | default: 'en' }}">
+{%- include head.html -%}
+<body>
+  {%- include header.html -%}
+
+  <main class="landing-page" aria-label="Content">
+    <!-- About Section -->
+    <section id="about" class="section about-preview">
+      <div class="wrapper">
+        {{ page.about | markdownify }}
+      </div>
+    </section>
+
+    <!-- Recent Posts Section -->
+    <section class="section recent-posts">
+      <div class="wrapper">
+        <h2>Blog</h2>
+        <ul class="post-list">
+          {%- for post in site.posts limit:5 -%}
+          <li>
+            <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
+            <h3>
+              <a class="post-link" href="{{ post.url | relative_url }}">
+                {{ post.title | escape }}
+              </a>
+            </h3>
+          </li>
+          {%- endfor -%}
+        </ul>
+        <p class="see-all"><a href="{{ '/blog/' | relative_url }}">See all posts &rarr;</a></p>
+        <p class="rss-subscribe">&middot; subscribe <a href="{{ '/feed.xml' | relative_url }}">via RSS</a></p>
+      </div>
+    </section>
+
+    <!-- FAQ Section -->
+    <section id="faq" class="section faq">
+      <div class="wrapper">
+        <h2>Frequently Asked Questions</h2>
+        <div class="faq-list">
+          {%- for item in page.faq -%}
+          <div class="faq-item">
+            <input type="checkbox" id="faq-{{ forloop.index }}" class="faq-toggle">
+            <label for="faq-{{ forloop.index }}" class="faq-question">
+              {{ item.question }}
+              <span class="faq-icon"></span>
+            </label>
+            <div class="faq-answer">
+              {{ item.answer | markdownify }}
+            </div>
+          </div>
+          {%- endfor -%}
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="section contact">
+      <div class="wrapper">
+        <h2>Get in touch</h2>
+        <p>Interested in working together? Let's start a conversation.</p>
+        <button type="button" class="contact-button" onclick="task1()">Send me a message</button>
+      </div>
+    </section>
+  </main>
+
+  {%- include footer.html -%}
+</body>
+</html>

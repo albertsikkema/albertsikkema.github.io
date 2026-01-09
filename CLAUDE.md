@@ -311,15 +311,18 @@ curl -s https://analytics.test001.nl/script.js -o assets/js/client.js
 The site uses JSON-LD structured data for enhanced search engine understanding:
 
 - **WebSite Schema** (`_includes/website-schema.html`): Applied to all pages
-  - Defines site metadata and search functionality
-  - Enables Google search box in SERPs
+  - Defines site metadata
 
-- **Person Schema** (`_includes/schema.html`): Applied to homepage only
+- **Person Schema** (`_includes/schema.html`): Applied to homepage/landing
   - Professional profile with job title, skills, location
   - Work affiliations (ePublic Solutions, Albert Sikkema Consultancy)
   - Notable clients (Dutch government ministries, enterprises)
   - Awards (Smart City Award 2023)
   - Social media profiles (LinkedIn, GitHub)
+
+- **FAQPage Schema** (`_includes/faq-schema.html`): Applied to landing page
+  - Structured FAQ data for rich results and AEO
+  - Automatically generated from `faq` front matter in index.markdown
 
 - **BlogPosting Schema** (`_includes/article-schema.html`): Applied to blog posts
   - Article metadata (headline, description, dates)
@@ -336,6 +339,20 @@ The site uses JSON-LD structured data for enhanced search engine understanding:
 - Schema Markup Validator: https://validator.schema.org/
 
 **Note**: Schema includes are managed in `_includes/head.html` with conditional logic based on page layout.
+
+### AEO (Answer Engine Optimization)
+
+The site includes `llms.txt` in the root directory for AI crawlers and answer engines. This file helps AI assistants understand the site structure and content.
+
+**Location**: `/llms.txt`
+
+**When to update `llms.txt`**:
+- When adding new major content areas or services
+- When changing site structure significantly
+- When updating professional information (job title, expertise areas)
+- When adding notable new projects or achievements
+
+**Format**: Markdown-style with sections for About, Expertise, Services, Key Content Areas, Contact, and Site Structure.
 
 ### Updating Blog Posts
 When adding updates to existing blog posts:

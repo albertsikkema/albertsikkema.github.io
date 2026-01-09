@@ -50,6 +50,17 @@ See [CLAUDE.md](CLAUDE.md) for full documentation on writing style, SEO guidelin
 - **Hosting**: GitHub Pages
 - **Analytics**: Umami (self-hosted)
 
+## SEO & AEO
+
+The site includes:
+- JSON-LD schema markup (Person, FAQPage, Article, Breadcrumb)
+- `llms.txt` for AI crawlers and answer engines
+
+**Remember to update `llms.txt`** when:
+- Adding new services or expertise areas
+- Changing site structure
+- Adding notable projects
+
 ## License
 
 Content is copyrighted. Code examples in blog posts are MIT licensed unless otherwise noted.

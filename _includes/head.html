@@ -11,8 +11,9 @@
   {%- comment -%} Schema Markup {%- endcomment -%}
   {%- include website-schema.html -%}
 
-  {%- if page.layout == "home" -%}
+  {%- if page.layout == "home" or page.layout == "landing" -%}
     {%- include schema.html -%}
+    {%- include faq-schema.html -%}
   {%- endif -%}
 
   {%- if page.layout == "post" -%}

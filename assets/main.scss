@@ -1,14 +1,315 @@
 ---
 ---
+// Import Inter font from Google Fonts
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
+
 // Override Minima's default content width (default is 800px)
 $content-width: 1100px;
+
+// Override font family to use Inter
+$base-font-family: 'Inter', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif !default;
 
 // Import Minima theme
 @import "minima";
 
+// ============================================
+// Landing Page Styles
+// ============================================
+
+.landing-page {
+  // Generic section styling
+  .section {
+    padding: 40px 0;
+    border-top: 1px solid #e8e8e8;
+
+    &:first-child {
+      border-top: none;
+      padding-top: 40px;
+    }
+
+    h2 {
+      font-size: 1.5rem;
+      font-weight: 600;
+      margin-bottom: 20px;
+      letter-spacing: -0.01em;
+    }
+
+    p {
+      line-height: 1.7;
+      color: #444;
+    }
+  }
+
+  // What I Do section
+  .what-i-do {
+    p {
+      max-width: 800px;
+    }
+  }
+
+  // About preview section
+  .about-preview {
+    p {
+      max-width: 800px;
+    }
+  }
+
+  // Recent Posts section
+  .recent-posts {
+    .post-list {
+      list-style: none;
+      margin-left: 0;
+      padding: 0;
+
+      li {
+        margin-bottom: 20px;
+      }
+
+      .post-meta {
+        font-size: 0.875rem;
+        color: #888;
+      }
+
+      h3 {
+        font-size: 1.1rem;
+        margin: 4px 0 0;
+        font-weight: 500;
+
+        a {
+          color: #111;
+          text-decoration: none;
+
+          &:hover {
+            color: #0066cc;
+          }
+        }
+      }
+    }
+
+    .see-all {
+      margin-top: 20px;
+
+      a {
+        color: #0066cc;
+        text-decoration: none;
+        font-weight: 500;
+
+        &:hover {
+          text-decoration: underline;
+        }
+      }
+    }
+
+    .rss-subscribe {
+      font-size: 0.875rem;
+      color: #888;
+      margin-top: 8px;
+
+      a {
+        color: #888;
+      }
+    }
+  }
+
+  // Portfolio section
+  .portfolio {
+    .portfolio-list {
+      list-style: none;
+      margin-left: 0;
+      padding: 0;
+
+      li {
+        margin-bottom: 8px;
+        padding-left: 20px;
+        position: relative;
+
+        &::before {
+          content: "•";
+          position: absolute;
+          left: 0;
+          color: #888;
+        }
+      }
+    }
+
+    .availability {
+      margin-top: 24px;
+      font-style: italic;
+      color: #666;
+    }
+  }
+
+  // Contact section
+  .contact {
+    text-align: center;
+
+    p {
+      margin-bottom: 24px;
+    }
+
+    .contact-button {
+      display: inline-block;
+      padding: 14px 32px;
+      background-color: #0a66c2;
+      color: #fff;
+      border: none;
+      border-radius: 4px;
+      font-family: inherit;
+      font-size: 1rem;
+      font-weight: 500;
+      cursor: pointer;
+      transition: background-color 0.2s ease, transform 0.1s ease;
+
+      &:hover {
+        background-color: #004182;
+      }
+
+      &:active {
+        transform: scale(0.98);
+      }
+    }
+  }
+
+  // FAQ section
+  .faq {
+    .faq-list {
+      max-width: 800px;
+    }
+
+    .faq-item {
+      border-bottom: 1px solid #e8e8e8;
+
+      &:first-child {
+        border-top: 1px solid #e8e8e8;
+      }
+    }
+
+    .faq-toggle {
+      display: none;
+    }
+
+    .faq-question {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 16px 0;
+      cursor: pointer;
+      font-weight: 500;
+      color: #111;
+      user-select: none;
+
+      &:hover {
+        color: #333;
+      }
+    }
+
+    .faq-icon {
+      position: relative;
+      width: 20px;
+      height: 20px;
+      flex-shrink: 0;
+      margin-left: 16px;
+
+      &::before,
+      &::after {
+        content: "";
+        position: absolute;
+        background-color: #666;
+        transition: transform 0.2s ease;
+      }
+
+      &::before {
+        top: 50%;
+        left: 0;
+        width: 100%;
+        height: 2px;
+        transform: translateY(-50%);
+      }
+
+      &::after {
+        top: 0;
+        left: 50%;
+        width: 2px;
+        height: 100%;
+        transform: translateX(-50%);
+      }
+    }
+
+    .faq-answer {
+      max-height: 0;
+      overflow: hidden;
+      transition: max-height 0.3s ease, padding 0.3s ease;
+
+      p {
+        margin: 0;
+        padding-bottom: 16px;
+        color: #555;
+        line-height: 1.7;
+      }
+    }
+
+    // Expanded state
+    .faq-toggle:checked {
+      & + .faq-question {
+        .faq-icon::after {
+          transform: translateX(-50%) rotate(90deg);
+        }
+      }
+
+      & + .faq-question + .faq-answer {
+        max-height: 500px;
+      }
+    }
+  }
+}
+
+// ============================================
+// Updated Footer Styles
+// ============================================
+
+.site-footer {
+  border-top: 1px solid #e8e8e8;
+  padding: 30px 0;
+  background: #fafafa;
+
+  .footer-heading {
+    display: none; // Hide the default heading
+  }
+
+  .footer-tagline {
+    font-size: 0.9rem;
+    color: #666;
+    margin-bottom: 16px;
+  }
+
+  .footer-social {
+    display: flex;
+    gap: 16px;
+    align-items: center;
+
+    a {
+      color: #666;
+      text-decoration: none;
+      display: flex;
+      align-items: center;
+      gap: 6px;
+      font-size: 0.9rem;
+
+      &:hover {
+        color: #111;
+      }
+
+      .svg-icon {
+        width: 16px;
+        height: 16px;
+      }
+    }
+  }
+}
+
 // Make footer columns fill the full width (50% each)
 .footer-col-wrapper {
-  width: 90%; // For debugging layout
+  width: 90%;
   display: flex;
   flex-wrap: wrap;
 }
@@ -18,9 +319,190 @@ $content-width: 1100px;
   flex: 0 0 100%;
 }
 
+// ============================================
+// Header & Navigation Updates
+// ============================================
+
+.site-header .wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.site-title-group {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+}
+
+.site-title {
+  font-weight: 600;
+  letter-spacing: -0.02em;
+}
+
+.site-subtitle {
+  font-size: 0.85rem;
+  color: #666;
+  font-weight: 400;
+}
+
+.site-nav {
+  position: static;
+  float: none;
+
+  .page-link {
+    font-weight: 500;
+    font-size: 0.95rem;
+  }
+
+  .nav-contact-button {
+    padding: 8px 16px;
+    background-color: #0a66c2;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    font-family: inherit;
+    font-size: 0.95rem;
+    font-weight: 500;
+    cursor: pointer;
+    margin-left: 8px;
+    transition: background-color 0.2s ease, transform 0.1s ease;
+
+    &:hover {
+      background-color: #004182;
+    }
+
+    &:active {
+      transform: scale(0.98);
+    }
+  }
+}
+
+// ============================================
+// Modal
+// ============================================
+
+.modal {
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: 1000;
+  justify-content: center;
+  align-items: center;
+
+  &.active {
+    display: flex;
+  }
+}
+
+.modal-content {
+  background: #fff;
+  padding: 32px;
+  border-radius: 8px;
+  max-width: 400px;
+  width: 90%;
+  text-align: center;
+  position: relative;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.15);
+
+  h3 {
+    margin: 0 0 16px;
+    font-size: 1.5rem;
+  }
+
+  p {
+    margin: 0 0 8px;
+    color: #666;
+  }
+}
+
+.modal-close {
+  position: absolute;
+  top: 12px;
+  right: 16px;
+  font-size: 1.5rem;
+  color: #999;
+  cursor: pointer;
+  line-height: 1;
+
+  &:hover {
+    color: #333;
+  }
+}
+
+.modal-value {
+  font-size: 1.1rem;
+  font-weight: 600;
+  color: #111 !important;
+  background: #f5f5f5;
+  padding: 12px 16px;
+  border-radius: 4px;
+  margin: 16px 0 !important;
+  user-select: all;
+}
+
+.modal-copy-btn {
+  padding: 10px 24px;
+  background-color: #0a66c2;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  font-family: inherit;
+  font-size: 0.95rem;
+  font-weight: 500;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+
+  &:hover {
+    background-color: #004182;
+  }
+}
+
+// ============================================
+// Responsive Styles
+// ============================================
+
 @media screen and (max-width: 600px) {
+  .landing-page {
+    .hero {
+      padding: 40px 0 30px;
+
+      .hero-title {
+        font-size: 2rem;
+      }
+
+      .hero-subtitle {
+        font-size: 1rem;
+      }
+    }
+
+    .section {
+      padding: 30px 0;
+
+      h2 {
+        font-size: 1.3rem;
+      }
+    }
+
+    .faq {
+      .faq-question {
+        font-size: 0.95rem;
+      }
+    }
+  }
+
   .footer-col {
     width: 100%;
     flex: 0 0 100%;
+  }
+
+  .footer-social {
+    flex-direction: column;
+    align-items: flex-start !important;
+    gap: 12px !important;
   }
 }
