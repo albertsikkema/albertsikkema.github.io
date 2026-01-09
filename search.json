@@ -1,0 +1,47 @@
+---
+layout: null
+---
+[
+  {%- assign entries = "" | split: "" -%}
+  {%- for post in site.posts -%}
+    {%- capture entry -%}
+    {
+      "title": {{ post.title | jsonify }},
+      "url": {{ post.url | jsonify }},
+      "date": {{ post.date | date: "%B %d, %Y" | jsonify }},
+      "content": {{ post.content | strip_html | truncatewords: 200 | jsonify }},
+      "categories": {{ post.categories | join: " " | jsonify }},
+      "type": "post"
+    }
+    {%- endcapture -%}
+    {%- assign entries = entries | push: entry -%}
+  {%- endfor -%}
+  {%- for page in site.pages -%}
+    {%- if page.title and page.url != "/search/" and page.url != "/feed.xml" and page.url != "/sitemap.xml" and page.url != "/search.json" and page.url != "/blog/" -%}
+      {%- capture entry -%}
+      {
+        "title": {{ page.title | jsonify }},
+        "url": {{ page.url | jsonify }},
+        "content": {{ page.content | strip_html | truncatewords: 200 | jsonify }},
+        "type": "page"
+      }
+      {%- endcapture -%}
+      {%- assign entries = entries | push: entry -%}
+    {%- endif -%}
+  {%- endfor -%}
+  {%- assign faq_page = site.pages | where: "layout", "landing" | first -%}
+  {%- if faq_page.faq -%}
+    {%- for item in faq_page.faq -%}
+      {%- capture entry -%}
+      {
+        "title": {{ item.question | jsonify }},
+        "url": "/#faq",
+        "content": {{ item.answer | jsonify }},
+        "type": "faq"
+      }
+      {%- endcapture -%}
+      {%- assign entries = entries | push: entry -%}
+    {%- endfor -%}
+  {%- endif -%}
+  {{ entries | join: "," }}
+]

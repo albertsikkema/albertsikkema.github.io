@@ -1,0 +1,108 @@
+---
+layout: page
+title: Search
+permalink: /search/
+description: "Search blog posts, pages, and FAQ on albertsikkema.com"
+---
+
+<div class="search-container">
+  <input type="text" id="search-input" class="search-input" placeholder="Search posts, pages, and FAQ..." autofocus>
+  <div id="search-results" class="search-results"></div>
+</div>
+
+<script src="https://unpkg.com/lunr/lunr.js"></script>
+<script>
+(function() {
+  var searchIndex = null;
+  var searchData = null;
+  var searchInput = document.getElementById('search-input');
+  var searchResults = document.getElementById('search-results');
+
+  // Load search index
+  fetch('/search.json')
+    .then(function(response) { return response.json(); })
+    .then(function(data) {
+      searchData = data;
+      searchIndex = lunr(function() {
+        this.ref('url');
+        this.field('title', { boost: 10 });
+        this.field('content');
+        this.field('categories', { boost: 5 });
+
+        data.forEach(function(doc) {
+          this.add(doc);
+        }, this);
+      });
+
+      // Check for query parameter
+      var urlParams = new URLSearchParams(window.location.search);
+      var query = urlParams.get('q');
+      if (query) {
+        searchInput.value = query;
+        performSearch(query);
+      }
+    });
+
+  function performSearch(query) {
+    if (!searchIndex || !query) {
+      searchResults.innerHTML = '';
+      return;
+    }
+
+    var results = searchIndex.search(query + '*');
+
+    if (results.length === 0) {
+      searchResults.innerHTML = '<p class="no-results">No results found for "' + escapeHtml(query) + '"</p>';
+      return;
+    }
+
+    var html = '<ul class="results-list">';
+    results.forEach(function(result) {
+      var item = searchData.find(function(d) { return d.url === result.ref; });
+      if (item) {
+        var typeLabel = item.type === 'faq' ? 'FAQ' : (item.type === 'post' ? 'Post' : 'Page');
+        var typeClass = 'result-type type-' + item.type;
+        html += '<li class="result-item">';
+        html += '<div class="result-header">';
+        html += '<a href="' + item.url + '" class="result-title">' + escapeHtml(item.title) + '</a>';
+        html += '<span class="' + typeClass + '">' + typeLabel + '</span>';
+        html += '</div>';
+        if (item.date) {
+          html += '<span class="result-date">' + item.date + '</span>';
+        }
+        if (item.content) {
+          var snippet = item.content.substring(0, 150) + '...';
+          html += '<p class="result-snippet">' + escapeHtml(snippet) + '</p>';
+        }
+        html += '</li>';
+      }
+    });
+    html += '</ul>';
+
+    searchResults.innerHTML = html;
+  }
+
+  function escapeHtml(text) {
+    var div = document.createElement('div');
+    div.textContent = text;
+    return div.innerHTML;
+  }
+
+  // Debounce search
+  var timeout = null;
+  searchInput.addEventListener('input', function() {
+    clearTimeout(timeout);
+    timeout = setTimeout(function() {
+      var query = searchInput.value.trim();
+      performSearch(query);
+
+      // Update URL
+      if (query) {
+        history.replaceState(null, '', '/search/?q=' + encodeURIComponent(query));
+      } else {
+        history.replaceState(null, '', '/search/');
+      }
+    }, 200);
+  });
+})();
+</script>
