@@ -3,6 +3,8 @@ layout: post
 title: "Why Being Friendly to Your LLM Pays Off"
 date: 2025-09-18
 categories: ai ethics philosophy
+description: "Why politeness matters when interacting with LLMs. Explore practical benefits, ethical considerations, and future implications of treating AI with respect."
+keywords: "LLM interaction, AI ethics, human-AI communication, artificial general intelligence, AI sentience, prompt engineering"
 ---
 
 ### Why Being Friendly to Your LLM Pays Off

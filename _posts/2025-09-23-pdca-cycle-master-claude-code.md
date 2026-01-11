@@ -3,6 +3,8 @@ layout: post
 title: "Using the PDCA Cycle to guide Claude Code for Software Development"
 date: 2025-09-23
 categories: ai development productivity
+description: "Transform AI-assisted coding into a structured process using PDCA methodology. Learn systematic approaches for Claude Code development with quality gates."
+keywords: "Claude Code, PDCA cycle, AI-assisted development, software development methodology, structured coding, quality assurance"
 ---
 
 You're probably familiar with the PDCA cycle: Plan, Do, Check, Act ([Wikipedia](https://en.wikipedia.org/wiki/PDCA)). It's a continuous improvement methodology that's been around since the 1950s, helping organizations optimize their processes. But here's something interesting: when working with Claude Code to write software, you can implement a remarkably similar strategy that transforms AI-assisted coding from a chaotic experiment into a structured, reliable process.

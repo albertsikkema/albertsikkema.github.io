@@ -3,6 +3,8 @@ layout: post
 title: "Faking a Rational Design Process in the AI Era: Why Documentation Matters More Than Ever"
 date: 2025-10-10
 categories: ai development documentation llm
+description: "How Parnas's 1986 insight on rational design applies to AI-assisted development. Learn why documentation is essential for Claude Code and LLM collaboration."
+keywords: "AI-assisted development, Claude Code, software documentation, rational design, architecture decisions, LLM collaboration"
 ---
 
 In 1986, David Parnas and Paul Clements published a paper with a provocative title: ["A Rational Design Process: How and Why to Fake It"](https://users.ece.utexas.edu/~perry/education/SE-Intro/fakeit.pdf). Their central thesis was radical yet practical: while a perfectly rational software design process is impossible to achieve, we should document our work *as if* we had followed one. Nearly four decades later, working with AI programming assistants like Claude Code, this insight has become more relevant than ever.

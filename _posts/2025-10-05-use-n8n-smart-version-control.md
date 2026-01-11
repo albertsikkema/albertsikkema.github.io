@@ -3,6 +3,8 @@ layout: post
 title: "Use n8n Smart: Version Control"
 date: 2025-10-05
 categories: n8n automation devops best-practices
+description: "Why n8n workflows need version control and how to protect your automation from accidental changes. Essential practices for production n8n deployments."
+keywords: "n8n version control, workflow automation, Git integration, DevOps best practices, automation safety, n8n backup"
 ---
 
 ## Use n8n Smart

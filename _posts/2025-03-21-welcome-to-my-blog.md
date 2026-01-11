@@ -3,6 +3,8 @@ layout: post
 title: "Welcome to My Blog!"
 date: 2025-03-21 13:37:39 +0100
 categories: blog
+description: "Full stack software engineer specializing in Python development, AI integration, and public sector software solutions. Connect with me to discuss tech."
+keywords: "software engineering, Python development, full stack developer, public sector software, healthcare software, AI integration"
 ---
 # Welcome to my blog! 
 

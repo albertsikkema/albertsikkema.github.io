@@ -3,6 +3,8 @@ layout: post
 title: "Automating Release Management with Claude AI: A Guide to Streamlined Deployment"
 date: 2025-09-10
 categories: ai automation deployment
+description: "Automate release management with Claude AI. Learn how to streamline deployment workflows, version management, and PWA updates with AI-assisted automation."
+keywords: "Claude AI automation, release management, deployment automation, AI-assisted development, software deployment, version management"
 ---
 
 Over the last years I have done a lot of automation with LLM's. In this blog post I'll show you how I use it to make release management easier.

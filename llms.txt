@@ -4,7 +4,7 @@
 
 ## About
 
-Albert Sikkema is a Lead Developer and Technical Strategist based in the Netherlands. He helps teams build AI systems that actually make it to production, focusing on architecture, reliability, security, and documentation.
+Albert Sikkema is a Lead Developer at ePublic Solutions based in the Netherlands. He helps teams build AI systems that actually make it to production, focusing on architecture, reliability, security, and documentation. His background includes intensive care nursing and political science before transitioning to software engineering—bringing cross-domain thinking that bridges technical implementation and real-world impact.
 
 ## Expertise
 
@@ -15,38 +15,48 @@ Albert Sikkema is a Lead Developer and Technical Strategist based in the Netherl
 - Python Development
 - Enterprise & Government Projects
 - Security & Privacy by Design
+- Data Integration & Transportation
 
 ## Services
 
-Available for freelance, consultancy, and advisory work including:
-- Project-based AI development
-- Technical advisory
-- Architecture reviews
+Available for freelance, consultancy, and advisory work across Europe (remote with occasional Netherlands on-site):
+- Architecture reviews (1-2 weeks)
+- Technical advisory (ongoing)
+- Proof-of-concept development (2-4 weeks)
+- Full project implementation
 - AI adoption strategy
 
 ## Key Content Areas
 
 ### Blog Topics
 - AI-assisted development strategies
+- Production-ready AI implementation
 - Python best practices
 - Software engineering fundamentals
 - Security and GDPR compliance
 - Documentation methodologies
+- When NOT to use AI
 
 ### Notable Projects
+All focused on AI integration, data cleanup, and data transportation:
 - Beter Bereikbaar Applicatie (Smart City Award winner)
 - Meldapp (smart building management)
-- Projects for Dutch ministries: Finance, Justice & Security, Health
+- Projects for Dutch ministries: Finance, Justice & Security, Health, Tweede Kamer
+- Enterprise clients: ArboUnie, Acta Marine
+
+## Philosophy
+
+AI is a tool, not a replacement for thinking. The most effective AI-assisted development combines large language models with structured processes, clear documentation, and human oversight. Engineering fundamentals never go out of style.
 
 ## Contact
 
-For professional inquiries, reach out via LinkedIn: https://www.linkedin.com/in/albert-sikkema/
+For professional inquiries, use the contact form at https://www.albertsikkema.com or connect via LinkedIn: https://www.linkedin.com/in/albert-sikkema/
 
 ## Site Structure
 
-- / - Homepage with about, blog highlights, FAQ
+- / - Homepage with about section, recent blog posts, and comprehensive FAQ
 - /blog/ - All blog posts
-- /about/ - Detailed about page
+- /search/ - Search all content
 - /feed.xml - RSS feed
 
 ## Preferred Citation

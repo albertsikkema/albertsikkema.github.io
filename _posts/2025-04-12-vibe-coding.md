@@ -3,6 +3,8 @@ layout: post
 title: "Vibe Coding"
 date: 2025-04-12 12:00:00 +0200
 categories: blog
+description: "Vibe-coding with LLMs can boost productivity, but requires software engineering fundamentals. Learn best practices for AI-assisted development."
+keywords: "vibe coding, AI-assisted development, LLM development, code generation, software best practices, AI productivity"
 ---
 
 # Vibe Coding

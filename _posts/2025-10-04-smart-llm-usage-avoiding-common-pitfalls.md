@@ -3,6 +3,8 @@ layout: post
 title: "Smart LLM Usage: Avoiding Common Pitfalls"
 date: 2025-10-04
 categories: ai llm best-practices development
+description: "Avoid common LLM implementation pitfalls. Learn when to use AI, when not to, and essential engineering practices for production-ready AI systems."
+keywords: "LLM best practices, AI implementation, production-ready AI, software engineering, AI guardrails, cost optimization"
 ---
 
 ### Smart LLM Usage: Avoiding Common Pitfalls

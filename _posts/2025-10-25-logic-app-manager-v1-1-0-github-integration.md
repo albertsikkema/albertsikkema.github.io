@@ -3,6 +3,8 @@ layout: post
 title: "Logic App Manager v1.1.0: GitHub Integration"
 date: 2025-10-25
 categories: azure automation devops tools
+description: "Logic App Manager v1.1.0 adds GitHub integration for centralized backup and version control of Azure Logic Apps with commit history and restore."
+keywords: "Logic App Manager, GitHub integration, Azure Logic Apps version control, workflow backup, DevOps automation, Azure Portal extension"
 ---
 
 Yesterday I introduced [Logic App Manager](https://github.com/albertsikkema/logic-app-manager), a Chrome extension for backing up and restoring Azure Logic Apps. Today I'm releasing v1.1.0 with the promised GitHub integration.

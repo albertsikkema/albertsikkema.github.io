@@ -3,6 +3,8 @@ layout: post
 title: "My Reading List for the Rest of 2025 (and Probably 2026)"
 date: 2025-10-11
 categories: career learning books software-engineering
+description: "Software engineering books covering machine learning, DevOps, architecture, and Python development. A curated reading list for continuous learning."
+keywords: "software engineering books, machine learning, DevOps, Python programming, system architecture, continuous learning"
 ---
 
 Now that I have a working ereader again (finally!), I can finally start tackling a long list of e-books I have collected. Here's what's queued up for the rest of 2025 and, let's be honest, probably well into 2026.

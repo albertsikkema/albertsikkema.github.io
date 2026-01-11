@@ -3,6 +3,8 @@ layout: post
 title: "Logic App Manager v1.1.1: Now Available in Chrome Web Store"
 date: 2025-10-28
 categories: azure automation devops tools
+description: "Logic App Manager now in Chrome Web Store. One-click install with automatic updates for Azure Logic Apps backup, restore, and GitHub version control."
+keywords: "Logic App Manager, Chrome Web Store, Azure Logic Apps, GitHub backup, version control, workflow management, Azure automation"
 ---
 
 Logic App Manager is now officially available in the **Chrome Web Store**! You can install it with one click and get automatic updates going forward.

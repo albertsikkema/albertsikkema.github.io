@@ -3,6 +3,8 @@ layout: post
 title: "The Orchestrator: Automating Full Claude Code Workflows"
 date: 2025-11-21
 categories: AI LLM development productivity
+description: "Automate complete AI-assisted development workflows with an orchestrator that chains Claude Code commands. Learn how to build production-ready AI agent orchestration systems."
+keywords: "AI agent orchestration, Claude Code automation, AI workflow automation, AI-assisted development, Claude AI integration, production-ready AI"
 ---
 
 I've been using my [claude-config-template](https://github.com/albertsikkema/claude-config-template) for several months now, and one friction point kept bothering me: manually running slash commands in sequence. Research, plan, implement, review - it's the right workflow, but it's tedious when you know exactly what needs to happen. So I built an orchestrator.

@@ -3,6 +3,8 @@ layout: post
 title: "Human in the Loop: Why Your LLM-Assisted Code Still Needs Human Eyes"
 date: 2025-11-14
 categories: AI LLM development best-practices
+description: "LLM-generated code needs human review. Real story of meta-test bugs that passed automated checks but were caught by experienced developers. Essential lessons for AI-assisted development."
+keywords: "AI-assisted development, LLM code review, human in the loop, AI agent development, code quality, Claude AI development"
 ---
 
 This week I was working on some code for a project that uses Python and [PydanticAI](https://ai.pydantic.dev/) to create a few agents for legal document search. But the specific domain doesn't really matter - what I want to focus on is the role of 'human in the loop' and why it's essential when working with agentic tooling to create software.

@@ -3,6 +3,8 @@ layout: post
 title: "Books That Shaped My Journey"
 date: 2025-10-11
 categories: career learning books software-engineering
+description: "Essential books for self-taught developers. A curated list from political science to software engineering, covering Python, architecture, and systems thinking."
+keywords: "software engineering books, self-taught developer, Python learning, system design, architecture patterns, career development"
 ---
 
 I have no official background in computer science or a related field. I do have a master's in political science and a bachelor's in nursing, specialized in intensive care. So every now and then I get the question: how did you get where you are now?

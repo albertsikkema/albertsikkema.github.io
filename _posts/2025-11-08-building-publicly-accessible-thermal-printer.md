@@ -3,6 +3,8 @@ layout: post
 title: "Building a Publicly Accessible Printer: Just a Fun Saturday Project"
 date: 2025-11-08
 categories: python development hardware raspberry-pi
+description: "Build a publicly accessible thermal printer with Python, Flask, and Raspberry Pi. Complete guide including USB driver, web interface, Cloudflare tunnels, and systemd deployment."
+keywords: "Raspberry Pi projects, thermal printer, Python USB driver, Flask web application, Cloudflare tunnel, ESC/POS protocol"
 ---
 
 A while ago I tumbled across a blog post from someone who built a publicly accessible printer—anyone could send messages that would physically print on their desk. The concept stuck with me. It was absurd, delightful, and completely pointless. So that was on the todo-list. So yesterday and today I had time to realize it.

@@ -1,0 +1,24 @@
+<svg width="1200" height="630" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="1200" height="630" fill="#111"/>
+
+  <!-- Accent line -->
+  <rect x="0" y="0" width="1200" height="5" fill="#0a66c2"/>
+
+  <!-- Main content -->
+  <text x="60" y="160" font-family="system-ui, -apple-system, sans-serif" font-size="64" font-weight="600" fill="#ffffff">
+    Albert Sikkema
+  </text>
+
+  <text x="60" y="220" font-family="system-ui, -apple-system, sans-serif" font-size="28" fill="#cccccc">
+    AI-Assisted Development &amp; Software Engineering
+  </text>
+
+  <text x="60" y="290" font-family="system-ui, -apple-system, sans-serif" font-size="18" fill="#999" font-weight="400">
+    <tspan x="60" dy="0">Production-Ready AI Systems</tspan>
+    <tspan x="60" dy="30">Claude &amp; OpenAI Integration</tspan>
+    <tspan x="60" dy="30">Enterprise &amp; Government Projects</tspan>
+  </text>
+
+  <text x="600" y="580" font-family="Inter, -apple-system, system-ui, sans-serif" font-size="16" fill="#666" text-anchor="middle">albertsikkema.com</text>
+</svg>

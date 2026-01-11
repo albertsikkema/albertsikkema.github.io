@@ -3,6 +3,8 @@ layout: post
 title: "A Comprehensive Guide to Python Logging: From Print Statements to Production"
 date: 2025-10-19
 categories: python development best-practices
+description: "Complete Python logging guide from basics to production. Covers async-safe logging, structured logs, FastAPI patterns, and performance optimization."
+keywords: "Python logging, FastAPI logging, async logging, structured logging, QueueHandler, production logging best practices"
 ---
 
 In a current Fastapi project I got thinking about logging in Fastapi. Is the way I have been doing it (still) the correct way? I've been researching Python logging, and decided to share my findings in this guide. Maybe it is of use to you!

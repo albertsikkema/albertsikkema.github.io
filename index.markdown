@@ -1,5 +1,8 @@
 ---
 layout: landing
+title: "Albert Sikkema - AI-Assisted Development & Production-Ready AI Systems"
+description: "Expert in AI-assisted development, production-ready AI implementation, and Claude/OpenAI integration. Building reliable AI systems for Dutch government and enterprises. Available for consulting."
+keywords: "AI-assisted development, production-ready AI, Claude AI integration, OpenAI integration, LLM implementation, enterprise AI adoption, AI consulting Netherlands, Python AI development"
 
 about: |
   Hi! I'm Albert. I help teams build AI systems that actually make it to production. Most of my days are spent at ePublic Solutions, leading development on projects for Dutch government ministries and enterprises.

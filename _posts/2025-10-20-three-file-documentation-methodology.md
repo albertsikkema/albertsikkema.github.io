@@ -3,6 +3,8 @@ layout: post
 title: "Three Files Are All You Need: Rethinking Project Documentation for AI-Assisted Development"
 date: 2025-10-20
 categories: ai development documentation productivity
+description: "Simplify project documentation for AI-assisted development. Learn a minimal 3-file approach using MoSCoW prioritization for better productivity."
+keywords: "AI documentation, project management, MoSCoW method, lean documentation, Claude Code workflow, developer productivity"
 ---
 
 Last week I spent the better part of an hour documenting a user authentication feature. In the end I wrote it up in three places: the epic file, the must-haves document, and the technical todo list. Same information, slightly different formats, all needing to stay synchronized as requirements evolved. And that was my own project with simple file-based project documentation. If I have to use Jira it becomes even more fragmented and time-consuming. It is a lot of administration, and what the actual benefit is, is not always clear. Especially in small teams or as a solo developer. 

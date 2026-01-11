@@ -3,6 +3,8 @@ layout: post
 title: "Lessons Learned from Implementing AI (Part 1)"
 date: 2025-04-14 15:53:00 +0200
 categories: blog
+description: "Real-world lessons from enterprise AI implementation projects. Learn ethical, organizational, and technical best practices for production-ready AI systems."
+keywords: "AI implementation, enterprise AI, LLM integration, production-ready AI, AI best practices, prompt engineering"
 ---
 
 # Lessons Learned from Implementing AI

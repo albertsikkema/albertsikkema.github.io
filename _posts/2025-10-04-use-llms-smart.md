@@ -3,6 +3,8 @@ layout: post
 title: "Use n8n Smart"
 date: 2025-10-04
 categories: ai llm best-practices development
+description: "Essential version control practices for n8n automation. Learn why Git tracking is critical for production workflows and how to prevent costly mistakes."
+keywords: "n8n best practices, automation version control, workflow management, Git for n8n, DevOps automation, n8n production"
 ---
 
 ## Use n8n Smart

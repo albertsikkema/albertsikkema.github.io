@@ -3,6 +3,8 @@ layout: post
 title: "Zero-Latency PII Filtering in Python Logging: GDPR Compliance Without the Performance Hit"
 date: 2025-11-06
 categories: python security best-practices gdpr
+description: "Achieve GDPR-compliant Python logging without performance overhead. Learn how to filter PII using background threads for zero-latency request handling."
+keywords: "Python logging, GDPR compliance, PII filtering, background thread processing, FastAPI logging, production-ready Python"
 ---
 
 While implementing centralized logging for a FastAPI service using Axiom for logging, I ran into a challenge: how do you filter PII (Personal Identifiable Information, like email, phone number etc.) from logs without slowing down your application?

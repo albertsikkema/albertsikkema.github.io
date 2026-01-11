@@ -3,6 +3,8 @@ layout: post
 title: "Introducing Logic App Manager"
 date: 2025-10-24
 categories: azure automation devops tools
+description: "Chrome extension for Azure Logic Apps backup and restore. Simple version control directly from Azure Portal with local JSON storage."
+keywords: "Azure Logic Apps, Logic Apps backup, Azure automation, Chrome extension, DevOps tools, workflow management"
 ---
 
 Today I released the first version of a Chrome extension for backing up and restoring Azure Logic Apps directly from the Azure Portal. This is the first step toward bringing full version control to Logic Apps.

@@ -44,6 +44,9 @@ social:
     - https://www.linkedin.com/in/albert-sikkema/
     - https://github.com/albertsikkema
 
+# Default Open Graph image
+logo: /assets/images/og-image.png
+
 # Language
 lang: en_US
 

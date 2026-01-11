@@ -3,6 +3,8 @@ layout: post
 title: "Modern Python Project Setup: My 2025 Developer's Stack"
 date: 2025-10-31
 categories: python development best-practices
+description: "Modern Python development stack for 2025 featuring uv, ruff, pytest, pydantic, and Docker. Fast, type-safe, and production-ready project setup."
+keywords: "Python 3.14, uv package manager, ruff formatter, pytest, pydantic, Python project setup, modern Python development"
 ---
 
 I've set up dozens of Python projects over the years, and I've watched the tooling evolve from pip and virtualenv to poetry, pipenv, and back to pip. So let me share what my current go-to setup is!
