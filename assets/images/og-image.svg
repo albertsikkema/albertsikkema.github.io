@@ -1,24 +1,65 @@
 <svg width="1200" height="630" xmlns="http://www.w3.org/2000/svg">
-  <!-- Background -->
-  <rect width="1200" height="630" fill="#111"/>
+  <!-- Background gradient -->
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#0f172a;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#1e293b;stop-opacity:1" />
+    </linearGradient>
 
-  <!-- Accent line -->
-  <rect x="0" y="0" width="1200" height="5" fill="#0a66c2"/>
+    <!-- Subtle grid pattern -->
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M 40 0 L 0 0 0 40" fill="none" stroke="#334155" stroke-width="0.5" opacity="0.3"/>
+    </pattern>
+  </defs>
 
-  <!-- Main content -->
-  <text x="60" y="160" font-family="system-ui, -apple-system, sans-serif" font-size="64" font-weight="600" fill="#ffffff">
+  <rect width="1200" height="630" fill="url(#bg)"/>
+  <rect width="1200" height="630" fill="url(#grid)"/>
+
+  <!-- Top accent bar -->
+  <rect x="0" y="0" width="1200" height="4" fill="#0a66c2"/>
+
+  <!-- Left side geometric accent -->
+  <rect x="80" y="180" width="8" height="120" fill="#0a66c2" opacity="0.8"/>
+  <rect x="80" y="320" width="8" height="80" fill="#0a66c2" opacity="0.4"/>
+
+  <!-- Main content - centered layout -->
+  <text x="600" y="200" font-family="system-ui, -apple-system, sans-serif" font-size="72" font-weight="700" fill="#ffffff" text-anchor="middle" letter-spacing="-1">
     Albert Sikkema
   </text>
 
-  <text x="60" y="220" font-family="system-ui, -apple-system, sans-serif" font-size="28" fill="#cccccc">
-    AI-Assisted Development &amp; Software Engineering
+  <text x="600" y="260" font-family="system-ui, -apple-system, sans-serif" font-size="32" fill="#94a3b8" text-anchor="middle" letter-spacing="0.5">
+    Building Production AI Systems
   </text>
 
-  <text x="60" y="290" font-family="system-ui, -apple-system, sans-serif" font-size="18" fill="#999" font-weight="400">
-    <tspan x="60" dy="0">Production-Ready AI Systems</tspan>
-    <tspan x="60" dy="30">Claude &amp; OpenAI Integration</tspan>
-    <tspan x="60" dy="30">Enterprise &amp; Government Projects</tspan>
+  <!-- Three columns of expertise -->
+  <g transform="translate(200, 350)">
+    <!-- Column 1 -->
+    <circle cx="0" cy="0" r="4" fill="#0a66c2"/>
+    <text x="20" y="6" font-family="system-ui, -apple-system, sans-serif" font-size="20" fill="#cbd5e1" font-weight="500">
+      Production-Ready AI
+    </text>
+
+    <!-- Column 2 -->
+    <circle cx="280" cy="0" r="4" fill="#0a66c2"/>
+    <text x="300" y="6" font-family="system-ui, -apple-system, sans-serif" font-size="20" fill="#cbd5e1" font-weight="500">
+      Claude &amp; OpenAI
+    </text>
+
+    <!-- Column 3 -->
+    <circle cx="560" cy="0" r="4" fill="#0a66c2"/>
+    <text x="580" y="6" font-family="system-ui, -apple-system, sans-serif" font-size="20" fill="#cbd5e1" font-weight="500">
+      Enterprise &amp; Gov
+    </text>
+  </g>
+
+  <!-- Bottom section -->
+  <line x1="300" y1="500" x2="900" y2="500" stroke="#334155" stroke-width="1"/>
+
+  <text x="600" y="550" font-family="system-ui, -apple-system, sans-serif" font-size="20" fill="#64748b" text-anchor="middle" letter-spacing="1">
+    albertsikkema.com
   </text>
 
-  <text x="600" y="580" font-family="Inter, -apple-system, system-ui, sans-serif" font-size="16" fill="#666" text-anchor="middle">albertsikkema.com</text>
+  <!-- Decorative corner elements -->
+  <rect x="1120" y="550" width="60" height="2" fill="#0a66c2" opacity="0.5"/>
+  <rect x="1178" y="490" width="2" height="62" fill="#0a66c2" opacity="0.5"/>
 </svg>

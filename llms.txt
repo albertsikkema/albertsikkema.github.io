@@ -1,4 +1,4 @@
-# Albert Sikkema - AI-Assisted Development & Software Engineering
+# Albert Sikkema - Building Production AI Systems
 
 > Personal blog and professional portfolio of Albert Sikkema, specializing in production-ready AI implementation for enterprise and government.
 
@@ -8,8 +8,8 @@ Albert Sikkema is a Lead Developer at ePublic Solutions based in the Netherlands
 
 ## Expertise
 
-- AI-Assisted Development
 - Production-Ready AI Systems
+- Enterprise AI Implementation
 - Claude AI & OpenAI Integration
 - LLM Implementation & Orchestration
 - Python Development
