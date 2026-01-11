@@ -5,7 +5,7 @@ description: "Lead Developer specializing in production-ready AI implementation 
 keywords: "production AI systems, AI implementation, Claude AI integration, OpenAI integration, LLM implementation, enterprise AI adoption, AI consulting Netherlands, Python AI development"
 
 about: |
-  Hi! I'm Albert. I help teams build AI systems that actually make it to production. Most of my days are spent at ePublic Solutions, leading development on projects for Dutch government ministries and enterprises.
+  Hi! I'm Albert. I help teams build AI systems that actually make it to production. Most of my time is spent at ePublic Solutions, leading development on projects for Dutch government ministries and enterprises. I also do freelance consulting and development focused on practical AI implementation.
 
   There's a lot of impressive AI demos out there that never become anything real—I focus on the fundamentals that make things work: architecture, reliability, security, documentation. Most of my work involves Python, Claude and OpenAI APIs, and building the infrastructure around them. Government projects taught me to care deeply about security, privacy, and building things maintainable by whoever comes next.
 
