@@ -253,6 +253,25 @@ My series of posts about Python you may find interesting (or not).
 - `thoughts/`: Internal notes and best practices documents (not published)
 - `about.markdown`: About page content
 
+### Width Consistency
+
+All pages use consistent width by inheriting Minima's default 800px content width (740px max-width + 30px padding on each side).
+
+**Implementation**:
+- Local `_layouts/post.html` override wraps content in `.landing-page` class with `.section` wrapper
+- Width consistency is achieved by using the same DOM structure across all layouts, allowing Minima's default styles to apply uniformly
+- Blog post text width constraint removed via `assets/main.scss:35-36` (sets max-width: none on .landing-page .section text elements) to prevent 800px restriction on landing page from affecting blog posts
+- All pages now use the same wrapper structure for consistent layout
+
+**Testing**:
+- Playwright plugin used for width consistency validation
+- All page types (landing, blog posts) verified to have matching header/content widths
+- Width difference: 0px (perfect alignment)
+
+**Files**:
+- `_layouts/post.html` - Blog post layout with `.landing-page` and `.section` wrappers
+- `assets/main.scss:35-36` - Text width constraint override for blog posts
+
 ### Jekyll Configuration
 - Theme: Minima 2.5
 - Plugins:
