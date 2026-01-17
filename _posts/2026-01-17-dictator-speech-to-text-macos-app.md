@@ -30,7 +30,7 @@ And also important: I built it for myself to improve my productivity when writin
 
 <figure>
   <img src="/assets/images/sm7-side.jpg" alt="Shure SM7 microphone, a classic dynamic microphone used for voice recording">
-  <figcaption>The venerable SM7 classic...</figcaption>
+  <figcaption>The venerable classic Shure SM7... Great microphone, however I do not use it. Just my inbuilt Macbook mics.</figcaption>
 </figure>
 
 ## How It Works
