@@ -28,6 +28,8 @@ I know, there are a lot of speech-to-text solutions out there, but I wanted some
 
 And also important: I built it for myself to improve my productivity when writing code.
 
+And since I was working on a client app that needs very sophisticated audio input handling, I figured why not use what I just learned to make something useful for myself and others?
+
 <figure>
   <img src="/assets/images/sm7-side.jpg" alt="Shure SM7 microphone, a classic dynamic microphone used for voice recording">
   <figcaption>The venerable classic Shure SM7... Great microphone, however I do not use it. Just my inbuilt Macbook mics.</figcaption>
