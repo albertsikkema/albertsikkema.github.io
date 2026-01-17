@@ -52,7 +52,7 @@ Grab the `.dmg` from the [releases page](https://github.com/albertsikkema/dictat
 
 This app is not signed with an Apple Developer certificate, so macOS will show security warnings. This is normal for open-source apps distributed outside the App Store.
 
-The app is safe—you can review the source code yourself. All audio processing happens locally on your Mac.
+The app is safe—you can review the source code yourself. All audio processing happens locally on your Mac. No data is sent to any servers.
 
 If right-click → Open doesn't work:
 
