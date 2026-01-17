@@ -46,8 +46,20 @@ The menu bar icon animates based on your voice volume so you know it's hearing y
 
 ## Installation
 
-Grab the `.dmg` from the [releases page](https://github.com/albertsikkema/dictator/releases), drag the app to Applications, right-click and select "Open". Grant microphone and accessibility permissions when prompted, and you're set. OSX may complain about unverified developers, but rest assured it's safe (you can verify the source code on GitHub).
+Grab the `.dmg` from the [releases page](https://github.com/albertsikkema/dictator/releases), drag the app to Applications, right-click and select "Open". Grant microphone and accessibility permissions when prompted, and you're set.
 
+### macOS Security
+
+This app is not signed with an Apple Developer certificate, so macOS will show security warnings. This is normal for open-source apps distributed outside the App Store.
+
+The app is safe—you can review the source code yourself. All audio processing happens locally on your Mac.
+
+If right-click → Open doesn't work:
+
+1. Go to **System Settings → Privacy & Security**
+2. Scroll down to the Security section
+3. You'll see a message about Dictator being blocked—click **Open Anyway**
+4. Confirm by clicking **Open** in the dialog
 
 ## Resources
 
