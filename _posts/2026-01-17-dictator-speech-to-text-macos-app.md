@@ -29,7 +29,7 @@ I know, there are a lot of speech-to-text solutions out there, but I wanted some
 And also important: I built it for myself to improve my productivity when writing code.
 
 <figure>
-  <img src="/assets/images/sm7_side.jpg" alt="Shure SM7 microphone, a classic dynamic microphone used for voice recording">
+  <img src="/assets/images/sm7-side.jpg" alt="Shure SM7 microphone, a classic dynamic microphone used for voice recording">
   <figcaption>The venerable SM7 classic...</figcaption>
 </figure>
 
