@@ -42,6 +42,8 @@ And also important: I built it for myself to improve my productivity when writin
 
 The menu bar icon animates based on your voice volume so you know it's hearing you. All transcription happens locally using [whisper.cpp](https://github.com/ggerganov/whisper.cpp) with Metal acceleration—no cloud, no API keys.
 
+**Note:** English only for now.
+
 ## Installation
 
 Grab the `.dmg` from the [releases page](https://github.com/albertsikkema/dictator/releases), drag the app to Applications, right-click and select "Open". Grant microphone and accessibility permissions when prompted, and you're set. OSX may complain about unverified developers, but rest assured it's safe (you can verify the source code on GitHub).
