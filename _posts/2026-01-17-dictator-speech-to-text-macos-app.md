@@ -2,9 +2,9 @@
 layout: post
 title: "Dictator: A Push-to-Talk Speech-to-Text App for macOS"
 date: 2026-01-17
-categories: python development macos productivity
+categories: python development macos productivity local-ai
 description: "Dictator is a lightweight macOS menu bar app that converts speech to text using whisper.cpp with GPU acceleration. Push-to-talk, instant paste, no cloud required."
-keywords: "speech to text, whisper.cpp, macOS app, voice transcription, push-to-talk, Python development, local AI, offline transcription"
+keywords: "speech to text, whisper.cpp, macOS app, voice transcription, push-to-talk, Python development, local AI, offline transcription, local first, Apple Silicon"
 ---
 
 I built [Dictator](https://github.com/albertsikkema/dictator), a simple push-to-talk speech-to-text app for macOS. Hold a key, speak, release, and the transcribed text gets pasted wherever your cursor is.
