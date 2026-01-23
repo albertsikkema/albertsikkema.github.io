@@ -47,7 +47,7 @@ ClientApp.make (ZIP)
 
 The `ai_chat.json` was massive. Every prompt, every response, every iteration the client went through while building the app. Not very useful, and not what I needed. (although i did try to extract design tokens from it at first, before turning to the binary file).
 
-The `canvas.fig` file held the actual code. 2.3 MB of binary data. Not a standard Figma design file. Time to dig deeper.
+The `canvas.fig` file held the actual code. 2.3 MB of binary data. That extension sounds more like a standard Figma design file. How to read that and see if it contains anything useful? Time to dig deeper.
 
 ## Decoding the Binary Format
 
