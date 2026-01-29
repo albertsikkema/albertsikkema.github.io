@@ -20,8 +20,6 @@ A few useful tips from readers:
 - **Use the [`file`](https://man7.org/linux/man-pages/man1/file.1.html) command first**: Before reaching for `xxd`, running `file ClientApp.make` would have identified it as a ZIP archive immediately. Good reminder to start with the obvious tools.
 - **Try [`binwalk`](https://github.com/ReFirmLabs/binwalk) for unknown binaries**: It scans for known file signatures and can identify embedded files within a single binary. Worth trying early in the process.
 
-See links in Resources for more info.
-
 Now let's get into it.
 
 ## The Discovery: It's Just a ZIP File
