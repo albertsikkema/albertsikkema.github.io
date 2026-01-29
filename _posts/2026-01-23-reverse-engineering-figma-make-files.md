@@ -13,6 +13,19 @@ Why would you not be able to do that? The wonders of corporate lock-in, I suppos
 
 That's a problem: no design file. What now? So on to searching for ways to extract the code.
 
+## Update - January 29, 2026
+
+A few useful tips from readers:
+
+- **Use the [`file`](https://man7.org/linux/man-pages/man1/file.1.html) command first**: Before reaching for `xxd`, running `file ClientApp.make` would have identified it as a ZIP archive immediately. Good reminder to start with the obvious tools.
+- **Try [`binwalk`](https://github.com/ReFirmLabs/binwalk) for unknown binaries**: It scans for known file signatures and can identify embedded files within a single binary. Worth trying early in the process.
+
+See links in Resources for more info.
+
+Now let's get into it.
+
+## The Discovery: It's Just a ZIP File
+
 So I started clicking around the Figma interface, looking for anything useful. That's when I noticed you can download the `.make` file itself. Download. A file, interesting!
 
 But I can not read it. Hmmm, what now? Rule number one: never trust the extension. A `.make` file could be anything. After a while I figured out it was a ZIP file. And in it was in essence a React application.
@@ -240,6 +253,10 @@ The scripts handle:
 - Pure curiosity about how Figma structures its data
 
 ## Resources
+
+**CLI Tools for Binary Analysis:**
+- [file](https://man7.org/linux/man-pages/man1/file.1.html) - Identify file types from magic bytes
+- [binwalk](https://github.com/ReFirmLabs/binwalk) - Scan for embedded files and compression signatures
 
 **Binary Format Analysis:**
 - [Kiwi Schema Format](https://github.com/nicbarker/kiwi)
