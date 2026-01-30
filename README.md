@@ -31,18 +31,6 @@ keywords: "keyword1, keyword2"
 ---
 ```
 
-## Claude Code Integration
-
-This repo includes custom commands and skills for [Claude Code](https://claude.ai/code):
-
-| Command/Skill | Description |
-|---------------|-------------|
-| `/draft-to-post <path>` | Transform a draft into a polished blog post |
-| `excalidraw-diagram` | Create diagrams from text descriptions |
-| `find-image` | Find stock images for blog posts |
-
-See [CLAUDE.md](CLAUDE.md) for full documentation on writing style, SEO guidelines, and repo architecture.
-
 ## Tech Stack
 
 - **Framework**: Jekyll
