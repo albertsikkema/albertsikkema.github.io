@@ -300,6 +300,32 @@ $base-font-family: 'Inter', -apple-system, BlinkMacSystemFont, "Segoe UI", Robot
       }
     }
   }
+
+  .footer-legal {
+    margin-top: 20px;
+    padding-top: 16px;
+    border-top: 1px solid #e8e8e8;
+
+    p {
+      font-size: 0.8rem;
+      color: #888;
+      margin: 0;
+    }
+
+    .footer-legal-links {
+      margin-top: 8px;
+
+      a {
+        color: #888;
+        text-decoration: none;
+
+        &:hover {
+          color: #111;
+          text-decoration: underline;
+        }
+      }
+    }
+  }
 }
 
 // Make footer columns fill the full width (50% each)
