@@ -13,7 +13,8 @@ Albert Sikkema ("I", "me") operates the website albertsikkema.com. This privacy 
 Albert Sikkema
 Eenmanszaak
 KvK: 99658550
-Email: contact@albertsikkema.com
+
+<a href="#" onclick="task1(); return false;">Get in touch</a>
 
 ## What data I collect
 
@@ -51,7 +52,7 @@ Under the GDPR (AVG), you have the right to:
 - **Data portability**: Receive your data in a portable format
 - **Object**: Object to processing based on legitimate interest
 
-To exercise these rights, contact me at contact@albertsikkema.com.
+To exercise these rights, <a href="#" onclick="task1(); return false;">get in touch</a>.
 
 ## Data sharing
 
@@ -73,6 +74,6 @@ I may update this privacy policy. Significant changes will be noted with an upda
 
 ## Questions or complaints
 
-For questions, contact me at contact@albertsikkema.com.
+For questions, <a href="#" onclick="task1(); return false;">get in touch</a>.
 
 If you believe your data protection rights have been violated, you have the right to lodge a complaint with the Dutch Data Protection Authority (Autoriteit Persoonsgegevens) at [autoriteitpersoonsgegevens.nl](https://www.autoriteitpersoonsgegevens.nl/).

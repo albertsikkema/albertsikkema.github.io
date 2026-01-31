@@ -6,7 +6,7 @@ permalink: /terms/
 
 **Last updated:** January 2025
 
-*[Nederlandse versie](/voorwaarden/)*
+*[Nederlandse versie](/voorwaarden/)* — In case of ambiguity between the English and Dutch versions, the Dutch version prevails.
 
 These General Terms and Conditions ("Terms") apply to all services provided by Albert Sikkema, registered as an eenmanszaak at the Dutch Chamber of Commerce (KvK) under number 99658550.
 
@@ -127,4 +127,5 @@ These General Terms and Conditions ("Terms") apply to all services provided by A
 Albert Sikkema
 Eenmanszaak
 KvK: 99658550
-Email: contact@albertsikkema.com
+
+<a href="#" onclick="task1(); return false;">Get in touch</a>

@@ -6,7 +6,7 @@ permalink: /voorwaarden/
 
 **Laatst bijgewerkt:** januari 2025
 
-*[English version](/terms/)*
+*[English version](/terms/)* — Bij onduidelijkheid tussen de Engelse en Nederlandse versie is de Nederlandse versie leidend.
 
 Deze Algemene Voorwaarden zijn van toepassing op alle diensten van Albert Sikkema, ingeschreven als eenmanszaak bij de Kamer van Koophandel onder nummer 99658550.
 
@@ -127,4 +127,5 @@ Deze Algemene Voorwaarden zijn van toepassing op alle diensten van Albert Sikkem
 Albert Sikkema
 Eenmanszaak
 KvK: 99658550
-E-mail: contact@albertsikkema.com
+
+<a href="#" onclick="task1(); return false;">Neem contact op</a>
