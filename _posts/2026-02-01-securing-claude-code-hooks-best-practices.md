@@ -805,4 +805,4 @@ Security isn't about preventing all possible risks: it's about reducing attack s
 
 *No, I didn't read every single detail of every link. I also use this post as a reference for myself when I need to look something up later.*
 
-*Working with Claude Code in production? I'd love to hear about your security patterns and hook implementations. [Get in touch](/contact) to share your experiences.*
+*Working with Claude Code in production? I'd love to hear about your security patterns and hook implementations. <a href="#" onclick="task1(); return false;">Get in touch</a> to share your experiences.*

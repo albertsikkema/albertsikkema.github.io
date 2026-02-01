@@ -130,4 +130,4 @@ The pattern of research→plan→implement→review has served me well. Now it r
 
 ---
 
-*Are you automating your AI-assisted workflows? What patterns have you found useful? I'd love to hear about your experiences—connect with me on [LinkedIn](https://www.linkedin.com/in/albert-sikkema/).*
+*Are you automating your AI-assisted workflows? What patterns have you found useful? I'd love to hear about your experiences—<a href="#" onclick="task1(); return false;">get in touch</a>.*

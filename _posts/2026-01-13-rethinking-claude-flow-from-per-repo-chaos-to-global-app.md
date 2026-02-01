@@ -207,4 +207,4 @@ If you're building tools that integrate with Claude Code or other AI-assisted de
 
 ---
 
-*Building tools for AI-assisted development? I'd love to hear what patterns you've found useful—connect with me on [LinkedIn](https://www.linkedin.com/in/albert-sikkema/).*
+*Building tools for AI-assisted development? I'd love to hear what patterns you've found useful—<a href="#" onclick="task1(); return false;">get in touch</a>.*

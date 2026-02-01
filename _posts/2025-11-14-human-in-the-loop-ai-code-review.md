@@ -108,4 +108,4 @@ And if you're using LLM-generated tests like I do: maybe give those an extra car
 
 ---
 
-*Have you caught similar meta-bugs in LLM-generated code? How do you balance automation with human review? I'd love to hear about your experiences—connect with me on [LinkedIn](https://www.linkedin.com/in/albert-sikkema/).*
+*Have you caught similar meta-bugs in LLM-generated code? How do you balance automation with human review? I'd love to hear about your experiences—<a href="#" onclick="task1(); return false;">get in touch</a>.*

@@ -20,6 +20,8 @@ In my professional arena, I serve as the lead developer and managing consultant 
 
 If you wish to connect, have inquiries, questions, or just want to share ideas, feel free to reach out to me.
 
+<a href="#" onclick="task1(); return false;">Get in touch</a>
+
 [Linkedin][linkedin-albert]
 
 [Github][github-albert]

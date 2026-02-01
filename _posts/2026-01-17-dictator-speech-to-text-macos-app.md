@@ -70,4 +70,4 @@ If right-click → Open doesn't work:
 
 ---
 
-*Questions or feedback? Connect with me on [LinkedIn](https://www.linkedin.com/in/albert-sikkema/).*
+*Questions or feedback? <a href="#" onclick="task1(); return false;">Get in touch</a>.*

@@ -267,4 +267,4 @@ The scripts handle:
 
 ---
 
-*Have a Figma Make file you can't crack? Questions about the binary format? Connect on [LinkedIn](https://www.linkedin.com/in/albert-sikkema/) or open an issue on [GitHub](https://github.com/albertsikkema/figma-make-extractor).*
+*Have a Figma Make file you can't crack? Questions about the binary format? <a href="#" onclick="task1(); return false;">Get in touch</a> or open an issue on [GitHub](https://github.com/albertsikkema/figma-make-extractor).*

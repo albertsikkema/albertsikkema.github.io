@@ -43,4 +43,4 @@ Repository: [github.com/albertsikkema/logic-app-manager](https://github.com/albe
 
 ---
 
-*Questions or feedback? Find me on [LinkedIn](https://www.linkedin.com/in/albert-sikkema/) or open an issue on [GitHub](https://github.com/albertsikkema/logic-app-manager).*
+*Questions or feedback? <a href="#" onclick="task1(); return false;">Get in touch</a> or open an issue on [GitHub](https://github.com/albertsikkema/logic-app-manager).*

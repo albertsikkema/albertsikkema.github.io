@@ -1182,4 +1182,4 @@ Remember: good logging is an investment. It pays dividends every time you need t
 
 ---
 
-*What's your approach to logging in Python applications? Have you encountered performance issues with async logging? I'd love to hear about your experiences—connect with me on [LinkedIn](https://www.linkedin.com/in/albert-sikkema/).*
+*What's your approach to logging in Python applications? Have you encountered performance issues with async logging? I'd love to hear about your experiences—<a href="#" onclick="task1(); return false;">get in touch</a>.*

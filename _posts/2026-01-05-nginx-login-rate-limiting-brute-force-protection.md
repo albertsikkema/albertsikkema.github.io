@@ -267,4 +267,4 @@ Total configuration: about 20 lines of NixOS config. Time to implement: 30 minut
 
 ---
 
-*How do you handle login rate limiting? Found edge cases I didn't cover? I'd love to hear about it—connect with me on [LinkedIn](https://www.linkedin.com/in/albert-sikkema/).*
+*How do you handle login rate limiting? Found edge cases I didn't cover? I'd love to hear about it—<a href="#" onclick="task1(); return false;">get in touch</a>.*

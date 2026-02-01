@@ -135,4 +135,4 @@ That's what this stack delivers for me.
 
 ---
 
-*What's your Python setup looking like in 2025? Found tools that work better? I'd love to hear about it—connect with me on [LinkedIn](https://www.linkedin.com/in/albert-sikkema/).*
+*What's your Python setup looking like in 2025? Found tools that work better? I'd love to hear about it—<a href="#" onclick="task1(); return false;">get in touch</a>.*

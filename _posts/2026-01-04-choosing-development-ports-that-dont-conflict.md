@@ -93,4 +93,4 @@ I'll write more about the implementation once it's stable enough to share. The r
 
 ---
 
-*What ports do you use for development? Found other conflicts I didn't mention? I'd love to hear about it—connect with me on [LinkedIn](https://www.linkedin.com/in/albert-sikkema/).*
+*What ports do you use for development? Found other conflicts I didn't mention? I'd love to hear about it—<a href="#" onclick="task1(); return false;">get in touch</a>.*

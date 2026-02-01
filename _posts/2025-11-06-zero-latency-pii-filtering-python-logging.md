@@ -252,4 +252,4 @@ By leveraging the background thread that already exists in modern logging librar
 
 ---
 
-*How do you handle PII in your logging? Found other patterns that work? I'd love to hear about your approach—connect with me on [LinkedIn](https://www.linkedin.com/in/albert-sikkema/).*
+*How do you handle PII in your logging? Found other patterns that work? I'd love to hear about your approach—<a href="#" onclick="task1(); return false;">get in touch</a>.*

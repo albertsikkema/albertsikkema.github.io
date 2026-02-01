@@ -151,4 +151,4 @@ That would simplify to just two files: project.md for context, todo.md for activ
 
 ---
 
-*What documentation approaches have you found that work well with AI? What's helped or hurt your workflow? I'd love to hear about it—connect with me on [LinkedIn](https://www.linkedin.com/in/albert-sikkema/).*
+*What documentation approaches have you found that work well with AI? What's helped or hurt your workflow? I'd love to hear about it—<a href="#" onclick="task1(); return false;">get in touch</a>.*
