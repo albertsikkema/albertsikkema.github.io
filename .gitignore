@@ -8,6 +8,4 @@ vendor/
 
 Gemfile.lock
 .claude/
-claude-helpers/
-.env.claude
-thoughts/
+memories/
