@@ -4,7 +4,7 @@ title: "Vibe Coding: Product Quality and Democratisation"
 date: 2026-02-05
 categories: ai development
 description: "Vibe coding changes who can build software and what happens when they do. On product quality, democratisation, and when personal tools become products."
-keywords: "vibe coding, AI development, software democratisation, product quality, LLM coding tools, build vs buy"
+keywords: "vibe coding, AI development, software democratisation, product quality, LLM coding tools, build vs buy, equality"
 ---
 
 I read a few articles the last few weeks about the state of SaaS products and the changes in making and selling software because of the emergence of LLM use among a greater customer base. Some are calling it the SaaSpocalypse: customers can now build their own tools, so why would they keep paying for yours? ([SaaS](https://en.wikipedia.org/wiki/Software_as_a_service): Software as a Service)
