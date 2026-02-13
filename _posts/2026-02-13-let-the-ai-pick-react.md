@@ -19,7 +19,7 @@ React has the most code in LLM training data. LLMs therefore [generate better Re
 
 The evidence is hard to miss: give an LLM a vague prompt like "build me a web app" and you will almost invariably get React + Tailwind + shadcn/ui. Tools like [v0](https://v0.dev), [Lovable](https://lovable.dev), and [Bolt.new](https://bolt.new) all default to this stack. v0 technically supports Vue and Svelte, but by Vercel's own admission it "really works best using React, Tailwind and shadcn/ui."
 
-The usual reaction to this is concern. It is called "[the problem with the default AI stack](https://maximilian-schwarzmueller.com/articles/the-problem-with-the-default-ai-stack/)." [Others warn](https://logicloop.dev/frontend-frameworks/ai-creating-developer-monoculture-frontend-framework-diversity/) about stifled innovation, outdated patterns being perpetuated at scale, and a knowledge barrier for newcomers who never discover alternatives because the AI never suggests them.
+The usual reaction to this is concern. It is called [the problem with the default AI stack](https://maximilian-schwarzmueller.com/articles/the-problem-with-the-default-ai-stack/). [Others warn](https://logicloop.dev/frontend-frameworks/ai-creating-developer-monoculture-frontend-framework-diversity/) about stifled innovation, outdated patterns being perpetuated at scale, and a knowledge barrier for newcomers who never discover alternatives because the AI never suggests them.
 
 I see it differently.
 
