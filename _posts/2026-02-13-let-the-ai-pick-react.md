@@ -5,6 +5,7 @@ date: 2026-02-13
 categories: ai development
 description: "The AI-React reinforcement loop is creating a monoculture. That might be exactly what frontend development needs."
 keywords: "react, AI development, vibe coding, frontend frameworks, monoculture, svelte, standardisation, LLM coding"
+image: /assets/images/ai-react-convergence.jpg
 ---
 
 <figure>
