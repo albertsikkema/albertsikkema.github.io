@@ -51,7 +51,7 @@ De wegbeheerders met de meeste ontoegankelijke haltes:
 
 ## De tool: Toegankelijke Bushaltes
 
-[**Toegankelijke Bushaltes**](https://albertsikkema.github.io/toegankelijke-bushaltes/) is een interactieve kaart die alle 20.277 ontoegankelijke haltes toont, gegroepeerd per wegbeheerder. In de zijbalk klik je op je gemeente (of provincie, waterschap, etc.) en je ziet direct welke haltes niet voldoen. Je kunt inzoomen, haltes aanklikken, en zien welke haltes niet voldoen aan de eisen. En het belangrijkste: je kunt met één klik een e-mail genereren naar de verantwoordelijke wegbeheerder.
+[**Toegankelijke Bushaltes**](https://albertsikkema.github.io/niet-toegankelijke-bushaltes/) is een interactieve kaart die alle 20.277 ontoegankelijke haltes toont, gegroepeerd per wegbeheerder. In de zijbalk klik je op je gemeente (of provincie, waterschap, etc.) en je ziet direct welke haltes niet voldoen. Je kunt inzoomen, haltes aanklikken, en zien welke haltes niet voldoen aan de eisen. En het belangrijkste: je kunt met één klik een e-mail genereren naar de verantwoordelijke wegbeheerder.
 
 ## De e-mail: goed onderbouwd, klaar om te versturen
 
@@ -76,7 +76,7 @@ Deze tool maakt die data zichtbaar en actionable. In een paar klikken kun je zie
 
 ## Open source, voor iedereen
 
-De tool is volledig open source. De broncode staat op [GitHub](https://github.com/albertsikkema/toegankelijke-bushaltes). Technisch is het bewust simpel gehouden: een datapipeline in Node.js die de DOVA- en Allmanak-data ophaalt, en een statische frontend met vanilla HTML, CSS en JavaScript — met een Leaflet-kaart en marker clustering. Geen frameworks en geen build-stappen. De data is verversbaar door de pipeline opnieuw te draaien.
+De tool is volledig open source. De broncode staat op [GitHub](https://github.com/albertsikkema/niet-toegankelijke-bushaltes). Technisch is het bewust simpel gehouden: een datapipeline in Node.js die de DOVA- en Allmanak-data ophaalt, en een statische frontend met vanilla HTML, CSS en JavaScript — met een Leaflet-kaart en marker clustering. Geen frameworks en geen build-stappen. De data is verversbaar door de pipeline opnieuw te draaien.
 
 ## De timing: gemeenteraadsverkiezingen op 18 maart
 
@@ -84,11 +84,11 @@ Op 18 maart 2026 zijn de gemeenteraadsverkiezingen. Dat maakt dit hét moment om
 
 ## Wat kun jij doen?
 
-1. **Ga naar [de tool](https://albertsikkema.github.io/toegankelijke-bushaltes/)** en zoek je eigen gemeente op
+1. **Ga naar [de tool](https://albertsikkema.github.io/niet-toegankelijke-bushaltes/)** en zoek je eigen gemeente op
 2. **Bekijk welke haltes niet voldoen** — misschien is het die halte bij jou om de hoek
 3. **Genereer een e-mail** en stuur die naar je wegbeheerder — liefst vóór 18 maart
 4. **Deel de tool** met je gemeenteraad, je lokale belangenorganisatie, je buren
 5. **Stel het aan de orde** bij verkiezingsdebatten en inspraakavonden in je gemeente
-6. **Heb je suggesties of wil je bijdragen?** Open een issue op [GitHub](https://github.com/albertsikkema/toegankelijke-bushaltes)
+6. **Heb je suggesties of wil je bijdragen?** Open een issue op [GitHub](https://github.com/albertsikkema/niet-toegankelijke-bushaltes)
 
 Toegankelijkheid is geen gunst. Het is een recht. En soms begint verandering met een simpele e-mail — zeker als die drie weken voor de verkiezingen op de mat valt.
