@@ -5,7 +5,13 @@ date: 2026-02-24
 categories: accessibility open-source civic-tech
 description: "Een open-source tool die alle 20.277 ontoegankelijke bushaltes in Nederland zichtbaar maakt en burgers helpt actie te ondernemen."
 keywords: "bushaltes, toegankelijkheid, OV, open data, civic tech, VN-verdrag handicap, CROW, gemeenten, open source"
+image: /assets/images/busstop-fail.jpg
 ---
+
+<figure>
+  <img src="/assets/images/busstop-fail.jpg" alt="Een ontoegankelijke bushalte in Nederland: geen verhoogd perron, geen geleidelijnen">
+  <figcaption>Een bushalte een paar kilometer van mijn huis. Geen verhoogd perron, geen geleidelijnen — ontoegankelijk voor veel reizigers.</figcaption>
+</figure>
 
 *This post is in Dutch — a first for this blog. It covers a topic specific to the Netherlands: I built an open-source tool that maps all 20,277 inaccessible bus stops in the country and lets citizens email the responsible authority with a legally grounded request for improvements. Apologies to my English-speaking readers; normal service will resume next post.*
 
