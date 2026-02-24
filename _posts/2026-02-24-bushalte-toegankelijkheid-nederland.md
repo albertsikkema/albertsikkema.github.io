@@ -25,7 +25,7 @@ Afgelopen jaren ben ik intensief bezig geweest met toegankelijkheid, onder ander
 
 Het [Centraal Haltebestand](https://dova.nu) — beheerd door DOVA, het samenwerkingsverband van OV-autoriteiten — bevat gedetailleerde informatie over elke bushalte in Nederland. Van elke halte is bekend hoe hoog de stoeprand is, hoe breed het perron, of er geleidelijnen liggen, of de halte obstakels heeft. Al die data is openbaar.
 
-Maar "openbaar" is niet hetzelfde als "zichtbaar". De data zit in de [Halteviewer](https://halteviewer.ov-data.nl), een tool voor professionals. Je moet weten dat die bestaat, je moet weten hoe je erin zoekt, en je moet de CROW-richtlijnen kennen om te snappen wat je ziet. Voor een gemeenteraadslid dat wil weten hoeveel haltes in haar gemeente niet op orde zijn, is dat een doodlopende weg.
+Maar "openbaar" is niet hetzelfde als "zichtbaar". De data zit in de [Halteviewer](https://halteviewer.ov-data.nl), een tool voor professionals. Je moet weten dat die bestaat, je moet weten hoe je erin zoekt. Voor een gemeenteraadslid of burger die willen weten hoeveel haltes in hun gemeente niet op orde zijn, is dat een doodlopende weg.
 
 ## 20.277 haltes die niet voldoen
 
