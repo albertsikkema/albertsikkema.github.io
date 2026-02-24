@@ -51,7 +51,7 @@ De wegbeheerders met de meeste ontoegankelijke haltes:
 
 ## De tool: Toegankelijke Bushaltes
 
-[**Toegankelijke Bushaltes**](https://nietmetdebus.nl/) (ook bereikbaar via [albertsikkema.github.io/niet-toegankelijke-bushaltes](https://albertsikkema.github.io/niet-toegankelijke-bushaltes/)) is een interactieve kaart die alle 20.277 ontoegankelijke haltes toont, gegroepeerd per wegbeheerder. In de zijbalk klik je op je gemeente (of provincie, waterschap, etc.) en je ziet direct welke haltes niet voldoen. Je kunt inzoomen, haltes aanklikken, en zien welke haltes niet voldoen aan de eisen. En het belangrijkste: je kunt met één klik een e-mail genereren naar de verantwoordelijke wegbeheerder.
+[**Niet met de bus?**](https://nietmetdebus.nl/) is een interactieve kaart die alle 20.277 ontoegankelijke haltes toont, gegroepeerd per wegbeheerder. In de zijbalk klik je op je gemeente (of provincie, waterschap, etc.) en je ziet direct welke haltes niet voldoen. Je kunt inzoomen, haltes aanklikken, en zien welke haltes niet voldoen aan de eisen. En het belangrijkste: je kunt met één klik een e-mail genereren naar de verantwoordelijke wegbeheerder.
 
 ## De e-mail: goed onderbouwd, klaar om te versturen
 
