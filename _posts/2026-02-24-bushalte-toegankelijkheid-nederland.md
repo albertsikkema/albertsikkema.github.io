@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Bijna de helft van alle bushaltes in Nederland is ontoegankelijk — dus bouwde ik een tool"
+title: "Bijna de helft van alle bushaltes in Nederland is ontoegankelijk, dus bouwde ik een tool om er wat aan te doen"
 date: 2026-02-24
 categories: accessibility open-source civic-tech
 description: "Een open-source tool die alle 20.277 ontoegankelijke bushaltes in Nederland zichtbaar maakt en burgers helpt actie te ondernemen."
