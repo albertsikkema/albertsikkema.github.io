@@ -51,7 +51,7 @@ De wegbeheerders met de meeste ontoegankelijke haltes:
 
 ## De tool: Toegankelijke Bushaltes
 
-[**Toegankelijke Bushaltes**](https://albertsikkema.github.io/niet-toegankelijke-bushaltes/) is een interactieve kaart die alle 20.277 ontoegankelijke haltes toont, gegroepeerd per wegbeheerder. In de zijbalk klik je op je gemeente (of provincie, waterschap, etc.) en je ziet direct welke haltes niet voldoen. Je kunt inzoomen, haltes aanklikken, en zien welke haltes niet voldoen aan de eisen. En het belangrijkste: je kunt met één klik een e-mail genereren naar de verantwoordelijke wegbeheerder.
+[**Toegankelijke Bushaltes**](https://nietmetdebus.nl/) (ook bereikbaar via [albertsikkema.github.io/niet-toegankelijke-bushaltes](https://albertsikkema.github.io/niet-toegankelijke-bushaltes/)) is een interactieve kaart die alle 20.277 ontoegankelijke haltes toont, gegroepeerd per wegbeheerder. In de zijbalk klik je op je gemeente (of provincie, waterschap, etc.) en je ziet direct welke haltes niet voldoen. Je kunt inzoomen, haltes aanklikken, en zien welke haltes niet voldoen aan de eisen. En het belangrijkste: je kunt met één klik een e-mail genereren naar de verantwoordelijke wegbeheerder.
 
 ## De e-mail: goed onderbouwd, klaar om te versturen
 
@@ -84,7 +84,7 @@ Op 18 maart 2026 zijn de gemeenteraadsverkiezingen. Dat maakt dit hét moment om
 
 ## Wat kun jij doen?
 
-1. **Ga naar [de tool](https://albertsikkema.github.io/niet-toegankelijke-bushaltes/)** en zoek je eigen gemeente op
+1. **Ga naar [nietmetdebus.nl](https://nietmetdebus.nl/)** en zoek je eigen gemeente op
 2. **Bekijk welke haltes niet voldoen** — misschien is het die halte bij jou om de hoek
 3. **Genereer een e-mail** en stuur die naar je wegbeheerder — liefst vóór 18 maart
 4. **Deel de tool** met je gemeenteraad, je lokale belangenorganisatie, je buren
