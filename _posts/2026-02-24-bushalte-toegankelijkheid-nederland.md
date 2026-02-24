@@ -91,4 +91,4 @@ Op 18 maart 2026 zijn de gemeenteraadsverkiezingen. Dat maakt dit hét moment om
 5. **Stel het aan de orde** bij verkiezingsdebatten en inspraakavonden in je gemeente
 6. **Heb je suggesties of wil je bijdragen?** Open een issue op [GitHub](https://github.com/albertsikkema/niet-toegankelijke-bushaltes)
 
-Toegankelijkheid is geen gunst. Het is een recht. En soms begint verandering met een simpele e-mail — zeker als die drie weken voor de verkiezingen op de mat valt.
+Toegankelijkheid is geen gunst. Het is een recht. En soms begint verandering met een simpele e-mail.
