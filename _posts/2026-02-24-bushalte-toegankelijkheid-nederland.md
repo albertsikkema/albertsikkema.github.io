@@ -53,6 +53,11 @@ De wegbeheerders met de meeste ontoegankelijke haltes:
 
 [**Niet met de bus?**](https://nietmetdebus.nl/) is een interactieve kaart die alle 20.277 ontoegankelijke haltes toont, gegroepeerd per wegbeheerder. In de zijbalk klik je op je gemeente (of provincie, waterschap, etc.) en je ziet direct welke haltes niet voldoen. Je kunt inzoomen, haltes aanklikken, en zien welke haltes niet voldoen aan de eisen. En het belangrijkste: je kunt met één klik een e-mail genereren naar de verantwoordelijke wegbeheerder.
 
+<figure>
+  <a href="https://nietmetdebus.nl/"><img src="/assets/images/nietmetdebus-screenshot.jpg" alt="Screenshot van nietmetdebus.nl: een interactieve kaart met ontoegankelijke bushaltes in Nederland"></a>
+  <figcaption>De interactieve kaart op nietmetdebus.nl toont alle ontoegankelijke bushaltes per wegbeheerder.</figcaption>
+</figure>
+
 ## De e-mail: goed onderbouwd, klaar om te versturen
 
 De gegenereerde e-mail is geen vaag verzoekje. Hij bevat:
