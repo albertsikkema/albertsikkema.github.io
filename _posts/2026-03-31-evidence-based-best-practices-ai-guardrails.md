@@ -41,7 +41,7 @@ What I ended up building is a connected system of three layers:
 
 **Requirements** define *what* must be true. Each has an ID, a description, and a project phase (start, mvp, production). For example:
 
-> **REQ-API-001**: Error responses must follow RFC 9457 (Problem Details for HTTP APIs) with a consistent structure: `type`, `title`, `status`, `detail`, and optional `instance` and extension fields.
+> **REQ-API-001**: Error responses must follow RFC 9457 (Problem Details for HTTP APIs) with a consistent structure: `type`, `title`, `status`, `detail`, and optional `instance` and extension fields. *(Phase: mvp)*
 
 **Specifications** define *how* to implement each requirement. They trace back to requirement IDs:
 
