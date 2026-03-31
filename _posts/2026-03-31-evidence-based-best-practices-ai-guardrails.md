@@ -33,7 +33,7 @@ I went through the same cycle most people go through. First, I wrote instruction
 
 I also tried existing frameworks (when I started they did not really exist yet). [BMAD](https://github.com/bmadcode/BMAD-METHOD), spec-driven development, [HumanLayer](https://github.com/humanlayer/humanlayer) (which I genuinely liked for its "thoughts" directory approach to project memory). But in practice, I found most of them too dogmatic. They impose a rigid process that doesn't bend to the messy reality of actual projects, where sometimes you need to spike something quickly, sometimes you need deep planning, and the model needs to know the difference. What works is pragmatism: take the good ideas from each, discard the ceremony, and [build something that adapts to how you actually work](/ai/tools/productivity/2025/10/14/supercharge-claude-code-with-custom-configuration.html).
 
-I am not explaining my full system in this series: it would take way more to explain that, maybe I will do that later. (i am now building a semi-automated system, that takes these best practices and so far is actually able to write better code than I can, maintaining a level of quality and coherence) But it remains a work in progress.
+I am not explaining my full system in this series: it would take way more to explain that, maybe I will do that later. (I am now building a semi-automated system, that takes these best practices and so far is actually able to write better code than I can, maintaining a level of quality and coherence) But it remains a work in progress.
 
 ## The System: Requirements, Specifications, Best Practices
 
@@ -59,11 +59,11 @@ Yes. It does.
 
 Loading best practice files, requirements, and specifications into context costs tokens. There's no way around that. But the cost is manageable if you're smart about *when* you load *what*.
 
-I don't dump all 18 files into every conversation. The full files are loaded during the steps that actually use them: planning and review. When the model is designing an approach or reviewing code against standards, it needs the deep knowledge. When it's implementing a well-defined task from an approved plan, the plan itself already encodes the relevant practices, the model doesn't need to re-read the source material. And every now and then you find a little gem, where claude code starts correcting you based on you own best practices (one of them is to leave no dead code (commented out)) in the repo. It corrected me that this was not in accordance with the best practices.
+I don't dump all 18 files into every conversation. The full files are loaded during the steps that actually use them: planning and review. When the model is designing an approach or reviewing code against standards, it needs the deep knowledge. When it's implementing a well-defined task from an approved plan, the plan itself already encodes the relevant practices, the model doesn't need to re-read the source material. And every now and then you find a little gem, where Claude Code starts correcting you based on your own best practices. One of mine says to leave no dead code in the repo. It corrected me that my commented-out code was not in accordance with the best practices.
 
 The alternative, not spending the tokens, is worse. Without this context, the model drifts. It makes its own architectural decisions, picks its own error format, skips validation it doesn't know you care about. Then you spend tokens correcting it. And correcting the corrections. And explaining why the correction matters. And next conversation, you start over.
 
-In the ends it is simple math: pay upfront to load the model with your standards at the right moments, or you pay afterwards and repeatedly to fix the output when it inevitably diverges from what you need. The upfront cost is predictable and targeted. The correction cost is unpredictable and compounds. (both in time and in money)
+In the end it is simple math: pay upfront to load the model with your standards at the right moments, or you pay afterwards and repeatedly to fix the output when it inevitably diverges from what you need. The upfront cost is predictable and targeted. The correction cost is unpredictable and compounds. (both in time and in money)
 
 So yes, be selective: nothing more and nothing less than what is needed at that point. A frontend task doesn't need the container security file. A database migration doesn't need the accessibility rules. Load what's relevant to the phase of work you're in.
 
