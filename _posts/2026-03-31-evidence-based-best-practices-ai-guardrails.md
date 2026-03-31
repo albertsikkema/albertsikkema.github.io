@@ -9,7 +9,7 @@ image: evidence-based-best-practices-ai-guardrails-blog.png
 ---
 
 <figure>
-  <img src="/assets/images/guardrails-desert-road-valley-of-fire.jpg" alt="Desert road with guardrails leading toward red mountains in Valley of Fire, Nevada" width="1920" height="2832" fetchpriority="high">
+  <img src="/assets/images/guardrails-desert-road-valley-of-fire.jpg" alt="Desert road with guardrails leading toward red mountains in Valley of Fire, Nevada" width="1920" height="2832" fetchpriority="high" style="width:100%;height:auto">
   <figcaption>Guardrails keep you on the road, even when the terrain gets rough. Photo by <a href="https://unsplash.com/@bricecooper">Brice Cooper</a> on <a href="https://unsplash.com/photos/a-road-with-a-mountain-in-the-background-rZybLYQ7xTg">Unsplash</a>.</figcaption>
 </figure>
 
