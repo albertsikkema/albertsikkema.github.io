@@ -5,11 +5,11 @@ date: 2026-03-31
 categories: ai development best-practices
 description: "How structured, evidence-based best practice files keep Claude Code from cutting corners. Part 1 of 3: architecture, error handling, testing, API design, data integrity, and structured logging."
 keywords: "Claude Code, best practices, AI guardrails, software architecture, error handling, testing strategy, API design, data integrity, structured logging, WCAG, RFC 9457, OWASP"
-image: /assets/images/evidence-based-best-practices-ai-guardrails-blog.png
+image: evidence-based-best-practices-ai-guardrails-blog.png
 ---
 
 <figure>
-  <img src="/assets/images/guardrails-desert-road-valley-of-fire.jpg" alt="Desert road with guardrails leading toward red mountains in Valley of Fire, Nevada">
+  <img src="/assets/images/guardrails-desert-road-valley-of-fire.jpg" alt="Desert road with guardrails leading toward red mountains in Valley of Fire, Nevada" width="1920" height="2832" fetchpriority="high">
   <figcaption>Guardrails keep you on the road, even when the terrain gets rough. Photo by <a href="https://unsplash.com/@bricecooper">Brice Cooper</a> on <a href="https://unsplash.com/photos/a-road-with-a-mountain-in-the-background-rZybLYQ7xTg">Unsplash</a>.</figcaption>
 </figure>
 
@@ -29,9 +29,9 @@ You've probably tried the obvious approach: tell the LLM what to do.
 
 This works once, maybe twice but inevitably it drifts. The model is smart enough, but the instructions are vague, context-dependent, and easily outweighed by other things in the prompt. "Handle errors properly" means nothing without defining what "properly" looks like in your stack, with your patterns, for your use case. And you need to keep repeating this, every prompt. Or it will revert to its old ways.
 
-I went through the same cycle most people go through. First, I wrote instructions in the prompt, then claude.md. Then I moved them to rules. Then I added hooks to enforce them. Each step helped, but the model kept finding new ways to cut corners I hadn't explicitly forbidden. Then skills came into swing.
+I went through the same cycle most people go through. First, I wrote instructions in the prompt, then claude.md. Then I moved them to rules. Then I [added hooks to enforce them](/ai/security/development/tools/2026/02/01/securing-claude-code-hooks-best-practices.html). Each step helped, but the model kept finding new ways to cut corners I hadn't explicitly forbidden. Then skills came into swing.
 
-I also tried existing frameworks (when I started they did not really exist yet). [BMAD](https://github.com/bmadcode/BMAD-METHOD), spec-driven development, [HumanLayer](https://github.com/humanlayer/humanlayer) (which I genuinely liked for its "thoughts" directory approach to project memory). But in practice, I found most of them too dogmatic. They impose a rigid process that doesn't bend to the messy reality of actual projects, where sometimes you need to spike something quickly, sometimes you need deep planning, and the model needs to know the difference. What works is pragmatism: take the good ideas from each, discard the ceremony, and build something that adapts to how you actually work.
+I also tried existing frameworks (when I started they did not really exist yet). [BMAD](https://github.com/bmadcode/BMAD-METHOD), spec-driven development, [HumanLayer](https://github.com/humanlayer/humanlayer) (which I genuinely liked for its "thoughts" directory approach to project memory). But in practice, I found most of them too dogmatic. They impose a rigid process that doesn't bend to the messy reality of actual projects, where sometimes you need to spike something quickly, sometimes you need deep planning, and the model needs to know the difference. What works is pragmatism: take the good ideas from each, discard the ceremony, and [build something that adapts to how you actually work](/ai/tools/productivity/2025/10/14/supercharge-claude-code-with-custom-configuration.html).
 
 I am not explaining my full system in this series: it would take way more to explain that, maybe I will do that later. (i am now building a semi-automated system, that takes these best practices and so far is actually able to write better code than I can, maintaining a level of quality and coherence) But it remains a work in progress.
 
@@ -150,7 +150,7 @@ Domain Model             -- owns the data shape
 - **Tests must be independent and parallelisable.** No shared state, no ordering dependencies, no "run test A before test B."
 - **Coverage target**: 80% overall, 70% minimum per module. Not as a vanity metric, but as a signal that error paths are tested.
 
-**Why it matters for AI-generated code**: When the model has this file, it stops writing tests that just verify mock wiring. It writes tests with real assertions against real behavior. And when you ask it to add error handling, it also adds the test that verifies the error handling works.
+**Why it matters for AI-generated code**: When the model has this file, it stops writing tests that just verify mock wiring. It writes tests with real assertions against real behavior. And when you ask it to add error handling, it also adds the test that verifies the error handling works. This ties into the broader [human-in-the-loop review](/ai/llm/development/best-practices/2025/11/14/human-in-the-loop-ai-code-review.html) approach: the AI writes, you verify.
 
 **Traces to**: REQ-QUAL-005 (test happy and error paths), REQ-QUAL-006 (useful, maintainable tests), REQ-QUAL-003 (coverage thresholds), REQ-QUAL-007 (test framework bootstrap from day one).
 
