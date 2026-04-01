@@ -3,7 +3,7 @@ layout: post
 title: "Evidence-Based Best Practices as AI Guardrails (Part 1)"
 date: 2026-03-31
 categories: ai development best-practices
-description: "How structured, evidence-based best practice files keep Claude Code from cutting corners. Part 1 of 3: architecture, error handling, testing, API design, data integrity, and structured logging."
+description: "How structured, evidence-based best practice files keep Claude Code from cutting corners. Part 1 of 2: architecture, error handling, testing, API design, data integrity, and structured logging."
 keywords: "Claude Code, best practices, AI guardrails, software architecture, error handling, testing strategy, API design, data integrity, structured logging, WCAG, RFC 9457, OWASP"
 image: evidence-based-best-practices-ai-guardrails-blog.png
 ---
@@ -51,7 +51,7 @@ What I ended up building is a connected system of three layers:
 
 The traceability matters. When the model writes an error handler, it doesn't just know "use RFC 9457", it knows the requirement demands it, the specification defines the exact format, and the best practice file explains why generic errors are useless at 2 AM and how to add context that actually helps diagnose problems. And not to forget: the extensive training data knows more about this standard than I will ever do: you just have to 'trigger' it to come forward from that vast amount of data.
 
-This is part one of a three-part series. The files discussed here (and the rest) are available in a [public repository](https://github.com/albertsikkema/claude-code-best-practices) that I'll keep updating as I add more.
+This is part one of a two-part series. The files discussed here (and the rest) are available in a [public repository](https://github.com/albertsikkema/claude-code-best-practices) that I'll keep updating as I add more.
 
 ## "Doesn't This Cost a Lot of Tokens?"
 
@@ -225,10 +225,9 @@ The full files for all six practices discussed here, plus twelve more covering s
 
 You can use them as-is by dropping them into a `best_practices/` directory that your Claude Code setup references, or adapt them to your own stack and standards. The format is simple: a principle, a "why" section, core rules with code examples, and common mistakes. The model picks them up without any special configuration, they just need to be part of the context.
 
-**Coming up in this series:**
+**Coming up next:**
 
-- **Part 2: Security, Privacy, and Production Hardening**, authorization, defence-in-depth validation, container security, privacy by design, resilience patterns, zero-downtime deployment, and observability.
-- **Part 3: Domain-Specific Guardrails**, accessibility, SEO, robots and scraping, background job patterns, and LLM integration patterns.
+- **Part 2: Security, Privacy, Operations, Accessibility, SEO, and Integration Patterns** -- the remaining 12 files covering authorization, validation, containers, privacy, resilience, deployment, observability, background jobs, accessibility, SEO, robots/scraping, and LLM integration.
 
 ---
 
