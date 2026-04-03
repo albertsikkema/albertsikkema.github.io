@@ -10,6 +10,22 @@ $base-font-family: 'Inter', -apple-system, BlinkMacSystemFont, "Segoe UI", Robot
 @import "minima";
 
 // ============================================
+// Global accessibility overrides
+// ============================================
+
+// Darken minima's default .post-meta (#828282, fails 4.5:1) to #666 (~5.7:1 on white)
+.post-meta {
+  color: #666;
+}
+
+.about-heading {
+  font-size: 1.8rem;
+  font-weight: 700;
+  letter-spacing: -0.02em;
+  margin: 0 0 16px;
+}
+
+// ============================================
 // Landing Page Styles
 // ============================================
 
@@ -55,7 +71,7 @@ $base-font-family: 'Inter', -apple-system, BlinkMacSystemFont, "Segoe UI", Robot
 
       .post-meta {
         font-size: 0.875rem;
-        color: #888;
+        color: #666;
       }
 
       h3 {

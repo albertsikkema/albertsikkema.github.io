@@ -48,7 +48,7 @@ social:
 logo: /assets/images/og-image.png
 
 # Language
-lang: en_US
+lang: en-US
 
 # Build settings
 theme: minima
