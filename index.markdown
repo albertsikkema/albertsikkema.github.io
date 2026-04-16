@@ -1,6 +1,6 @@
 ---
 layout: landing
-title: "Albert Sikkema - Notes on AI Development, Tooling, and Making Things Work"
+title: "Albert Sikkema - AI Development and Tooling"
 description: "Blog about practical AI development: building MCP servers, Claude Code tooling, production guardrails, and the craft of making LLMs useful. By Albert Sikkema."
 keywords: "AI development blog, MCP server, Claude Code, LLM tooling, AI guardrails, production AI, Python development, developer tooling"
 
