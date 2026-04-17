@@ -42,7 +42,7 @@ What I experimented with, and works better than anything else I tried, is a revi
   <figcaption>One run of the loop: plan, build, review, triage, fix, all green. 51 minutes, 407 turns, 111k tokens, one PR out the other end.</figcaption>
 </figure>
 
-Then and only then the human looks. By this point the easy stuff is handled, the backlog has captured the medium stuff, and the human is actually adding judgment instead of catching missing semicolons.
+Then and only then the human looks. By this point the easy stuff is handled, the backlog has captured the medium stuff, and the human is actually adding judgment.
 
 This works. The reviews get caught early, the agent stays on track, and I can intervene at the point where my time is worth the most. But two things crack under load.
 
