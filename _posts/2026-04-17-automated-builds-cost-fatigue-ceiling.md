@@ -1,9 +1,9 @@
 ---
 layout: post
-title: "Fully Automated Builds: Where the Wall Actually Is"
+title: "Fully Automated LLM Builds: Where the Wall Actually Is"
 date: 2026-04-17
 categories: ai development automation
-description: "Automated LLM-driven builds mostly work. But the ceiling is not code quality. It is token cost, developer fatigue, and the gap between local models and frontier ones."
+description: "LLM-driven builds mostly work. The ceiling is not code quality. It is token cost, reviewer fatigue, and the gap between local and frontier models."
 keywords: "automated builds, LLM code review, Claude Opus 4.6, local LLM, Qwen3 Coder, Gemma, developer fatigue, token cost, AI code automation"
 image: /assets/images/automated-builds-machinery.jpg
 ---
