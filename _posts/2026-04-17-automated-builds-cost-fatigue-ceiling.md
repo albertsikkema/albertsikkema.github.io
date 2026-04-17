@@ -80,7 +80,7 @@ That will happen. Local models are improving fast. But it is not this year.
 
 ## And Then There Is Electricity
 
-Even when the models arrive, there is the boring, physical problem.
+Even when the models arrive, there is a more physical problem.
 
 [AI data center demand is pushing electricity prices up across Europe](https://www.cnbc.com/2026/02/12/electricity-price-data-center-ai-inflation-goldman.html). Goldman expects a 10 to 15% boost to European power demand over the coming 10 to 15 years, mostly from data centers. The [IEA puts global data center consumption on track to approach 1,050 TWh by 2026](https://www.iea.org/reports/energy-and-ai/energy-demand-from-ai), which would rank data centers between Japan and Russia if they were a country.
 
