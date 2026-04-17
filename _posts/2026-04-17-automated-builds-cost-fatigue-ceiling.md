@@ -5,7 +5,7 @@ date: 2026-04-17
 categories: ai development automation
 description: "LLM-driven builds mostly work. The ceiling is not code quality. It is token cost, reviewer fatigue, and the gap between local and frontier models."
 keywords: "automated builds, LLM code review, Claude Opus 4.6, local LLM, Qwen3 Coder, Gemma, developer fatigue, token cost, AI code automation"
-image: /assets/images/automated-builds-machinery.jpg
+image: /assets/images/automated-builds-cost-fatigue-ceiling-blog.png
 ---
 
 <figure>
@@ -80,7 +80,7 @@ That will happen. Local models are improving fast. But it is not this year.
 
 ## And Then There Is Electricity
 
-Even when the models arrive, there is the boring, physical problem.
+Even when the models arrive, there is a more physical problem.
 
 [AI data center demand is pushing electricity prices up across Europe](https://www.cnbc.com/2026/02/12/electricity-price-data-center-ai-inflation-goldman.html). Goldman expects a 10 to 15% boost to European power demand over the coming 10 to 15 years, mostly from data centers. The [IEA puts global data center consumption on track to approach 1,050 TWh by 2026](https://www.iea.org/reports/energy-and-ai/energy-demand-from-ai), which would rank data centers between Japan and Russia if they were a country.
 
