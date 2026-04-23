@@ -27,7 +27,7 @@ In practice this means: more hallucinations, forgotten instructions, goal drift,
 
 ## What I Keep Seeing
 
-A lot of the advice I come across focuses on manual interventions. Trigger compaction yourself at the right moment. Use `/clear` when switching tasks. Save state to a JSON file before clearing. Ask Claude for periodic summaries. Use sub-agents to keep intermediate work out of your main context.
+A lot of the advice I come across focuses on manual interventions. Trigger compaction yourself at the right moment. Use a new session or `/clear` when switching tasks. Save state to a JSON file before clearing. Ask Claude for periodic summaries. Use sub-agents to keep intermediate work out of your main context.
 
 These are all valid. I use sub-agents heavily (they get their own fresh context window, which is [the single most effective architectural pattern](https://www.morphllm.com/context-rot) for avoiding context rot) and `/clear` between unrelated tasks. But manual interventions are workarounds for a window that is too large, not fixes for the underlying problem. They require you to watch your context usage while trying to get work done. That is overhead the tooling should handle.
 
