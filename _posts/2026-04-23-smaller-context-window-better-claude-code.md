@@ -10,7 +10,7 @@ image: /assets/images/smaller-context-window-better-claude-code-blog.png
 
 <figure>
   <img src="/assets/images/context-window-rain-glass.jpg" alt="Rain-covered glass with blurred warm lights behind, signal obscured by noise" width="1920" height="1078" fetchpriority="high" style="width:100%;height:auto">
-  <figcaption>Signal obscured by noise.Photo by <a href="https://unsplash.com/@c_g_">c g</a> on <a href="https://unsplash.com">Unsplash</a></figcaption>
+  <figcaption>Signal obscured by noise. Photo by <a href="https://unsplash.com/@c_g_">c g</a> on <a href="https://unsplash.com">Unsplash</a></figcaption>
 </figure>
 
 This morning I watched a video on context window management in Claude Code as part of my daily "keep up with what is happening in the LLM space" routine. Good content, solid diagnosis of the problem. But everything in it was about manual interventions: trigger compaction at the right moment, use structured handoffs, rewind instead of correcting. All valid techniques. But there is an issue that is buried deeper and there are two settings, buried in the documentation, that may solve most of this.
