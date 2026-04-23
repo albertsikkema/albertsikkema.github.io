@@ -82,7 +82,7 @@ This is the same principle behind sub-agents, just at a larger scale. When Claud
 
 The 1M context window is a capacity increase, not a quality increase. More room means more space for noise, higher bills, and worse output once you cross the degradation threshold. Steve Smith [calls it](https://blog.nimblepros.com/blogs/context-windows-wont-grow-forever/) "a huge junk drawer." Glen Rhodes [describes context](https://glenrhodes.com/context-window-management-treating-llm-context-as-working-memory-not-unlimited-storage/) as working memory, not storage, and argues you should treat it like RAM on a constrained system: deliberate about what gets loaded, suspicious of anything that lingers.
 
-The best results I get from Claude Code come from keeping the window small, compacting early, and never letting one phase pollute the next. Two environment variables and a habit of starting fresh. That is the whole trick.
+The best results I get from Claude Code come from keeping the window small, avoid compacting at all, and never letting one phase pollute the next. Two environment variables and a habit of starting fresh. That is the whole trick.
 
 ---
 
