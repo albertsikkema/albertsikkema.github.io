@@ -7,6 +7,8 @@ description: "LLM-generated code needs human review. Real story of meta-test bug
 keywords: "AI-assisted development, LLM code review, human in the loop, AI agent development, code quality, Claude AI development"
 ---
 
+> **Update (2026-05-12):** The `claude-config-template` repo referenced below has been retired. It is replaced by [codebench](https://github.com/albertsikkema/codebench).
+
 This week I was working on some code for a project that uses Python and [PydanticAI](https://ai.pydantic.dev/) to create a few agents for legal document search. But the specific domain doesn't really matter - what I want to focus on is the role of 'human in the loop' and why it's essential when working with agentic tooling to create software.
 
 <figure>

@@ -7,6 +7,8 @@ description: "How I refactored Claude Flow from per-repo instances with broken h
 keywords: "AI-assisted development, FastAPI, SQLAlchemy, Python development, multi-repo management, architecture refactoring, Claude AI integration"
 ---
 
+> **Update (2026-05-12):** The `claude-config-template` repo referenced below has been retired. It is replaced by [codebench](https://github.com/albertsikkema/codebench).
+
 A few weeks ago I mentioned I was building [Claude Flow](/development/productivity/python/2026/01/04/choosing-development-ports-that-dont-conflict.html)—a kanban board UI for my [claude-config-template](https://github.com/albertsikkema/claude-config-template). The basic idea: visual task tracking for Claude workflows, hooks that update tasks in real-time, and a cleaner way to manage slash commands. Of course, I had to build it myself because no existing tool fit the bill. Manly because I wanted tight integration with the commands I was already using, and I learned to trust.
 
 The initial implementation worked. Each repo got its own Claude Flow instance with a random port and local database. This created an immediate problem: hooks broke constantly because they couldn't find the server. Dynamic ports meant hooks had no stable target. Multiple databases meant no central view of tasks across projects.

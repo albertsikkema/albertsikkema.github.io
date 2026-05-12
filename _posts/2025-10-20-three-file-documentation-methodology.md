@@ -7,6 +7,8 @@ description: "Simplify project documentation for AI-assisted development. Learn 
 keywords: "AI documentation, project management, MoSCoW method, lean documentation, Claude Code workflow, developer productivity"
 ---
 
+> **Update (2026-05-12):** The `claude-config-template` repo referenced below has been retired. It is replaced by [codebench](https://github.com/albertsikkema/codebench).
+
 Last week I spent the better part of an hour documenting a user authentication feature. In the end I wrote it up in three places: the epic file, the must-haves document, and the technical todo list. Same information, slightly different formats, all needing to stay synchronized as requirements evolved. And that was my own project with simple file-based project documentation. If I have to use Jira it becomes even more fragmented and time-consuming. It is a lot of administration, and what the actual benefit is, is not always clear. Especially in small teams or as a solo developer. 
 
 And then AI enters the equation. You'd think having lots of documents wouldn't be a problem—Claude can read everything, right? But reading isn't the issue. Getting the *right* information out is. And here's where it gets expensive: that MCP server for Atlassian that connects to Jira? It loads project metadata, issue histories, and board configurations into your context window. Context you could be using for actual code, implementation plans, or architectural decisions.

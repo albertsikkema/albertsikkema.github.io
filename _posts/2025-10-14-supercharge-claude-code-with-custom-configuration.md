@@ -7,6 +7,8 @@ description: "Open-source configuration template for Claude Code with 11 AI agen
 keywords: "Claude Code configuration, AI agents, development workflow, code automation, AI-assisted development, structured documentation"
 ---
 
+> **Update (2026-05-12):** This project has been retired. It is replaced by [codebench](https://github.com/albertsikkema/codebench), which supersedes everything described below. The post is kept for historical context. Use codebench for current installation and usage.
+
 I've just released a new open-source project that transforms how you work with Claude Code: [claude-config-template](https://github.com/albertsikkema/claude-config-template). It's a comprehensive configuration system that adds 11 specialized AI agents, 8 custom slash commands, orchestration capabilities for coordinating multiple agents, improved context awareness, and a structured documentation framework to your development workflow.
 
 ## Why This Matters

@@ -7,6 +7,8 @@ description: "A practical guide to selecting port numbers for development server
 keywords: "development ports, port conflicts, localhost, backend development, frontend development, web development"
 ---
 
+> **Update (2026-05-12):** The `claude-config-template` repo referenced below has been retired. It is replaced by [codebench](https://github.com/albertsikkema/codebench).
+
 <figure>
   <img src="/assets/images/ports.jpg" alt="Close-up of network switch ports with glowing LED indicators and connected ethernet cables">
   <figcaption>This is what AI thinks an image for this blog should look like... Photo by <a href="https://www.pexels.com/photo/close-up-photo-of-network-switch-2881227/">Brett Sayles</a></figcaption>

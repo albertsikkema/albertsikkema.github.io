@@ -7,6 +7,8 @@ description: "Automate complete AI-assisted development workflows with an orches
 keywords: "AI agent orchestration, Claude Code automation, AI workflow automation, AI-assisted development, Claude AI integration, production-ready AI"
 ---
 
+> **Update (2026-05-12):** The `claude-config-template` repo referenced below has been retired. It is replaced by [codebench](https://github.com/albertsikkema/codebench).
+
 I've been using my [claude-config-template](https://github.com/albertsikkema/claude-config-template) for several months now, and one friction point kept bothering me: manually running slash commands in sequence. Research, plan, implement, review - it's the right workflow, but it's tedious when you know exactly what needs to happen. So I built an orchestrator.
 
 ## Why Now?
