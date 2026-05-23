@@ -96,7 +96,7 @@ Two things, and they are the same ones from my [previous post](/ai/development/a
 
 **Developer fatigue.** Reviewing LLM-generated code is fundamentally different from writing code yourself. You lose the mental map you build when you write the code. You are reading someone else's work in a codebase you did not shape, and the entity that wrote it does not learn from your feedback across sessions. After a few hours your attention drops. After a few days you start wondering if this is what the job looks like from now on. I wrote about this before and it is still true, just more visible now that multiple people experience it instead of only me.
 
-Our current answer: all PRs get an automated LLM review as part of the workflow. The developer decides whether to also ask a colleague for a human review. The guideline is to always request one for database changes, large frontend or backend changes, and anything security-related. At first this seems a bit uneasy, not having a second reviewwe. However, the automated review is so thorough that it catches more than most (if not all) humans would. 
+Our current answer: all PRs get an automated LLM review as part of the workflow. The developer decides whether to also ask a colleague for a human review. The guideline is to always request one for database changes, large frontend or backend changes, and anything security-related. At first this seems a bit uneasy, not having a second reviewer. However, the automated review is so thorough that it catches more than most (if not all) humans would. 
 
 ## Where We Are Now
 
