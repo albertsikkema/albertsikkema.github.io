@@ -267,3 +267,14 @@ Part 2 will:
 - [GLiNER: Generalist Model for Named Entity Recognition](https://arxiv.org/abs/2311.08526) (Zaratiana et al., NAACL 2024) - The architecture behind GLiNER v1
 - [Hybrid Rule-based NLP and Machine Learning for PII in Financial Documents](https://doi.org/10.1038/s41598-025-91846-2) (Nature Scientific Reports, 2025)
 - [RECAP: Hybrid Methods for Multilingual PII Detection](https://arxiv.org/abs/2510.07551) (NeurIPS, 2025)
+
+### Models and datasets tested
+
+- [Piiranha v1](https://huggingface.co/iiiorg/piiranha-v1-detect-personal-information) - DeBERTa-v3-base fine-tuned for PII detection
+- [GLiNER v1 (multi_pii)](https://huggingface.co/urchade/gliner_multi_pii-v1) - Zero-shot NER fine-tuned on synthetic PII data
+- [GLiNER v2 (gliner2-base)](https://huggingface.co/fastino/gliner2-base-v1) - Multi-task NER from Fastino Labs
+- [Presidio](https://github.com/microsoft/presidio) - Microsoft's PII detection and anonymization framework
+- [AI4Privacy PII-Masking-300k](https://huggingface.co/datasets/ai4privacy/pii-masking-300k) - Mixed synthetic PII dataset (EN + NL)
+- [Gretel Synthetic PII Finance](https://huggingface.co/datasets/gretelai/synthetic_pii_finance_multilingual) - Multilingual financial documents
+- [Nemotron-PII](https://huggingface.co/datasets/nvidia/Nemotron-PII) - NVIDIA's multi-industry PII dataset
+- [CoNLL-2002](https://huggingface.co/datasets/eriktks/conll2002) - Dutch/Spanish NER with human annotations
