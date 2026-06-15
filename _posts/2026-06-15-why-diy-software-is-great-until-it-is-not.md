@@ -31,7 +31,7 @@ AI-assisted coding is doing for software what the bouwmarkt (home improvement st
 
 I [wrote about this before](/ai/development/2026/02/05/vibe-coding-quality-democratisation.html): the democratisation of software creation is genuinely exciting. The vibe-coded app that tracks your running schedule or manages your recipe collection or automates your invoicing? Build it. Have fun. Who cares if the code is messy. It works for you, and that is all that matters.
 
-But then something happens. The app works so well that a friend wants it. Then a few more people want it. Someone suggests charging for it. And suddenly you are no longer building for yourself.
+But then the app works so well that a friend wants it. Then a few more people want it. Someone suggests charging for it. And suddenly you are no longer building for yourself.
 
 This is where it gets hard, and it is not about whether you can technically build the software. It is about everything else. When you build for others, you are working with someone else's idea of what the product should do, not yours. You are responsible for their data, their money, their trust. You have to think about edge cases you would never hit yourself, because your users will hit all of them. You have to maintain it when you would rather be building something new. You carry financial risk if it breaks. You might need to comply with regulations you have never heard of.
 
