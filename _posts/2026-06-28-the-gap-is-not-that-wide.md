@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "The Gap Is Not That Wide"
-date: 2026-06-28 14:00:00 +0200
+date: 2026-06-28 08:00:00 +0200
 categories: ai opinion
 description: "The 'can never catch up' AI narrative is contradicted by the industry's own timeline. A practitioner's perspective on why the anxiety is overblown."
 keywords: "AI competition, LLM leaderboard, Europe AI, sovereign AI, AI marketing, open source LLM, AI hype cycle"
