@@ -3,7 +3,7 @@ layout: post
 title: "The Third Option for Enterprise AI"
 date: 2026-06-28
 categories: ai opinion cloud
-description: "Enterprise AI does not have to be US hyperscalers or on-prem. European providers running open-source models offer a third path worth considering."
+description: "Enterprise AI does not have to be US hyperscalers or on-prem. European providers running open-source models offer a third path that makes more practical sense."
 keywords: "sovereign AI, European cloud, data sovereignty, GDPR, open source LLM, Mistral, enterprise AI, on-premises AI, cloud AI"
 image: /assets/images/the-third-option-for-enterprise-ai-blog.png
 ---
@@ -43,7 +43,7 @@ The option I find most interesting is getting discussed more and more, but not y
 
 The landscape here has changed dramatically in the last two years. [Mistral AI](https://mistral.ai/) now offers models under Apache 2.0 with inference running entirely in EU data centres. [Scaleway](https://www.scaleway.com/) offers managed GPU instances with model-as-a-service APIs under French legal jurisdiction. [Deutsche Telekom invested over a billion euros](https://www.t-systems.com/de/en/insights/newsroom/news/ai-sovereignty-for-germany-and-europe-1124980) in an Industrial AI Cloud with 10,000 GPUs in Munich. [IONOS](https://www.ionos.com/) offers dedicated GPU servers. Even smaller players like [Regolo.ai](https://regolo.ai/) provide GDPR-compliant inference with zero data retention policies.
 
-And the models are good enough. [Mistral Large 3](https://mistral.ai/) and [Qwen 3](https://github.com/QwenLM/Qwen3) compete with proprietary models on most practical tasks. For the "boring" enterprise use cases that make up 90% of actual AI adoption (document processing, summarisation, classification, translation, code assistance), open-source models hosted in Europe do the job.
+And the models are good enough. Open source models compete with proprietary models on most practical tasks. For the "boring" enterprise use cases that make up 90% of actual AI adoption (document processing, summarisation, classification, translation, code assistance), open-source models hosted in Europe would do the job.
 
 And costs of inference are dropping rapidly: [Epoch AI's research](https://epoch.ai/data-insights/llm-inference-price-trends) shows inference costs dropped 1,000x between 2021 and 2026 for GPT-3 level performance. The median decline is 50x per year, accelerating to 200x per year post-2024. GPU compute cost follows [Wright's Law](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=6198738) with an 89% learning rate per doubling of cumulative production. That is faster than solar panels ever dropped (around 20% learning rate). 
 
@@ -51,18 +51,18 @@ And costs of inference are dropping rapidly: [Epoch AI's research](https://epoch
 
 The logic is simple. If you already trust cloud providers to run your email, your databases, your file storage, and your business applications, then the question is not "cloud versus on-prem." The question is "which cloud provider, under which legal jurisdiction."
 
-A European provider running Mistral or Llama under EU law gives you:
+A European provider running opensource models under EU law gives you:
 
 - No Chapter V transfer headaches
 - No CLOUD Act exposure
 - Full [EU AI Act](https://digital-strategy.ec.europa.eu/en/policies/regulatory-framework-ai) compliance (full enforcement starts August 2026)
 - The same operational model your IT team already knows (APIs, managed services, SLAs)
 
-The market agrees. [Gartner reports](https://www.intelligentcio.com/eu/2026/02/04/europe-accelerates-shift-to-region-specific-ai-platforms-amid-sovereignty-push/) that 61% of Western European CIOs plan to increase reliance on local cloud providers, and European sovereign cloud spending is projected to grow 83% year-over-year to $12.6 billion in 2026. The [Cohere acquisition of Aleph Alpha](https://www.cnbc.com/2026/04/24/cohere-aleph-alpha-germany-ai-europe-expansion.html), backed by $600 million from Schwarz Group, signals that serious money is flowing into this space.
+The market agrees: [Gartner reports](https://www.intelligentcio.com/eu/2026/02/04/europe-accelerates-shift-to-region-specific-ai-platforms-amid-sovereignty-push/) that 61% of Western European CIOs plan to increase reliance on local cloud providers, and European sovereign cloud spending is projected to grow 83% year-over-year to $12.6 billion in 2026. The [Cohere acquisition of Aleph Alpha](https://www.cnbc.com/2026/04/24/cohere-aleph-alpha-germany-ai-europe-expansion.html), backed by $600 million from Schwarz Group, signals that serious money is flowing into this space.
 
 ## When This Does Not Work
 
-Frontier reasoning tasks. If you need the absolute best model for complex multi-step reasoning, agentic coding, or cutting-edge multimodal work, US providers still lead. The gap is closing, but it exists. An interesting complication is the [recent US government blocking](https://www.washingtonpost.com/business/2026/06/26/trump-ai-openai-gpt56-sol-cybersecurity-mythos/cdd6f804-7181-11f1-8730-e7fd0e2a6404_story.html) of Fable 5 and GPT-5.6. If the American government keeps pulling its own models from the market, the "first mover" advantage disappears, and investment in open-source alternatives accelerates. But that is a topic for another post.
+Frontier reasoning tasks. If you need the absolute best model for complex multi-step reasoning, agentic coding, or advanced multimodal work, US providers still lead. The gap is closing, but it is definitely still there. As a rule of thumb: the best opensource models are about a year behind the best closed source models. Last January I noticed Opus was at such a level that I could actually start using it as I hoped, so it is reasonable to assume that coming January I will be able to do the same with an opensource model: exciting! An interesting complication is the [recent US government blocking](https://www.washingtonpost.com/business/2026/06/26/trump-ai-openai-gpt56-sol-cybersecurity-mythos/cdd6f804-7181-11f1-8730-e7fd0e2a6404_story.html) of Fable 5 and GPT-5.6. If the American government keeps pulling its own models from the market, the "first mover" advantage disappears, and investment in open-source alternatives accelerates. But that is a topic for another post. Given the year advantage, we will be having that same functionality in an opensource model in June 2027 anyway.
 
 For most enterprise workloads though, "the best model" is not the relevant criterion. "Good enough, legally clean, and operationally simple" is. And that is where European providers are becoming competitive.
 
