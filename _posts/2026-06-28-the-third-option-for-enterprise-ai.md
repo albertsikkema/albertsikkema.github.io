@@ -55,7 +55,7 @@ A European provider running opensource models under EU law gives you:
 
 - No Chapter V transfer headaches
 - No CLOUD Act exposure
-- Full [EU AI Act](https://digital-strategy.ec.europa.eu/en/policies/regulatory-framework-ai) compliance (full enforcement starts August 2026)
+- Full [EU AI Act](https://digital-strategy.ec.europa.eu/en/policies/regulatory-framework-ai) compliance (high-risk obligations enforceable from August 2026, with extended deadlines into 2027-2028)
 - The same operational model your IT team already knows (APIs, managed services, SLAs)
 
 The market agrees: [Gartner reports](https://www.intelligentcio.com/eu/2026/02/04/europe-accelerates-shift-to-region-specific-ai-platforms-amid-sovereignty-push/) that 61% of Western European CIOs plan to increase reliance on local cloud providers, and European sovereign cloud spending is projected to grow 83% year-over-year to $12.6 billion in 2026. The [Cohere acquisition of Aleph Alpha](https://www.cnbc.com/2026/04/24/cohere-aleph-alpha-germany-ai-europe-expansion.html), backed by $600 million from Schwarz Group, signals that serious money is flowing into this space.
